@@ -1,0 +1,1034 @@
+* {
+font-family:"Trebuchet MS";
+}
+.contenedor {
+position:absolute;
+top:0%;
+left:10%;
+width: 616px;
+background-position:center;
+background-color:#FCA04B;
+
+
+}
+a, a:hover, a:visited{
+text-decoration:none;
+}
+.uanl {
+background-color:#000000;
+text-transform:uppercase; 
+font-family:'Times New Roman', Times, serif; 
+font-size:12pt; 
+color:#ffffff; 
+text-align:center;
+position:relative;
+top:-140px;
+}
+/*Empiezan los estilos para la parte interior de nexus*/
+.nexusint {
+margin:0px;
+padding:0px;
+}
+.imagen {
+margin:10px;
+}
+.uanlint {
+background-color:#000000;
+text-transform:uppercase; 
+font-family:'Times New Roman', Times, serif; 
+font-size:12pt; 
+color:#ffffff; 
+text-align:center;
+}
+.tablaencabezado {
+width:100%;
+height:auto;
+}
+.logonexus1 {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/__nexuslogo.gif);
+background-repeat:no-repeat;
+background-position:left center;
+width:100%;
+height:60px;
+text-align:right;
+background-color:#FFFFFF;
+
+}
+.logouanl1 {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/logouanl.jpg);
+background-repeat:no-repeat;
+background-position:right center;
+height:60px;
+width:100%;
+
+} 
+.usuario {
+background-color:#FCA04B;
+border:2px solid #2E2E2F;
+border-bottom:0px;
+font-size:9pt;
+}
+.nombre {
+font-weight:bold;
+}
+.espacio {
+margin-right:30px;
+margin-left:30px;
+}
+.naveg {
+background-color:#333333;
+height:30px;
+}
+ul.menunormal {
+font-weight:normal;
+margin:0px;
+margin-top:10px;
+padding:0px;
+padding-left:10px;
+}
+ul.menunormal li {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/lista.png);
+background-repeat:no-repeat;
+background-position:0% 50%;
+padding-left:10px;
+list-style-type:none;
+font-size:11px;
+}
+ul.menunormal li a, ul.menu li a{
+color:#000001;
+}
+ul.menunormal li a:hover, ul.menu li a:hover {
+text-decoration:underline;
+}
+.info ul.menunormal li {
+background-image:none;
+margin-bottom:10px;
+padding-left:0px;
+list-style-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/lista.png);
+}
+ul.pestaña, ul.menu, ul.curso, ul.curso2, ul.flecha, ul.menugrande, ul.listasavisos, ul.menudocumentos {
+list-style-type:none;
+display:block;
+float:left;
+margin:0px;
+padding-left:6px;
+height:auto;
+} 
+ul.menudocumentos {
+background-color:#f9f9f9;
+border:1px solid #dddddd;
+width:230px;
+font-weight:normal;
+font-size:9pt;
+
+margin-top:10px;
+margin-left:30px;
+padding-top:10px;
+
+}
+ul.menudocumentos li {
+margin-bottom:10px;
+text-align:center;
+}
+ul.curso, ul.menu {
+margin-top:8px;}
+ul.curso {
+font-size:8pt;
+margin-left:15px;
+margin-top:7px;
+
+font-weight:normal;
+}
+ul.curso2 {
+margin-left:15px;
+font-size:12pt;
+font-weight:bold;
+
+}
+ul.pestaña li {
+display:block;
+float:left;
+margin-right:8px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/boton.png);
+background-repeat:no-repeat;
+background-color:#333333;
+color:#FFFFFF;
+font-size:13px;
+height:25px;
+width:75px;
+padding-top:2px;
+padding-left:0px;
+text-align:center;}
+ul.pestaña li a, ul.pestaña li a:visited {
+text-align:center;
+text-decoration:none;
+color:#FFFFFD;
+font-size:13px;
+display:block;
+}
+ul.pestaña li a:hover {
+border-top:3px ridge #C0C0C0;
+}
+ul.menu {
+font-size:11px;
+}
+ul.menu li {
+display:block;
+float:left;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/lista.png);
+background-repeat:no-repeat;
+background-position:0% 50%;
+padding-left:10px;
+list-style-type:none;
+font-size:11px;
+margin-right:10px;
+}
+ul.menu li a, ul.menu li a:visited {
+color:#000001;
+font-size:11px;
+text-decoration:none;
+}
+ul.flecha li {
+display:block;
+float:left;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/flecha.png);
+background-repeat:no-repeat;
+background-position:0% 50%;
+padding-left:10px;
+list-style-type:none;
+font-size:11px;
+
+margin-top:7px;
+margin-right:10px;
+margin-bottom:2px;
+}
+ul.flecha li a, ul.flecha li a:visited {
+color:#000001;
+font-size:11px;
+text-decoration:none;
+font-weight:normal;}
+.clase {
+border-bottom:1px solid #CCCCCC;
+}
+.menuizq {
+border:1px solid #CCCCCC;
+border-top:0px;
+border-left:0px;
+width:160px;
+
+font-size:9pt;
+}
+.menuizq td {
+padding-left:20px;
+padding-top:7px;
+}
+.menuizq td.ultimo {
+padding-bottom:6px;
+}
+.menuizq a, .menuizq a:visited {
+background-repeat:no-repeat;
+padding-left:40px;
+padding-top:1px;
+background-position:10% 15%;
+display:block;
+margin-left:-20px;
+color:#000001;
+}
+.menuizq a:hover {
+background-color:#dddddd;
+}
+.menuizq a.portada, .menuizq a.portada:visited {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/portada.png);
+}
+.menuizq a.agenda, .menuizq a.agenda:visited {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/agenda.png);
+}
+.menuizq a.portafolio, .menuizq a.portafolio:visited {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/portafolio.png);
+}
+.menuizq a.calificaciones, .menuizq a.calificaciones:visited {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/calificaciones.png);
+}
+.menuizq a.bitacora, .menuizq a.bitacora:visited {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/bitacora.png);
+}                                                  
+.menuizq a.documentos, .menuizq a.documentos:visited {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/documentos.png);
+}
+.menuizq a.examenes, .menuizq a.examenes:visited {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/examenes.png);
+}
+.menuizq a.encuestas, .menuizq a.encuestas:visited {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/encuestas.png);
+}
+.menuizq a.bancoreactivo, .menuizq a.bancoreactivo:visited {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/bancoreactivos.png);
+}
+.menuizq a.equipos, .menuizq a.equipos:visited {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/equipos.png);
+}
+.menuizq a.foros, .menuizq a.foros:visited {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/foros.png);
+}
+.menuizq a.chat, .menuizq a.chat:visited {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/chat.png);
+}
+.menuizq a.correo, .menuizq a.correo:visited {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/correo.png);
+}
+.cuadronormal {
+background-color:#f9f9f9;
+border:1px solid #dddddd;
+font-weight:normal;
+font-size:9pt;
+color:#000001;
+margin-top:10px;
+}
+.cuadrogris {
+background-color:#f9f9f9;
+border:1px solid #dddddd;
+font-weight:normal;
+color:#000001;
+font-size:9pt;
+height:90px;
+width:93%;
+margin-left:-10px;
+padding-top:2px;
+padding-left:18px;
+padding-bottom:10px;
+}
+.cuadrogris .act {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/lista.png);
+background-repeat:no-repeat;
+background-position:left;
+padding-left:15px;
+}
+.cuadrogris table td {
+padding-left:15px;
+}
+.cuadrogris table td.boton2 {
+padding-left:0px;
+}
+.cuadrogris ul.menudocumentos {
+width:85%;
+}
+.avisos2 {
+background-color:#f9f9f9;
+border:1px solid #dddddd;
+border-top:0px;
+width:400px;
+height:auto;
+margin-left:50px;
+padding-left:20px;
+padding-right:20px;
+padding-bottom:0px;
+}
+.avisos2 img {
+position:relative;
+bottom:0px;
+left:10%;
+}
+.recado2 {
+font-size:9pt;
+color:#000001;
+width:400px;
+height:300px;
+}
+ul.listasavisos {
+padding:0px;
+line-height:13px;
+text-align:justify;
+}
+ul.listasavisos li {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/aviso.png);
+background-repeat:no-repeat;
+background-position:top left;
+padding-left:30px;
+margin-top:5px;
+}
+.infoizq {
+padding-left:25px;
+vertical-align:top;
+}
+ul.menugrande {
+background-color:#f9f9f9;
+border:1px solid #dddddd;
+list-style-type:none;
+margin-top:10px;
+margin-left:10px;
+padding:10px;
+padding-top:0px;
+font-weight:normal;
+font-size:9pt;
+width:370px;
+}
+ul.menugrande li {
+float:left;
+width:80px;
+height:80px;
+padding:0px;
+margin:0px;
+margin-right:10px;
+margin-top:10px;
+}
+.menugrande li a, .menugrande li a:visited {
+background-repeat:no-repeat;
+border:1px solid #DDDDDD;
+background-position:50% 11%;
+text-align:center;
+width:80px;
+height:40px;
+display:block;
+color:#000001;
+}
+.menugrande li a.agenda2, .menugrande li a.agenda2:visited {
+padding-top:40px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/agendagrande.png);
+}
+.menugrande li a:hover {
+background-color:#FFE7CE;
+border:1px solid #FCA04B;
+}
+.menugrande li a.portafolio2, .menugrande li a.portafolio2:visited {
+padding-top:60px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/portafoliogrande.png);
+height:20px;
+}
+.menugrande li a.calificaciones2, .menugrande li a.calificaciones2:visited {
+padding-top:60px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/calificacionesgrande.png);
+height:20px;
+}
+.menugrande li a.bitacora2, .menugrande li a.bitacora2:visited {
+padding-top:60px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/bitacoragrande.png);
+height:20px;
+}
+.menugrande li a.documentos2, .menugrande li a.documentos2:visited {
+padding-top:40px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/documentosgrande.png);
+}
+.menugrande li a.examenes2, .menugrande li a.examenes2:visited {
+padding-top:60px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/examenesgrande.png);
+height:20px;
+}
+.menugrande li a.encuestas2, .menugrande li a.encuestas2:visited {
+padding-top:60px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/encuestasgrande.png);
+height:20px;
+}
+.menugrande li a.bancoreactivo2, .menugrande li a.bancoreactivo2:visited {
+padding-top:40px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/bancoreactivosgrande.png);
+}
+.menugrande li a.equipos2, .menugrande li a.equipos2:visited {
+padding-top:60px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/equiposgrande.png);
+height:20px;
+}
+.menugrande li a.foros2, .menugrande li a.foros2:visited {
+padding-top:60px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/forosgrande.png);
+height:20px;
+}
+.menugrande li a.chat2, .menugrande li a.chat2:visited {
+padding-top:60px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/chatgrande.png);
+height:20px;
+}
+.menugrande li a.correo2, .menugrande li a.correo2:visited {
+padding-top:60px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/correogrande.png);
+height:20px;
+}
+.imprimir, .imprimir:visited {
+font-size:9pt;
+font-weight:normal;
+font-style:italic;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/impresora.gif);
+background-position:0% 50%;
+background-repeat:no-repeat;
+padding-left:20px;
+padding-top:5px;
+margin-left:15px;
+}
+.titulo, .tituloagenda, .tituloportafolio, .titulocalificaciones, .titulobitacora, .titulodocumentos, .tituloexamenes, .tituloencuestas, .titulobancoreactivos, .tituloequipos, .tituloforos, .titulochat, .titulocorreo{
+font-size:12pt;
+color:#000001;
+font-weight:bold;
+background-position:0% 50%;
+background-repeat:no-repeat;
+}
+.tituloagenda {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/agenda.png);
+padding-left:20px;
+padding-top:5px;
+}
+.tituloportafolio {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/portafolio.png);
+padding-left:20px;
+padding-top:5px;
+}
+.titulocalificaciones {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/calificaciones.png);
+padding-left:20px;
+padding-top:5px;
+}
+.titulobitacora {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/bitacora.png);
+padding-left:20px;
+padding-top:5px;
+}
+.titulodocumentos {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/documentos.png);
+padding-left:20px;
+padding-top:5px;
+}
+.tituloexamenes {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/examenes.png);
+padding-left:20px;
+padding-top:5px;
+}
+.tituloencuestas {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/encuestas.png);
+padding-left:20px;
+padding-top:5px;
+}
+.titulobancoreactivos {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/bancoreactivos.png);
+padding-left:20px;
+padding-top:5px;
+}
+.tituloequipos{
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/equipos.png);
+padding-left:20px;
+padding-top:5px;
+}
+.tituloforos {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/foros.png);
+padding-left:20px;
+padding-top:5px;
+}
+.titulochat{
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/chat.png);
+padding-left:20px;
+padding-top:5px;
+}
+.titulocorreo {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/correo.png);
+padding-left:20px;
+padding-top:5px;
+}
+ .negrita, .connormal {
+font-weight:bold;
+font-size:9pt;
+
+}
+.subtitulo, .subtituloaviso, .subtitulo2 {
+font-weight:bold;
+color:#004C80;
+}
+.subtitulo  {
+font-size:11pt;
+margin-top:10px;
+}
+.subtituloaviso {
+font-size:12pt;
+margin-top:5px;
+}
+.subtitulo2 {
+font-size:12pt;
+margin-left:30px;
+border-bottom:1px solid #CCCCCC;
+width:100%;
+}
+.negrita {
+font-style:normal;
+font-weight:bold;
+}
+.ita {
+font-style:italic;
+}
+.info {
+margin-top:20px;
+margin-left:10px;
+font-size:9pt;
+}
+.docu {
+width:100%;
+}
+.connormal {
+font-style:normal;
+font-weight:normal;
+}
+.liga, .liga:visited {
+text-decoration:underline;
+color:#000001;
+font-size:9pt;
+list-style-type:none;
+}
+.encanaranja, .encaazul {
+font-size:12pt;
+font-weight:bold;
+}
+.encanaranja td, .encaazul td {
+padding-left:15px;
+}
+.encanaranja {
+color:#FF6600;
+border-bottom:1px solid #FF6600;
+margin-top:20px;
+margin-bottom:5px;
+}
+.encaazul {
+color:#004C80;
+margin-top:20px;
+margin-bottom:5px;
+}
+.bordeazul {
+border-top:1px solid #cccccc;
+padding-bottom:10px;
+font-weight:normal;
+}
+.bordenaranja, .celdagris, .celdablanca, .bordeazul{
+font-size:9pt;
+
+}
+.bordenaranja {
+border-top:1px solid #FF6600;
+padding-bottom:10px;
+font-weight:normal;}
+
+.celdagris {
+background-color:#EBEBEB;
+font-weight:bold;
+}
+.celdablanca {
+background-color:#FFFFFF;
+font-weight:bold;
+}
+td.celdagris img, td.celdablanca img {
+margin-left:10px;
+}
+a.ligadocumento, a.ligadocumento:visited {
+color:#000001;
+font-weight:bold;
+text-decoration:underline;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/documentos.png);
+background-repeat:no-repeat;
+padding-left:20px;
+}
+.biblio {
+font-weight:bold; 
+margin-top:5px;
+font-size:9pt;
+}
+.biblio li {
+width:78px;
+font-weight:normal;
+font-style:italic;
+display:block;
+float:left;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/lista.png); 
+background-position:0% 9%; 
+background-repeat:no-repeat;
+padding-left:10px; 
+margin-right:100px;
+line-height:15px; }
+.tablapie {
+background-color:#FCA04B;
+text-align:right;
+padding-right:15px;
+
+font-size:10px;
+width:100%;
+margin-top:60px;
+}
+/*Terminan los estilos de la parte interior de nexus///////////////////////////*/
+.logonexus {
+position:relative;
+top:-142px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/__nexuslogo_800.gif);
+background-repeat:no-repeat;
+background-position:left center;
+width:100%;
+height:60px;
+text-align:right;
+background-color:#FFFFFF;
+LEFT: 0px; 
+
+}
+.logouanl {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/logouanl_800.jpg);
+background-repeat:no-repeat;
+background-position:right center;
+height:60px;
+width: 24%;
+}
+.controlidioma 
+{
+position:relative;
+top: -20px;
+left: 700px;
+height:0px;
+width:100%;
+padding:0px;
+margin:0px;
+}
+.fondo {
+position:relative;
+top:-142px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/fondonegro.png);
+background-position:bottom;
+height:155px;
+width:100%;
+margin:0px;
+text-align:left;
+padding-left:0px;
+color:#FFFFFD;
+font-size:small;
+LEFT: 0px; 
+}
+.fondo .fondotexto
+{
+	padding-left: 5px;
+	margin: 0px;
+	font-size:8pt;
+	LEFT: 0px;
+	WIDTH: 100%; 
+	TOP: 3px
+
+	}
+.fondo img, .avisoenca img {
+width:100%;
+}
+.naranja {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/fondonaranja2_800.jpg);
+background-color:#FCA04B;
+background-repeat:no-repeat;
+width:100%;
+height:356px;
+margin-top:-500px;
+}
+.fondonaranja {
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/fondonaranja800.jpg);
+background-color:#FCA04B;
+background-repeat:no-repeat;
+width:100%;
+height:auto;
+margin:0px;
+padding:0px;
+}
+.ingreso {
+position:absolute;
+top:250px;
+left:12px;
+padding:12px;
+padding-top:12px;
+padding-right:5px;
+width:144px;
+font-size:12pt;
+font-weight:bold;
+color:#fffffD;
+}
+.acerca {
+position:absolute;
+top:248px;
+left:199px;
+width:120px;
+padding:12px;
+padding-top:15px;
+padding-right:5px;
+font-size:12pt;
+font-weight:bold;
+color:#fffffd;
+
+}
+.fondogris {
+position:relative;
+top:5px;
+left:380px;
+width:200px;
+height:495px;
+margin-bottom:0px;
+padding-bottom:5px;
+background: url('/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/bordeabajo.png') no-repeat bottom;
+background-position:bottom left;
+
+}
+.ImagenAvisos
+{
+	background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/graduados2_800.gif);
+	width:64px;
+    height:64px;
+    top:auto;
+}
+.ImagenFotoChica
+{
+	background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/fotochica.gif);
+	background-repeat:no-repeat;
+	width:144px;
+	height:37px;
+	
+	}
+.recado img {
+width:80px;}
+.recado {
+position:relative;
+top:0px;
+font-size:9pt;
+color:#FFFFFd;
+border-left:1px solid #494E54;
+background: url('/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/bordederecha.png') repeat-y right;
+background-color:#919BA7;
+padding-right:5px;
+padding-left:5px;
+padding-bottom:20px;
+}
+.contenido 
+{
+	position:absolute;
+top:0px;
+right: -37px;
+WIDTH: 102px; 
+RIGHT: 33px; 
+HEIGHT: 80px;
+
+
+}
+.contenido, .contenido1 
+{
+	position:absolute;
+padding-right:5px;
+padding-top:0px;
+margin-right:-37px;
+margin-left:37px;
+margin-top:10px;
+width:110px;
+padding-bottom:0px;
+
+}
+.contenido1 {
+position:absolute;
+top:10px;
+left:37px;
+}
+.contenido2
+{
+	position:absolute;
+top:130px;
+right: 0px;
+WIDTH: 110px; 
+	
+	}
+.contenido3
+{
+	position:absolute;
+top:230px;
+right: 0px;
+WIDTH: 110px; 
+	}
+	
+.avisoenca {
+font-size:12pt;
+color:#4D5258;
+font-weight:bold;
+}
+.recado a.mensaje, .recado a.mensaje:visited{
+font-size:12pt;
+text-transform:uppercase;
+text-decoration:underline;
+text-align:center;
+width:100%;
+font-size:9pt;
+color:#FFFFFd;
+}
+.recado a.mensaje:hover{
+color:#CCCCCC;
+text-decoration:underline;
+}
+.texto, .boton, .boton85, .olvido {
+margin-top:5px;
+width:100px;
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:7pt;
+font-weight:normal;
+}
+.texto2 {
+margin-top:10px;
+margin:0px;
+width:165px;
+text-align:left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:7pt;
+font-weight:normal;
+
+}
+.boton {
+margin-top:4px;
+padding-top:2px;
+text-decoration:none;
+height:20px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/botonnexus.png);
+background-repeat:no-repeat;
+background-position:center;
+color:#000001;
+display:block;
+}
+.boton85 {
+margin-top:4px;
+padding-top:2px;
+text-decoration:none;
+height:20px;
+background:transparent url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/botonnexus85.png);
+background-repeat:no-repeat;
+background-position:center;
+color:#000001;
+display:block;
+border:0px;
+cursor:pointer;
+}
+.boton2 {
+margin-top:4px;
+padding-top:2px;
+text-decoration:none;
+height:20px;
+text-align:center;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/botonS.gif);
+background-repeat:no-repeat;
+background-position:center;
+}
+.olvido {
+margin-top:5px;
+margin-right:0px;
+margin-left:-15px;
+padding-right:0px;
+padding-left:22px;
+width:160px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/advertencia.png);
+background-repeat:no-repeat;
+background-position:left;
+}
+a.clave, a.clave:hover, a.clave:visited {
+text-decoration:underline;
+color:#000001;
+display:block;
+text-align:left;
+}
+.nexus {
+position:relative;
+left:0px;
+top:450px;
+width:348px;
+height:140px;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/logonexus.gif);
+background-repeat:no-repeat;
+background-position:0% 0%;
+}
+.listas {
+position:relative;
+top:26px;
+left:110px;
+width:237px;
+height:91px;
+margin:0px;
+padding-top:0px;
+padding-left:0px;
+background-color:#FFFFFF; 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:7pt;
+}
+.listas li {
+list-style-type:none;
+list-style-image:none;
+background-image:url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/estrella.png);
+background-repeat:no-repeat;
+background-position:bottom left;
+padding-left:20px;
+margin-left:10px;
+padding-top:10px;
+}
+.pie {
+text-align:center;
+font-size:9pt;
+color:#FFFFFd;
+padding-top:7px;
+padding-right:10px;
+}
+.Barner
+{
+background-image: url(/web/20140604115310im_/https://www.nexus.uanl.mx/App/Utilerias/DisenioGrafico/Imagenes/fotouni800.jpg);
+position:relative;
+background-repeat:no-repeat;
+background-position:left center;
+width:100%;
+height:64%;
+text-align:right;
+LEFT: 0px; 
+TOP: 0px; 
+}
+
+.encabezado_msg {
+background-color:#000000;
+border:2px solid #2E2E2F;
+font-size:11pt;
+color:#ffffff;
+}
+
+.FondoAplicacion
+{
+    background-color: Gray;
+    /*filter: alpha(opacity=70);
+    opacity: 0.7;*/
+}
+
+.CajaDialogo
+{
+	background-color:#FCA04B;
+    border-width: 4px;
+    border-style: outset;
+    border-color:gray;
+    padding: 0px;
+    width: 275px;
+    font-weight: bold;
+    font-style: italic;
+    display:inline-table;
+}
+
+.CajaDialogo div
+{
+    margin: 7px;
+    text-align: center;
+}
+
+.botonCerrar 
+{
+vertical-align: top; 
+left: 4px; 
+position: relative; 
+top: 0px;
+text-align:right;
+}
+
+/*
+     FILE ARCHIVED ON 11:53:10 Jun 04, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:33:09 Apr 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.626
+  exclusion.robots: 0.03
+  exclusion.robots.policy: 0.012
+  esindex: 0.012
+  cdx.remote: 29.629
+  LoadShardBlock: 138.394 (3)
+  PetaboxLoader3.datanode: 95.095 (4)
+  PetaboxLoader3.resolve: 148.396 (2)
+  load_resource: 172.378
+*/
