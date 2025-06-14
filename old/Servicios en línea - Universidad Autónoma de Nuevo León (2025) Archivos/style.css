@@ -1,0 +1,113 @@
+/*!
+Theme Name: UANL
+Theme URI: http://uanl.mx/
+Author: UANL
+Author URI: http://uanl.mx/
+Description: Tema desarrollado para la UANL.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: uanl
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.flex{
+	display: flex;
+    justify-content: space-between;
+}
+a.covid-button{
+	margin-top: 10px;
+    background: #ffbf00;
+    color: #004A8F;
+    padding: 5px 15px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.container-covid-button{
+	padding:20px 0px
+}
+.container-covid-button a.covid-button{
+	display:block;
+	text-align:center;
+	padding:15px;
+	margin:0px 20px;
+}
+
+/* antecedentes historicos */
+
+#historia{
+	margin: auto;
+	background: #f4f2ed;
+	padding: 50px 30px;
+}
+#historia h2{
+	margin-bottom: 75px;
+}
+
+#historia .anio{
+	width: 118px;
+	padding-right: 45px;
+	border-right: 2px solid #ddd;
+}
+#historia .anio h2{
+	font-size: 36px;
+	font-weight: 900;
+	margin-top: 17px;
+}
+#historia .item{
+	display: flex;
+	position: relative;
+}
+#historia .item:nth-child(odd) .sucesos{
+	background-color: #f5f2ec;
+}
+#historia .item:nth-child(even) .sucesos{
+	background-color: #fff;
+}
+#historia .item .sucesos-contenedor{
+	margin-left: 45px;
+	width:100%;
+	border-top: 1px solid #ddd;
+}
+#historia .item .sucesos{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+
+	position: relative;
+}
+#historia .item .sucesos-contenedor:before{
+	content: "";
+	position: absolute;
+	top: -8px;
+	left: 109px;
+	background-color: #f6c43f;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+}
+#historia .item .sucesos-contenedor button{
+	background-color: #f4f2ed;
+	width: 100%;
+	text-align: right;
+	margin-top: 10px;
+}
+#historia .item .sucesos-contenedor button:hover{
+	background-color: #eee;
+}
+#historia .item .sucesos-contenedor button i{
+	font-size: 30px;
+}
+#historia .item .suceso{
+	padding: 25px 50px;
+}
+#historia .item .suceso h4{
+	font-weight: 800;
+	font-size: 23px;
+}
+
