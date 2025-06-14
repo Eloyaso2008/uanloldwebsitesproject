@@ -1,0 +1,2041 @@
+/*@font-face
+{
+    font-family: "NxRegular";
+    src: url("/web/20151125044734im_/https://www.nexus.uanl.mx/App/fonts/nx.ttf");
+}*/
+
+h1
+{
+    color:#fff;
+}
+
+.logo img
+{
+    height: 16px;
+    margin-top: -5px;
+}
+
+.skin-blue .logo
+{
+	background-color: #146ab0;
+	/*font-family: "NxRegular",  !important;
+	font-size: 30px !important;*/
+}
+
+.skin-blue .logo:hover
+{
+	background-color: #146ab0;
+}
+
+.skin-blue .navbar
+{
+	background-color: #1777c4;
+}
+
+.nx-uanl-logo
+{
+    height: 24px;
+    padding: 13px 0px 13px 10px;
+    float: left;
+}
+
+.nx-uanl-logo img
+{
+    display: none;
+}
+
+.navbar-nav li .fa.fa-yammer,
+.navbar-nav li .fa.fa-lync {
+  height: 16px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.navbar-nav li a .fa.fa-yammer { 
+  width: 19px;
+  /*background-image: url("/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/icon-yammer.png"); */
+  background-image: url("/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/icon-yammer-hv.png");
+}
+
+/*.navbar-nav li a:hover .fa.fa-yammer {
+	background-image: url("/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/icon-yammer-hv.png");
+}*/
+
+.navbar-nav li a .fa.fa-lync { 
+  width: 17px;
+  /*background-image: url("/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/icon-lync.png"); */
+  background-image: url("/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/icon-lync-hv.png");
+}
+
+/*.navbar-nav li a:hover .fa.fa-lync {
+	background-image: url("/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/icon-lync-hv.png");
+}*/
+
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header
+{
+    background: #146ab0;
+}
+
+.bg-light-blue
+{
+    background-color: #146ab0 !important;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > img 
+{
+    border: none;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-footer a
+{
+	font-size: 12px;
+	color: #555;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-footer a:hover
+{
+	color: #428bca;	
+}
+
+.right-side
+{
+	margin: 0px;
+}
+
+.nx-oculto
+{
+	display: none !important;
+}
+
+.skin-blue .right-side > .content-header
+{
+    background: #F1C53D;
+    /*background-image: url("/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/oso_fime.png");
+    background-position: right center;
+    background-repeat: no-repeat;*/
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 20px !important;
+}
+
+.nx-logo-dependencia
+{
+    margin-top: -20px !important;
+}
+
+.nx-encabezado-tiempo
+{
+    margin-top: -20px !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    font-size: 14px !important;
+}
+
+.nx-encabezado-tiempo p
+{
+    margin:0px !important;
+    padding: 2px 0px 2px 0px !important;
+}
+
+.breadcrumb
+{
+    margin-bottom: 5px !important;
+}
+
+.nx-contenido
+{
+    padding: 0px 15px !important;
+}
+
+form
+{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.nx-contenido-principal
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.no-print
+{
+    display: none !important;
+}
+
+.nx-tabs
+{
+    margin-bottom: 10px !important;
+    background: #fff !important;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.nx-nav-tabs
+{
+    background: #fff !important;
+}
+
+.nav .open > a
+{
+    border-color: #fff !important;
+}
+
+body.fixed .wrapper
+{
+    margin-top: 30px !important;
+}
+
+.nx-alert-down
+{
+    width: 60% !important;
+    margin: 0px auto !important;
+}
+
+/* ------------ estilos para login --------------------- */
+div.contenedor{
+	position: relative;
+	padding: 15px;
+	padding-left:15px;
+	/*height:100%;*/
+	margin: auto;
+	max-width: 860px;
+}
+/* Login */
+body#login {
+	margin: 0px !important;
+	padding: 0px !important;
+	/*width: 100% !important;
+	height: 100% !important;*/
+}
+div#login-form {
+	position: absolute;	
+	/*top: 40px;*/
+	z-index: 4444;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+div#login-form .logo-nexus {
+	margin-left: -24px;
+	margin-bottom: 20px;	
+}
+div#login-form input[type="text"],
+div#login-form input[type="password"] {
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(255, 255, 255, 0.4px);
+	border-radius: 2px;
+	padding: 4px 10px;
+    line-height: 1.3em;
+	width: 200px;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #FFF;
+	font-size: 1.255em;
+	text-align: left;
+	font-weight: bold;
+}
+div#login-form input[type="text"]:focus,
+div#login-form input[type="password"]:focus
+{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #c49d43 !important;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #c49d43 !important;
+   font-weight: normal;
+   font-size: 0.9em;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #c49d43 !important;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   	color: #c49d43 !important;
+   	font-weight: normal;
+   	font-size: 0.9em;
+}
+div#login-form p span {
+	display: inline-block;
+	width: 202px;
+	text-align: center;     
+}
+div#login-form a { 
+	color: #FFF; 
+	font-size: 0.8em;
+	text-decoration: underline;
+}
+div#login-form i {
+	display: inline-block;
+	margin: 0 0 0 10px;
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+}
+div#login-form i.user {
+	background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/login-user.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+div#login-form i.password {
+	background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/login-pass.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+div#login-form .submit {
+	display: inline-block;
+	border: none;
+	margin-top: 10px;
+	width: 46px;
+	height: 46px;
+	background-color: transparent;
+	background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/login-submit.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+div#login-form .submit:hover{
+	background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/login-submit-hover (1).png');
+}
+body#login .footer {
+	margin-top: 120px;
+	clear: both;
+	overflow:hidden;
+}
+body#login .footer p {
+	text-align: right;
+	margin-top:43px;
+}
+body#login .footer #uanl-login
+{
+    float:left;
+}
+body#login .footer p a {
+	display: inline-block;
+	margin: 0 0 0 10px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+body#login .footer p a:hover {
+	text-decoration: none !important;
+}
+body#login .footer p a.uanl {
+	width: 30px;
+	background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/logo-uanl.png');
+}
+body#login .footer p a.twitter {
+	width: 20px;
+	background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/logo-twitter.png');
+}
+body#login .footer p a.facebook {
+	width: 20px;
+	background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/logo-facebook.png');
+}
+/* Slider */
+body#login div.slider 
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nexus-login00.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: top left !important;
+	/*background: #584679;*/
+	margin-top: 20px;
+	height: 500px;
+	width: 70%;
+	float:right;
+	position: relative;
+}
+body#login div.slider .slide img {
+
+}
+
+body#login div.slider .slide
+{
+    /*top:57px;
+	left: 151px;
+	background-color:#1777c4;
+	width: 278px;
+	height:359px;
+	position: absolute;
+	overflow:hidden;
+	border:1px solid #ddd;
+	color:#fff;
+	font-family:Arial;
+	text-align:center;
+	font-size:0.8em;
+	line-height:30px;*/
+}
+
+.slide .slick-initialized .slick-slider
+{
+	/*top:57px;*/
+	left: 151px;
+	/*background-color:#1777c4;
+	width: 278px;
+	height:359px;
+	position: absolute;
+	overflow:hidden;
+	border:1px solid #ddd;
+	color:#fff;
+	font-family:Arial;
+	text-align:center;
+	font-size:0.8em;
+	line-height:30px;*/
+}
+.piso
+{
+    width:100%;
+    height:230px;
+    margin-top:-230px;
+    background:#eec147;
+}
+.nx-center
+{
+    margin:auto;
+    margin-bottom:10px;
+    text-align:center;  
+}
+
+@media all and (max-width: 640px)
+{
+      body#login div.slider{
+        float:none;
+        width:auto;
+        margin-top:90px;
+      }
+      body#login div.slider>img
+      {
+          display:none;
+          
+      }
+      body#login .slide
+      {
+          display:block;
+          margin:auto;
+          position:static;
+      }
+      div#login-form
+      {
+          position:relative;
+      }
+      div.contenedor
+      {
+          padding:0px 10px;
+      }
+      p
+      {
+          text-align:center;
+      }
+      div#login-form input[type="text"],
+    div#login-form input[type="password"]
+       {
+            width:inherit;
+            font:1.5em;
+       }
+}
+
+.breadcrumb
+{
+    margin-bottom: 5px !important;
+}
+
+.nx-contenido
+{
+    padding: 0px 15px !important;
+}
+
+form
+{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.nx-contenido-principal
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.nx-azul
+{
+	background-color: #1570a6;
+	color: #fff;
+}
+.nx-gris
+{
+    background-color:#eee;
+}
+
+.nx-tab-padding
+{
+	/*padding: 40px !important;*/
+	padding: 0px 40px 40px 40px !important;
+}
+.nx-table > tbody > tr > th, .nx-table > tbody > tr > td
+{
+	padding: 10px 15px;
+}
+
+.nx-table > tbody > tr
+{
+    overflow: hidden;
+}
+
+.nx-table th
+{
+    vertical-align:middle !important;
+}
+.nx-calendar
+{
+	max-width: 800px;
+	margin: auto;
+	font-size: 0.95em;
+}
+.nx-calendar h2
+{
+	color:#666;
+	font-size: 1.5em;
+}
+
+#ContentPlaceHolder1_Image2
+{
+    height: 312px !important;
+    width: 276px !important;
+}
+
+.nx-social
+{
+    float: right;
+    height: 67px;
+    padding-top: 28px;
+}
+
+.nx-social .btn
+{
+    border: none !important;
+    background: transparent;
+    box-shadow: inset 0px 0px 0px 0px !important;
+}
+
+.nx-social .btn-facebook, .nx-social .btn-twitter
+{
+    color: #fff;
+    padding: 0px !important;
+}
+
+.nx-social .btn-facebook:hover
+{
+    color: #3b5998;
+}
+
+.nx-social .btn-twitter:hover
+{
+    color: #55acee;
+}
+
+/* --------- avisos ------------- */
+.timeline > li > .timeline-item > .time.nx-fecha
+{
+    float:none;
+    font-size:0.87em;
+    padding:0px 8px;
+}
+.timeline.nx-aviso-width
+{
+    max-width:550px;
+    margin:auto;
+}
+.timeline.nx-aviso-width > li > .timeline-item
+{
+    margin:0;
+}
+.timeline.nx-aviso-width:before
+{
+    content:none;
+}
+
+.timeline > li > .timeline-item > .timeline-header
+{
+    border:none;
+}
+.nx-calificacion
+{
+    font-weight:bold;
+    color:#2a6496;
+    font-size:1.2em;
+}
+p.nx-calificacion
+{
+
+    display:block;
+    max-width:300px;
+    text-align:center;
+    margin:auto;
+    margin-bottom:20px;
+    padding:10px 0px;
+}
+td.nx-calificacion
+{
+}
+.nx-centrarBloque
+{
+    margin:auto;
+}
+.nx-marginBottom
+{
+    margin-bottom:30px;
+    display:block;
+}
+.nx-marginTop
+{
+    margin-top:10px;
+}
+.nx-marginLeft
+{
+    margin-left:10px;
+}
+.nx-marginRight
+{
+    margin-right:10px;
+}
+
+
+.btn-group a
+{
+    display:block;  
+    float:left;
+}
+table.nx-tabla-chica
+{
+    max-width:600px;
+}
+.btn.active
+{
+    background-color: #ddd;
+	color: #555;
+}
+.nx-table
+{
+    text-align:left;
+}
+.table.nx-table>tbody>tr>th,
+.table.nx-table>thead>tr>th
+{
+    line-height:1.2em;
+}
+.nx-table .nx-celda-fija
+{
+    width:1px;
+}
+.nx-tabla-pequenia
+{
+    max-width:860px;
+    margin:auto;
+}
+
+nx-archivos-adjuntos
+{
+    
+}
+
+i.fecha-archivos
+{
+    display:block;
+    font-size:0.8em;
+    color:#999;
+}
+
+#elementosCompetencia
+{
+    background-color:#eee;
+}
+
+.nx-one-drive
+{
+    width:24px;
+    height:13px;
+    background:url("/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/one-drive.png");
+    display:inline-block;
+    vertical-align:middle;
+}
+.nx-parrafo
+{
+    margin-bottom:20px;
+    padding-bottom:10px;
+   
+}
+.nx-parrafo h4
+{
+    font-weight:700;
+}
+.nx-carpetas
+{
+    max-width:500px;
+    margin:auto;
+    text-align:center;
+    margin-bottom:30px; 
+}
+.nx-carpetas select
+{
+    min-width:300px;
+    margin-top:20px;
+}
+.nx-buscarUsuario
+{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+.txtBuscarUsuarioListaMaestro
+{
+    margin-left:10px;
+    min-width:300px;
+}
+.btnBuscarUsuarioListaMaestro
+{
+    margin-top:-3px;
+}
+
+
+
+
+/* ----- slide en principal ------- */
+
+.text-center .slide
+{
+    top:0;
+    /*left:0;*/
+    background:none;
+    color:#222;
+    overflow:visible;
+    border:0;
+    height:auto;
+}
+
+.slick-prev:before, .slick-next:before
+{
+    color:#146ab0 !important;
+}
+.slick-slider
+{
+    margin-bottom:0px !important;
+    width:200px;
+}
+.slick-slide
+{
+    margin-bottom:0px !important;
+    width:200px;
+    line-height:1.4em;
+}
+.slick-dots
+{
+    bottom:0px !important;
+    margin-bottom:0px;
+    position:relative !important;
+}
+.nx-input-calificacion
+{
+    width:2em;
+    display:inline;
+    padding:0;
+    text-align:center;
+}
+.nx-evidencia-calificacion
+{
+    width:2em;
+    padding:0;
+    display:inline-block;
+}
+.nx-select-width-auto
+{
+    width:auto !important;
+    display:inline-block;
+    margin-right:10px;
+}
+.nx-vertical-center
+{
+    vertical-align:middle;
+}
+.nx-checkbox
+{
+    background-color:#fff;
+    border:1px solid #999;
+}
+.nx-table-border-rowspan
+{
+    border-right:1px solid #dddddd;
+    border-left:1px solid #dddddd;
+}
+
+#nx-cursos-competencia .box-title,#nx-productos-integradores .box-title
+{
+    font-size:15px;
+}
+#nx-cursos-competencia a.agregar, #nx-productos-integradores a.agregar
+{
+    color:#428bca;
+    margin-right:30px;
+}
+#nx-cursos-competencia .box, #nx-productos-integradores .box
+{
+    border:1px solid #ddd;
+}
+#nx-cursos-competencia .nx-grupo, #nx-productos-integradores .nx-grupo
+{
+    padding-left:40px;
+}
+#nx-cursos-competencia .box-header, #nx-productos-integradores .box-header
+{
+    border-bottom:1px solid #dadada;
+}
+#nx-cursos-competencia .box, #nx-productos-integradores .box
+{
+    margin-bottom:0px;
+}
+
+i.fa-chevron-down
+{
+    margin-right:10px;
+}
+div.box-header .pull-right i.fa
+{
+    line-height:2em;
+    vertical-align:middle;
+    margin-right:10px;
+}
+
+.nx-col-md
+{
+    max-width:640px;
+    margin:auto;
+    margin-top:40px;
+}
+.nx-col-sm
+{
+    max-width:380px;
+}
+.nx-inline-block
+{
+    display:inline-block;
+}
+.nx-input-valor
+{
+    width:5em;
+}
+.nx-select-horario
+{
+    width:5em;
+}
+
+.nx-input-group
+{
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.nx-text-white
+{
+    color:#fff;
+}
+
+/*label
+{
+    margin-right:8px !important;
+}*/
+.nx-table-opciones
+{
+    width:90px;
+    text-align:center
+}
+.nx-table .checkbox
+{
+    margin:0;
+}
+table iframe
+{
+    width:210px;
+    height:120px;
+    display:block;
+}
+
+/* ------------ foro -------------- */
+
+ul.nx-foro-respuestas
+{
+    margin-left:20px;
+    padding-left:30px;
+    border-left:3px solid #ddd;
+}
+ul.nx-foro-respuestas div.nx-respuesta-header,  .nx-respuesta-principal div.nx-respuesta-header
+{
+    margin:10px 10px 0px 10px;
+}
+
+ul.nx-foro-respuestas .box-header a, .nx-respuesta-principal .box-header a
+{
+    color:#3c8dbc;
+}
+ul.nx-foro-respuestas .box-header a:hover, .nx-respuesta-principal .box-header a:hover
+{
+    opacity:0.6;
+}
+ul.nx-foro-respuestas div.nx-respuesta-header small, .nx-respuesta-principal div.nx-respuesta-header small
+{
+    color:#999;
+}
+ul.nx-foro-respuestas .box, .nx-respuesta-principal.box
+{
+    border:1px solid #eee;
+    margin-bottom:10px;
+}
+ul.nx-foro-respuestas li
+{
+    position:relative;
+}
+ul.nx-foro-respuestas li:before
+{
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #3c8dbc;
+    border-radius: 50%;
+    left: -37px;
+    top: 15px;
+    position: absolute;
+    display: block;
+    z-index: 1;
+}
+
+.nx-mensaje
+{
+    max-width:400px;
+    margin:auto;
+}
+
+/*--------------------------------------------actualizacion para estilos de calendario--------------------------------------------------*/
+.nx-calendar
+{
+    max-width:100%;
+}
+
+.nx-calendar a:hover
+{
+    text-decoration:underline;
+}
+
+/*-----------------------------------------actualizacion para avisos--------------------------------------------------------------------*/
+.velo_aviso
+{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index: 9000;
+	background-color: #999999;
+	display: none;
+}
+.velo_aviso_urgente
+{
+	position: fixed;
+	top:0px;
+	left: 0px;
+	z-index: 9000;
+	background-color: #999999;
+	width:100%;
+	height:100%;
+	opacity:0.5;
+	display: none;
+}
+.ventana-aviso
+{
+	position: fixed;
+	width: 550px;
+	display: none;
+	z-index: 9999;
+}
+.ventana-aviso_urgente
+{
+	position: fixed;
+	width: 550px;
+	height: 270px;
+	background-color:#F9F0C1;
+	display: none;
+	z-index: 9999;
+	overflow-y:scroll;
+}
+.timeline-body
+{
+    max-height:100px;
+    overflow-y:scroll;    
+}
+
+.nx-nav-tabs-active-a
+{
+    cursor: pointer !important;
+}
+
+.nx-nav-tabs-active-a:hover
+{
+    color: #777 !important;
+}
+
+/*.nav-tabs > li.active> a
+{
+    cursor: pointer !important;
+}
+
+.nav-tabs > li.active> a:hover
+{
+    color: #777 !important;
+}*/
+
+#Up2
+{
+    background: transparent !important;
+}
+
+.nx-dependencia
+{
+    padding-top: 7px !important;
+    color: #fff !important;
+    font-size: 16px !improtant;
+}
+
+iframe
+{
+    background: #fff !important;
+}
+
+/*------------------------------------Actualizacion calificaciones alumno-----------------------------------------*/
+.calificacionesalumnonav
+{
+    width:520px;
+    margin-bottom:15px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 40px !important;
+}
+
+/*-----------------------------------Imagen de escuela------------------------------------------------------------*/
+.nx-img-escuela
+{
+    float: right;
+    margin-top: -38px;
+    width: 125px;
+    height: 95px;
+    display: block;
+    background-color: #fff !important;
+    /*background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/escuelas/quimicas.png');*/
+    background-position: top center;
+    background-repeat: no-repeat;
+    /*z-index: -1;*/
+    /*opacity: 0.2;*/
+}
+
+#ContentPlaceHolder1_IframeBody
+{
+    background: none !important;
+    background-image: none !important;
+    background-color: transparent !important;
+    margin-top: -48px;
+    /*background: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/escuelas/comunicacion.png') no-repeat top right;*/
+    /*background-position: top right !important;
+    background-repeat: no-repeat;*/
+}
+
+/*---------------------------------Actualizacion portafolio alumno------------------------------------------------*/
+.comentariosDeshabilitar
+{
+    color:#888888;
+}
+.comentariosDeshabilitar a:hover, a:active, a:focus
+{
+    color:#888888;
+}
+.comentariosDeshabilitar a:hover, a:focus
+{
+    color:#888888;
+}
+
+/*---------------------------------Master Page------------------------------------------------*/
+.nx-tiempo
+{
+    float: right;
+    margin-top: -34px;
+    margin-right: 15px;
+    color: #999;
+}
+
+.nx-rol
+{
+    margin: 3px 0px 0px 0px !important;
+}
+
+.nx-rutas-tiempo
+{
+    background-color: transparent !important;
+    margin: 0px !important;
+    border: none !important;
+}
+
+.nx-rutas-tiempo .breadcrumb
+{
+    background-color: #f0f0f0 !important;
+    border-radius: 0px !important;
+}
+
+.nx-rutas-tiempo-fixed
+{
+    margin-top: -37px !important;
+}
+
+/*---------------------------Actualizacion detalle de la evidencia------------------------------------------------*/
+.divsubirArchivodEvidetalle {
+	position: relative;
+	overflow: hidden;
+	width:75px;
+}
+.divsubirArchivodEvidetalle input.btnsubirArchivopcEvi {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.etiquetaEspacioArchivos 
+{
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 0px 0px;
+  float:right;
+    
+}
+.divloadsubirArchivoEviDetalle 
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:9999;
+    background:rgba(255,255,255,0.7);
+    width:100%;
+    height:100%;
+    /*display:none;*/
+}
+
+/*---------------------------------Principal Maestro------------------------------------------------*/
+.nx-td-curso
+{
+    max-width: 300px !important;
+}
+
+.nx-td-curso a, .nx-td-curso span
+{
+    display: block !important;
+    width: 100% !important;
+}
+
+.nx-td-curso span
+{
+    color: #999;
+}
+
+.nx-am-columna-nombre
+{
+    width: 35% !important;
+}
+
+.nx-am-columna-dependencia
+{
+    width: 75px !important;
+}
+
+.nx-am-columna-pendientes
+{
+}
+
+.nx-am-columna-estado
+{
+}
+
+.nx-a-curso
+{
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+/*---------------------------------Dependencias------------------------------------------------*/
+.nx-dependencia-4
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/dgppe90_90.png') !important;
+}
+
+.nx-dependencia-47
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/agronomia.png') !important;
+}
+
+.nx-dependencia-48
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/arquitectura.png') !important;
+}
+
+.nx-dependencia-51
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/biologicas.png') !important;
+}
+
+.nx-dependencia-54
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/cienciasforestales.png') !important;
+}
+
+.nx-dependencia-55
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/cienciaspoliticas.png') !important;
+}
+
+.nx-dependencia-56
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/cienciasquimicas.png') !important;
+}
+
+.nx-dependencia-93
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/cienciastierra.png') !important;
+}
+
+.nx-dependencia-62
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/civil.png') !important;
+}
+
+.nx-dependencia-52
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/comunicacion.png') !important;
+}
+
+.nx-dependencia-57
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/contaduriayadmon.png') !important;
+}
+
+.nx-dependencia-68
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/deportiva.png') !important;
+}
+
+.nx-dependencia-58
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/derecho.png') !important;
+}
+
+.nx-dependencia-60
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/enfermeria.png') !important;
+}
+
+.nx-dependencia-61
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/filosofia.png') !important;
+}
+
+.nx-dependencia-53
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/fisicomat.png') !important;
+}
+
+.nx-dependencia-63
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/mecanica.png') !important;
+}
+
+.nx-dependencia-64
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/medicina.png') !important;
+}
+
+.nx-dependencia-66
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/musica.png') !important;
+}
+
+.nx-dependencia-67
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/odontologia.png') !important;
+}
+
+.nx-dependencia-69
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/psicologia.png') !important;
+}
+
+.nx-dependencia-70
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/saludpublica.png') !important;
+}
+
+.nx-dependencia-71
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/trabajosocial.png') !important;
+}
+
+.nx-dependencia-65
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/facultades/veterinaria.png') !important;
+}
+
+.nx-dependencia-7
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/cideb.png') !important;
+}
+
+.nx-dependencia-19
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/p_tec_alvaro_obregon.png') !important;
+}
+
+.nx-dependencia-46
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/p_tec_medica.png') !important;
+}
+
+.nx-dependencia-45
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/p_tec_pablo_livas.png') !important;
+}
+
+.nx-dependencia-20
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa01.png') !important;
+}
+
+.nx-dependencia-31
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa02.png') !important;
+}
+
+.nx-dependencia-38
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa03.png') !important;
+}
+
+.nx-dependencia-39
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa04.png') !important;
+}
+
+.nx-dependencia-40
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa05.png') !important;
+}
+
+.nx-dependencia-41
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa06.png') !important;
+}
+
+.nx-dependencia-42
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa07.png') !important;
+}
+
+.nx-dependencia-43
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa08.png') !important;
+}
+
+.nx-dependencia-44
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa09.png') !important;
+}
+.nx-dependencia-22
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa11.png') !important;   
+}
+
+.nx-dependencia-23
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa12.png') !important;
+}
+
+.nx-dependencia-24
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa13.png') !important;
+}
+
+.nx-dependencia-25
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa14.png') !important;
+}
+
+.nx-dependencia-26
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa15.png') !important;
+}
+
+.nx-dependencia-27
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa16.png') !important;
+}
+
+.nx-dependencia-28
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa17.png') !important;
+}
+
+.nx-dependencia-32
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa20.png') !important;
+}
+
+.nx-dependencia-33
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa21.png') !important;
+}
+
+.nx-dependencia-34
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa22.png') !important;
+}
+
+.nx-dependencia-35
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa23.png') !important;
+}
+
+.nx-dependencia-36
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa24.png') !important;
+}
+
+.nx-dependencia-37
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/preparatorias/prepa25.png') !important;
+}
+
+.nx-dependencia-18
+{
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx/dependencias/dgi_logo.png') !important;
+}
+/*---------------------------------Portafolio Maestro------------------------------------------------*/
+.nx-botonera-portafolio
+{
+    text-align: center !important;
+}
+
+.nx-portafolio-alumno-descripcion
+{
+    max-width: 350px !important;
+}
+
+.nx-portafolio-leyenda
+{
+    width: 150px;
+    height: 30px;
+}
+
+.nx-portafolio-leyenda div
+{
+    float: left;
+}
+
+.nx-portafolio-leyenda-img
+{
+    width: 40px;
+    text-align: center;
+}
+
+.nx-portafolio-alumno-descripcion div
+{
+    height: 100%;
+    display: block;
+    float: left;
+    text-overflow: ellipsis;
+}
+
+.nx-portafolio-img-equipo
+{
+    padding-top: 3px;
+    width: 20%;
+    max-width: 30px;
+    min-width: 25px;
+    text-align: center;
+}
+
+.nx-portafolio-descripcion
+{
+    width: 80%;
+    padding-left: 6px;
+    text-align: justify;
+}
+
+.nx-chk-portafolio-calificaciones label input
+{
+    padding: 0px !important;
+    margin: 0px auto !important;
+}
+
+.box
+{
+    border-top: none !important;
+}
+
+.nx-table
+{
+    border-top: 2px solid #c1c1c1 !important;
+}
+
+/*.btn
+{
+    margin: 5px !important;
+}*/
+
+#ddlEviCom, #ddlAlumnos
+{
+    width: 300px !important;
+}
+
+.nx-calificacion-fecha-archivo-entregado
+{
+    margin-top: -13px !important;
+    margin-left: 15px !important;
+    font-size: 11px !important;
+    color: #999 !important;
+}
+.nx-portafolio-alumno-puntos
+{
+    max-width:550px;
+    margin:auto;
+    margin-top:40px;
+}
+.nx-portafolio-maestro-alumnosevaluados
+{
+    max-width:350px;
+    margin:auto;
+    margin-top:40px;
+}
+/*---------------------------------Modal------------------------------------------------*/
+.modal
+{
+    overflow-y: hidden !important;
+}
+
+.modal-body
+{
+    padding: 0px !important;
+}
+
+.nx-modal-mensaje
+{
+    margin: 0px !important;
+}
+
+.modal-body .box .box-footer
+{
+    border: none;
+}
+
+#nx-btn-modal
+{
+    display: none;
+}
+
+.modal-body .box-body
+{
+    text-align: justify;
+}
+
+.modal-body .box-files
+{
+    padding: 10px;
+    text-align: left;
+}
+
+.nx-btn-aceptar, .nx-btn-cancelar
+{
+    margin: 0px 2px 0px 2px;
+}
+/*------------------------------Mensaje emergente de recursos en estructura---------------------------------*/
+.ventana-emergenteestuniapr
+{
+	position: fixed;
+	width: 550px;
+	display: none;
+	z-index: 9999;
+}
+
+.nx-velo_emergente
+{
+	/*position: absolute;*/
+	position:fixed;
+	top:0px;
+	left: 0px;
+	z-index: 9001;
+	background-color: #999999;
+	/*display: none;*/
+}
+.timeline.nx-emergente-width
+{
+    max-width:550px;
+    margin:auto;
+}
+.timeline.nx-emergente-width > li > .timeline-item
+{
+    margin:0;
+}
+.timeline.nx-emergente-width:before
+{
+    content:none;
+}
+.nx-cuerpo-Emergente
+{
+    max-height:300px;
+
+}
+
+/* -------- chat ---------- */
+
+#yammer, #contactos-yammer
+{
+    position:fixed;
+    right:30px;
+    bottom:0;
+    width:250px;
+    margin-bottom:0px;
+    border:1px solid #ddd;
+}
+#contactos-yammer .box-title
+{
+    font-size:14px;
+    text-align:left;
+    display:block;
+    width:100%;
+    border:0;
+}
+#contactos-yammer .box-title .nx-marginRight
+{
+    margin-right:11px;
+}
+#yammer
+{
+    z-index:4;
+}
+.nx-usuario-yammer
+{
+    width:37px;
+}
+.nx-usuario-yammer img
+{
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    background-color:#999;
+}
+.nx-yammer-msg
+{
+    float:left;
+    width:auto;
+    display:inline-block;
+    padding:10px;
+    width:auto;
+    max-width:300px;
+}
+.nx-yammer-msg:before
+{
+    content:"";
+    position:absolute;
+    top:10px;
+    left:-10px;
+    width:10px;
+    height:16px;
+    z-index:20;
+}
+
+.nx-yammer-msg.nx-yammer-to:before
+{
+    background-image:url("/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/flecha-blanca.png");
+}
+.nx-yammer-msg.nx-yammer-me:before
+{
+    background-image:url("/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/flecha-azul.png");
+}
+
+.nx-yammer-msg .nx-usuario-yammer
+{
+    position:absolute;
+    top:-7px;
+    width:50px;
+    left:-65px;
+}
+.nx-yammer-msg .nx-usuario-yammer img
+{
+    height:50px;
+    width:50px;
+}
+.nx-yammer-me
+{
+    background-color:#3c8dbc;
+    color:#fff;
+    float:right;
+    margin-right:20px;
+}
+.nx-yammer-to
+{
+    float:left;
+    border:1px solid #ddd !important;
+    margin-left:85px;
+}
+
+.nx-chat-yammer
+{
+    max-height:340px;
+    overflow:scroll;
+}
+.nx-radio
+{
+    margin:0;
+    text-align:center;
+}
+
+/* -------- chat nexus ------------ */
+
+.nx-caja-chat
+{
+    border:1px solid #ccc;
+    overflow:hidden;
+    padding:15px;
+    margin-bottom:10px;
+    height:267px;
+    overflow:scroll;
+}
+.nx-mensaje-chat
+{
+    margin:0;
+}
+.nx-usuarios-chat
+{
+    border:1px solid #ccc !important;
+    height:456px;
+    overflow:scroll;    
+}
+.nx-usuarios-chat .box-header
+{
+        border-bottom:1px solid #ddd;
+        
+}
+.nx-usuarios-chat .box-title
+{
+    font-size:16px !important;
+
+}
+.nx-usuarios-chat ul li
+{
+    padding:5px 0px;
+
+}
+
+.box-header
+{
+    border-top: 1px solid #dadada !important;
+
+}
+
+/*------------------------------Listado de foros---------------------------------*/
+.nx-listado-foros-contenido
+{
+    margin-top: 25px !important;
+}
+
+/*------------------------------Cargando---------------------------------*/
+svg path, svg rect{
+  fill: #333;
+}
+
+.nx-cargando
+{
+    float: left;
+    width: 100%;
+    /*margin-top: -450px;*/
+    /*heighh: 100%;
+    width: 100%;*/
+}
+
+.nx-cargando-contenido
+{
+    height: 40px;
+    width: 135px;
+    display: block;
+    margin: 0px auto;
+}
+
+.nx-cargando-vctr
+{
+    height: 40px;
+    float: left;
+}
+
+.nx-cargando-vctr p
+{
+    padding: 10px 0px 0px 5px;
+    margin: 0px !important;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+/*.nx-cargando-fade
+{
+    height: 100%;
+    width: 100%;
+    background: #333;
+    opacity: 0.8;
+}*/
+
+
+
+
+.recado
+{
+    margin: 57px 0px 0px 151px !important;
+    display: block !important;
+    width: 278px !important;
+    height: 359px !important;
+}
+
+.nx-td-slide-maestro
+{
+    max-width: 300px !important;
+}
+
+
+/*------------------------------Administrar Configuracion---------------------------------*/
+.nx-section-content-top
+{
+    background: #ffffff !important;
+    margin: 0px 10px 10px 10px !important;
+}
+
+.nx-section-content-top
+{
+    margin-top: -5px !important;
+    padding-top: 0px !important;
+}
+
+.nx-section-content .row .box, .nx-section-content .row .box .box-header
+{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#archivosZona {
+  border: 2px dashed #bbb;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  font: 20pt bold 'Vollkorn';
+  color: #bbb;
+}
+
+.thumb
+{
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+}
+ 
+.nx-row
+{
+    margin: 0px !important;
+}
+
+.nx-config-banner-slider
+{
+    display: block;
+    width: 313px;
+    height: 449px;
+    /*margin-top: -40px !important;
+    margin-bottom: 10px !important;*/
+    margin: 0px auto !important;
+    margin-top: -30px !important;
+    background-image: url('/web/20151125044734im_/https://www.nexus.uanl.mx/App/img/nx-config-banner.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.nx-config-banner-slider .recado
+{
+    /*margin: 0px !important;*/
+    margin: 57px 0px 0px 18px !important;
+    padding-top: 45px !important;
+}
+
+.nx-config-banner-slider .recado ol
+{
+    top: 340px !important;
+}
+
+.nx-config-ipad
+{
+    min-width: 313px !important;
+    min-height: 449px !important;
+    /*margin-top: -18px;*/
+}
+
+.nx-config-items
+{
+    max-height: 475px;
+    overflow: hidden;
+}
+
+#frmAvisosConfig
+{
+    background: #fff !important;
+}
+
+.nx-config-banner-cantidad
+{
+    /*width: 200px;*/
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.nx-config-banner-cantidad-centrado
+{
+    width: 275px;
+    margin: 0px auto;
+}
+
+.nx-config-banner-select, .nx-config-banner-select-btn
+{
+    display: block;
+    height: 34px;
+    float: left !important;
+}
+
+.nx-config-banner-select
+{
+    text-align: right !important;
+}
+
+.nx-config-banner-select-btn
+{
+    text-align: left !important;
+}
+
+.nx-config-banner-cantidad div .btn
+{
+    margin: 0px !important;
+    height: 34px !important;
+}
+
+.nx-config-banner-cantidad div .form-control
+{
+    width: 200px !important;
+}
+
+.nx-config-banner-item
+{
+    width: 475px;
+    height: 145px;
+    display: block;
+}
+
+.nx-config-banner-item-img
+{
+    width: 107px;
+    height: 145px;
+    /*margin-right: 15px;*/
+    display: block;
+    float: left;
+}
+
+.nx-config-banner-item-info
+{
+    display: block;
+    width: 328px;
+    height: 145px;
+    padding:10px;
+    float: left;
+}
+
+.nx-config-banner-item-info-vigencia
+{
+    width: 328px;
+    height: 18px;
+    margin-bottom: 10px !important;
+}
+/*------------------------------Master---------------------------------*/
+.nx-notificaciones div
+{
+    margin: 10px 15px 15px 15px !important;
+    display: none;
+}
+  
+/* ----------------------------------------Detalle calendario alumno Estructura -------------------------------*/
+#nx-archivos-adjuntos .box-header {
+   border-top:none !important;
+}
+
+#dvBotonesDetalleCalendario {
+   border-top:1px solid #dadada !important;
+}
+
+.nx-forma-de-trabajo-img-detalle-calendario 
+{
+    margin-left:10px;
+    margin-right:10px;
+    
+}
+
+/* ---------------------------------------- Administrador General - Correo -------------------------------*/
+.admnGralCorreoGv
+{
+    display:block;
+    width: 720px;
+    height: 300px !important;
+    overflow-y: scroll;
+    overflow-x: none;
+}
+
+.info
+{
+    margin-bottom: 30px;
+}
+/*--------------------------------------Archivos ------------------------------------------------------*/
+.archivo-fuera-tiempo
+{
+    color:#ff0000;
+}
+/*
+     FILE ARCHIVED ON 04:47:34 Nov 25, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:33:32 Apr 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.901
+  exclusion.robots: 0.042
+  exclusion.robots.policy: 0.024
+  esindex: 0.016
+  cdx.remote: 7.014
+  LoadShardBlock: 119.099 (3)
+  PetaboxLoader3.datanode: 89.317 (4)
+  PetaboxLoader3.resolve: 105.912 (2)
+  load_resource: 90.235
+*/

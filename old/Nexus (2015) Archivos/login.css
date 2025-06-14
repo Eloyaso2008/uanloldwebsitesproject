@@ -1,0 +1,94 @@
+html, body
+{
+    background-image:
+        linear-gradient(
+            to bottom, 
+            #edbd44,
+            #edbd44 65%,
+            #efc349 15%,
+            #efc349 85%
+        ) !important;
+    
+    /*background: #000;*/
+}
+
+.nx-back-img
+{ 
+    width:100% !important;
+    height: 100% !important;
+    display: block !important;
+    /*background: #efc349 url('/web/20151125071426im_/https://www.nexus.uanl.mx/App/img/funnyBck.jpg') no-repeat fixed center;
+    background-size: cover !important;
+    position: relative !important;*/
+}
+
+.nx-desenfocar
+{
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.nx-front-cnt
+{
+    width: 100% !important;
+    height: 100% !important;
+    background: transparent !important;
+    top: 0 !important;
+    left: 0 !important;
+    position: absolute !important;
+}
+
+html, body
+{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#aspnetForm
+{
+    background: transparent;
+}
+
+form
+{
+    overflow: hidden !important;
+}
+
+.ingreso
+{
+    top: 110px !important;
+}
+
+#ContentPlaceHolder2_btnContrasena:hover
+{
+    color: #146ab0 !important;
+    text-decoration: underline !important;
+}
+
+.carousel-indicators
+{
+    top: 340px !important;
+}
+/*
+     FILE ARCHIVED ON 07:14:26 Nov 25, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:33:32 Apr 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.549
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.009
+  esindex: 0.012
+  cdx.remote: 40.873
+  LoadShardBlock: 198.168 (3)
+  PetaboxLoader3.datanode: 224.395 (4)
+  load_resource: 273.519
+  PetaboxLoader3.resolve: 199.234
+*/
