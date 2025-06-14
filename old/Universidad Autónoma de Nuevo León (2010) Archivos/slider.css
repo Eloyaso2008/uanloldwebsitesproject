@@ -1,0 +1,49 @@
+/* Hoja de estilos de slider */
+a { text-decoration: none; }
+img { border: none; }
+li { list-style: none; }	
+div#slider {
+	position:relative;
+	width:  738px;
+	height: 150px;
+	color: #fff;
+	}
+div#banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:  738px;
+	height: 150px; }	
+div#ligas {
+	position: absolute;
+	right: 25px;
+	bottom: 10px; 	
+	height: 8px; }
+div#ligas a { 
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: url(/web/20100620155338im_/http://www.uanl.mx/interfase/bit.png) no-repeat top center;
+	text-decoration: none; 
+	opacity: 0.7; }
+	
+/*
+     FILE ARCHIVED ON 15:53:38 Jun 20, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:48:50 Apr 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.567
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.01
+  esindex: 0.013
+  cdx.remote: 11.898
+  LoadShardBlock: 73.18 (3)
+  PetaboxLoader3.datanode: 58.138 (4)
+  PetaboxLoader3.resolve: 95.78 (2)
+  load_resource: 101.063
+*/

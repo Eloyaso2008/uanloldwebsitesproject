@@ -1,0 +1,346 @@
+body {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 9pt;
+	background: transparent;
+}
+
+h3 {
+	padding-left: 20px;
+	font-size: 22pt;
+	font-weight: lighter;
+	color: #A8A8A8;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 0px 12px;
+	margin: 12px 10px 0px 10px;
+	padding-bottom: 0px;
+	background-image: url(/web/20090117073129im_/http://www.uanl.mx/interfase/enc_capint.gif);
+}
+
+h4 {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #4682B4;
+	background-color: transparent;
+	margin: 10px 0px -5px 0px;
+	padding: 0px;
+}
+
+h5 {
+	display: block;
+	margin: 0px 0px 10px 0px;
+	font-size: 10pt;
+	color: #818181;
+	background-color: transparent;
+	letter-spacing: 2px;
+	text-align: left;
+	padding: 0px;
+	font-variant: small-caps;
+}
+
+h6 {
+	display: block;
+	margin: 0px;
+	font-size: 7.5pt;
+	color: #818181;
+	background-color: transparent;
+	text-align: left;
+	padding: 0px;
+	font-weight: bolder;
+}
+
+.cita {
+	margin: 10px 25px;
+	background-repeat: no-repeat;
+	background-image: url(/web/20090117073129im_/http://www.uanl.mx/interfase/comillas1.gif);
+	padding-top: 10px;
+}
+
+blockquote{
+	margin: 0px;
+	text-indent: 25px;
+	color: #A0A0A0;
+	background: white;
+}
+
+cite{
+	padding-right: 25px;
+	padding-bottom: 10px;
+	text-align: right;
+	display: block;
+	color: #A0A0A0;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-image: url(/web/20090117073129im_/http://www.uanl.mx/interfase/comillas2.gif);
+	background-position: right bottom;	
+}
+
+/* Listas */
+ul {
+	list-style-type: square;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+/* tablas */
+table {
+	border: solid 1px #C8C8C8;
+}
+
+table caption {
+	font-family: Arial, Helvetica, Serif;
+	background-color: #bcbcbc;
+	color: #ffffff;
+	font-size: 9pt;
+	font-weight: bolder;
+	vertical-align: middle;
+	border: solid 1px #ababab;
+}
+
+table td {
+	border: solid 1px #e3e3e3;
+	padding: 3px;
+}
+
+h6 a{
+	text-transform: none;
+	text-decoration: none;
+}
+
+
+.cuadroblanco {
+background-color:#fafafa;
+border:1px solid #CCCCCC;
+width: 413px; 
+margin-left: 7px; }
+.poster {
+border:6px solid #fafafa; 
+height:180px; 
+width:400px; 
+display:block;
+} 
+.poster2 {
+border:6px solid #fafafa; 
+height:100px; 
+width:400px; 
+display:block;
+} 
+.poster img {
+border:0px; 
+height:180px; 
+width:400px;
+}
+.poster2 img {
+border:0px; 
+height:100px; 
+width:400px;
+}
+.tituloposter {
+color:#345F90;
+padding:0px;
+padding-left:8px;
+width:397px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10pt;
+}
+.postercontenido {
+color:#666666; 
+font-size:10px; 
+font-weight:normal
+}
+.posternoticia {
+text-align:right;
+font-size:9pt;
+font-weight:bold;
+}
+.negritas {
+font-weight:bold;
+}
+ul.noticias {
+list-style-type:none; 
+margin:0px; 
+padding:10px; 
+font-size:9pt; 
+color:#636363; 
+background-color:#e3e3e3; 
+line-height:12pt;
+width: 395px; 
+margin-left:7px;
+
+}
+ul.noticias li.encabezado {
+margin:0px;
+padding:0px;
+background:none;
+text-transform: capitalize;
+font-weight: bold;
+font-size: 10pt; 
+}
+ul.noticias li {
+margin-left:20px;
+padding-left:20px;
+background-repeat:no-repeat; 
+background-image:url(/web/20090117073129im_/http://www.uanl.mx/interfase/list.gif); 
+background-position:0% 60%;
+}
+ul.noticias li.todasnoticias {
+text-align:right; 
+background:none;
+margin-top:10px;
+}
+ul.noticias li a, .todasnoticias a {
+color:#636363;
+text-decoration:none;
+}
+ul.noticias li a:hover, .todasnoticias a:hover{
+color:#345F90;
+text-decoration:none;
+}
+
+.cbe2 .titulobienv, .cbe2 .titulonot, .cbe2 .tituloev, .cbe2 .titulonov {
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	line-height: 1em;
+	margin-top: 4px;
+	font-size: 11pt;
+	background-color: #ffffff;
+}
+
+.cbe2 .titulobienv {
+	color: #345F90;
+}
+
+.cbe2 .titulonot {
+	color: #0060A1;
+}
+
+.cbe2 .titulonov {
+	color: #B88D26;
+}
+
+.cbe2 .tituloev {
+	color: #8CAE73;
+}
+
+.basecb2 .cbe2 {
+	position: static;
+	text-align: left;
+	margin: auto;
+	background-repeat: repeat-y;
+	width: 416px;
+	background-image: url("/web/20090117073129im_/http://www.uanl.mx/interfase/cuadro_blanco_bg2.gif");
+}
+
+.basecb2 .cbe2 p {
+	position: static;
+	margin: 2px 5px;
+	font-size: 7.5pt;
+	height: 70px;
+	text-align: justify;
+}
+
+.basecb2 .cbe2>p {
+	height: auto;
+	min-height: 90px;
+	margin: 2px 7px;
+}
+
+.basecb2 .cbe2 p span {
+	position: static;
+	display: block;
+	margin: 0px;
+	padding-left: 3px;
+}
+
+.basecb2 .cbe2 p span.resumen {
+	margin-right: 6px;
+}
+
+.basecb2 .cbe2 p img {
+	position: static;
+	display: block;
+	margin-right: 5px;
+	float: left;
+}
+
+#centro .basecb2 .cbe2 a:link, #centro .basecb2 .cbe2 a:visited {
+	text-decoration: none;
+	color: #B2B2B2;
+	background-color: #F5F5F5;
+}
+
+#centro .basecb2 .cbe2 a .titulobienv {
+	background-color: #f5f5f5;
+	color: #345F90;
+}
+
+#centro .basecb2 .cbe2 a:link .titulonov {
+	background-color: #f5f5f5;
+	color: #B88D26;
+}
+
+.form_text{
+	font-size: 8pt;
+}
+
+.nav_eve{
+	text-align: right; 
+	margin-top: 2px; 
+	padding-right: 9px;
+	margin-bottom: 2px; 
+}
+
+.nav_eve a{
+	background-color: #ededed; 
+	text-decoration: none !important;
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #EDEDED; 
+	background-color: #ececec;
+}
+
+.sin_img{
+	position: static;
+	margin: 2px 9px;
+	font-size: 7.5pt;
+	text-align: justify;
+}
+
+.sin_img .resumen{
+	margin-right: 6px;
+	display: block;
+}
+
+.sin_img .st_margen{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 80px;
+}
+
+.leercompb a{
+	display: block;
+	text-align: right !important;
+}
+/*
+     FILE ARCHIVED ON 07:31:29 Jan 17, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:48:00 Apr 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.428
+  exclusion.robots: 0.016
+  exclusion.robots.policy: 0.007
+  esindex: 0.009
+  cdx.remote: 39.195
+  LoadShardBlock: 73.251 (3)
+  PetaboxLoader3.datanode: 81.954 (4)
+  load_resource: 129.281
+  PetaboxLoader3.resolve: 94.141
+*/

@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="es">
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />		
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>Universidad Autónoma de Nuevo León</title>
+
+		<!-- Stylesheets -->		
+		<link type="image/x-icon" rel="shortcut icon" href="/sites/default/files/UANL_favicon.ico">
+		<link type="text/css" rel="stylesheet" href="/sites/all/themes/UANL/css/velvet.css" media="all">
+		
+		<!-- Scripts -->
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="/sites/all/themes/UANL/js/jquery.cycle2.min.js"></script>
+		<script type="text/javascript" src="/sites/all/themes/UANL/js/jquery.cycle2.carousel.min.js"></script>
+		<script type="text/javascript" src="/sites/all/themes/UANL/js/jquery.colorbox.js"></script>
+		<script type="text/javascript" src="/sites/all/themes/UANL/js/jqtabs.js"></script>
+		<script type="text/javascript" src="/sites/all/themes/UANL/js/velvet.js"></script>
+
+	</head>
+
+	<body>
+		<div class="menu-profiles">
+			<div class="nav">
+				<ul>
+					<li>
+						<a href="/content/servicios-alumnos">Alumnos</a>
+					</li>
+					<li>
+						<a href="/aspirantes/%5Bfield_cnt_uni_mnu-raw%5D/servicios-aspirantes.html">Aspirantes</a>
+					</li>
+					<li>
+						<a href="/content/servicios-profesores">Profesores</a>
+					</li>
+					<li>
+						<a href="/content/servicios-ex-alumnos">Ex alumnos</a>
+					</li>
+				</ul>
+			</div> <!-- nav -->
+		</div> <!-- menu-profiles -->		
+	  	<div class="page inner">
+			
+			<div class="body">
+			
+				<div class="sidebar">
+					<div class="section">
+						<div class="header">
+							<a href="/">
+								<img class="logo uanl" alt="Logotipo de la Universidad Autónoma de Nuevo León" src="/sites/all/themes/UANL/img/uanl-logo.png">
+							</a>
+						</div>
+						<div class="nav nav-side">
+						<a class="menu-toggler" href="#">Menú Principal</a><ul class="menu"><li class="collapsed first"><a href="/universidad" title="La Universidad Autónoma de Nuevo León">La UANL</a></li>
+<li class="leaf"><a href="/oferta/oferta-educativa.html" title="Oferta educativa">Oferta Educativa</a></li>
+<li class="leaf"><a href="/educacion_continua.html" title="Educación continua">Educación Continua</a></li>
+<li class="leaf"><a href="http://www.dgb.uanl.mx/" title="Bibliotecas">Bibliotecas</a></li>
+<li class="leaf"><a href="http://arteycultura.uanl.mx/" title="Arte y cultura">Arte y Cultura</a></li>
+<li class="collapsed"><a href="/universidad/investigacion/investigacion.html" title="Investigación">Investigación</a></li>
+<li class="leaf"><a href="http://eprints.uanl.mx/" title="Repositorio institucional">Repositorio Institucional</a></li>
+<li class="leaf last"><a href="http://transparencia.uanl.mx/" title="Transparencia">Transparencia</a></li>
+</ul>						</div> <!-- nav -->  				
+					</div> <!-- section -->
+				</div> <!-- sidebar -->
+				
+					<div class="main-content">				
+
+					<div class="head">
+						<div class="services">
+							<a class="online" href="http://www.uanl.mx/enlinea">Servicios en línea</a>
+							<div class="fright">
+																<div id="block-search-0" class="block block-search">
+									<h2>Buscar</h2>
+
+									 <div class="content">
+										<form action="/utilerias/buscador.php"  accept-charset="UTF-8" method="get" id="search-block-form">
+											<div>
+												<div class="container-inline">
+													<div class="form-item" id="edit-search-block-form-1-wrapper">
+														<label for="edit-search-block-form-1">Buscar: </label>
+														<input type="text" maxlength="128" name="q" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text">
+													</div>
+													<input type="submit" name="op" id="edit-submit" value=""  class="form-submit">
+													<input type="hidden" name="form_build_id" id="form-58802436b17444776ceb1107ec7db65a" value="form-58802436b17444776ceb1107ec7db65a">
+													<input type="hidden" name="form_token" id="edit-search-block-form-form-token" value="034c1f53afda5df37f4f9377dd7bd47f">
+													<input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form">
+												</div>
+
+											</div>
+										</form>
+									</div>
+									
+								</div>
+								<a class="english" href="/utilerias/folletouanl_ingles.pdf">English</a>
+							</div>
+						</div> <!-- Servicios -->
+					
+						<div class="breadcrumbs">
+						<span class="breadcrumb current"><a href="/">Home</a></span>						</div> <!-- breadcrumbs -->
+					
+					</div>  <!-- head -->
+				
+					<div class="node">
+						<!-- Contenido del nodo -->
+						<!-- Tipo de contenido genérico; se utilizará cuando algún tipo de contenido no tenga plantilla asignada -->
+<h1>
+Error 404</h1>
+
+<div class="text">
+<p>Página no encontrada....</p>
+	
+</div> <!-- text -->
+
+<div class="side">
+	
+	<!-- Ligas relacionadas -->	
+		
+	<!-- Documentos relacionados -->
+		
+</div> <!-- side -->						
+					</div> <!-- node -->
+					
+				</div> <!-- main-content -->
+	  		</div> <!-- body -->
+			
+			<div class="footer">
+	  			<div class="top">				
+	  				<div class="nav">
+	  					<ul>
+	  						<li><strong>Acerca de la UANL</strong></li>
+	  						<li><a href="/universidad/antecedentes">Antecedentes</a></li>
+	  						<li><a href="/universidad/antecedentes/pagina-del-rector.html">Página del Rector</a></li>
+	  						<li><a href="/universidad/organigramas.html">Organigramas</a></li>
+	  						<li><a href="/universidad/escuelas-y-facultades.html">Escuelas y facultades</a></li>
+	  						<li><a href="/universidad/deportes">Deportes</a></li>
+	  					</ul>
+	  					<ul>
+	  						<li><strong>Perfiles</strong></li>
+	  						<li><a href="/aspirantes/%5Bfield_cnt_uni_mnu-raw%5D/servicios-aspirantes.html">Aspirantes</a></li>
+	  						<li><a href="/content/servicios-alumnos">Alumnos</a></li>
+	  						<li><a href="/content/servicios-ex-alumnos">Egresados</a></li>
+	  						<li><a href="/content/servicios-profesores">Profesores</a></li>	  						
+	  					</ul>	  					
+						<ul>
+							<li><strong>Media</strong></li>
+							<li><a href="/noticias.html">Noticias</a></li>
+							<li><a href="/eventos.html">Eventos</a></li>
+							<li><a href="http://www.uanl.mx/radiouanl/programacion.html">Radio UANL</a></li>
+							<li><a href="http://www.uanl.mx/canal53/programacion.html">Canal 53</a></li>
+							<li><a href="http://www.uanl.tv/">WebTV</a></li>							
+						</ul>
+						<ul>
+	  						<li><strong>General</strong></li>
+	  						<li><a href="/universidad/investigacion/investigacion.html">UANL ciencia</a></li>
+	  						<li><a href="/universidad/arte-y-cultura">UANL arte y cultura</a></li>
+	  						<li><a href="mailto:comentarios@uanl.mx">Contacto</a></li>
+	  					</ul>
+	  				</div> <!-- nav -->	  				
+	  			</div> <!-- top -->				
+	  			<div class="bottom">					
+	  				<div class="contact">
+		  				<p class="uanl">UNIVERSIDAD AUTÓNOMA DE NUEVO LEÓN | 2013</p>
+		  				<p>Pedro de Alba s/n, San Nicolás de Los Garza, Nuevo León</p>
+	  				</div>
+					<p class="logos">
+						<a class="overlay-trigger mapa site-map" href="/sites/all/themes/UANL/emergentes/mapa-sitio.html">Mapa del sitio</a>
+						<a class="contraloria" href="http://uanl.mx/utilerias/contraloria_social/">Contraloría Social</a>
+						<a class="transparencia" href="http://transparencia.uanl.mx/">Transparencia</a>
+					</p>
+	  			</div> <!-- bottom -->  				
+	  		</div> <!-- footer -->
+	  	</div> <!-- page -->
+		
+	</body>
+</html>
