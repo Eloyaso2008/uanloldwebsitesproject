@@ -1,0 +1,2025 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #666666;
+	background-color: #ececec;
+	text-align: center;
+}
+
+#contenedor {
+	position: relative;
+	width: 748px;
+	margin: -5px auto;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/main_bg.gif);
+	text-align: left;
+}
+
+#top {
+	position: relative;
+	width: 748px;
+	height: 20px;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/main_top.gif);
+	overflow: hidden;
+}
+
+#bot {
+	position: relative;
+	width: 748px;
+	height: 35px;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/main_bot.gif);
+	overflow: hidden;
+}
+
+#encabezado {
+	position: relative;
+	width: 738px;
+	height: 235px;
+	margin: 0px 5px;
+}
+
+#logo {
+	position: absolute;
+	top: 4px;
+	left: 30px;
+	width: 152px;
+	height: 69px;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/logo_head.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin: 0px;
+}
+
+#logo span {
+	display: block;
+	padding-top: 68px;
+}
+
+#luto {
+position: absolute;
+	top: -7px;
+	left: 293px;
+	width: 145px;
+	height: 48px;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/luto.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin: 0px;
+}
+
+#luto span {
+	display: block;
+	padding-top: 68px;
+}
+
+#fotomain {
+	position: absolute;
+	top: 75px;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/main_foto_bg.gif);
+	height: 160px;
+	width: 738px;
+}
+
+#fotomain img {
+	display: block;
+	margin-top: 10px;
+}
+
+#cuerpo {
+	position: relative;
+	margin: 0px 5px;
+	background-repeat: repeat-y;
+	padding: 0px;
+	width: 738px;
+}
+
+.main {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/body_bg_main.gif);
+}
+
+.interior {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/body_bg_int.gif);
+}
+
+#ctop {
+	position: relative;
+	width: 738px;
+	height: 35px;
+	z-index: 50;
+	margin: 0px;
+}
+
+.main #ctop {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/body_top_main.gif);
+}
+
+.interior #ctop {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/body_top_int.gif);
+}
+
+
+#cbot {
+	position: relative;
+	width: 738px;
+	height: 5px;
+	overflow: hidden;
+	clear: both;
+}
+
+#cbody {
+	z-index: 100;
+	margin: 0px;
+}
+
+#izquierda {
+	position: relative;
+	width: 159px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+.menu {
+	position: relative;
+	margin: 0px 5px 0px 4px;
+	padding: 0px;
+	border-top: 4px solid #ffffff;
+}
+
+.menu li {
+	margin: 0px;
+	display: block;
+	width: 150px;
+	color: #ffffff;
+	background-color: #e9e9e9;
+	padding: 0px;
+}
+
+.menu li.titulo {
+	margin: 0px;
+	display: block;
+	width: 150px;
+	background-color: #cfcfcf;
+	color: #ffffff;
+	padding: 0px;
+}
+
+.menu li.titulo span a, .menu li.titulo span a:hover, .menu li.titulo span a:visited {
+	background-image: none;
+	color: #ffffff;
+	background-color: #CFCFCF;
+	text-decoration: none;
+	border-bottom: 0px;
+}
+
+.menu li.titulo a img {
+	margin-top: 4px;
+}
+
+.menu li.titulo span {
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	border-bottom: 1px solid #ffffff;
+	font-size: 9pt;
+	font-weight: bold;
+	padding: 0px 5px;
+	color: #ffffff;
+	background-color: #CFCFCF;
+}
+
+.menu li a {
+	display: block;
+	height: 25px;
+	border-bottom: 1px solid #ffffff;
+	font-size: 9pt;
+}
+
+.menu li a span {
+	display: block;
+	padding: 4px 3px 1px 18px;
+}
+
+.menu li>a {
+	min-height: 25px;
+	height: auto;
+}
+
+.menu li a:link, .menu li a:visited {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/boton_menu_izq_off.gif);
+	background-repeat: no-repeat;
+	color: #888888;
+	background-color: #E9E9E9;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/boton_menu_izq_on.gif);
+}
+
+.menu li a.seleccionado:link, .menu li a.seleccionado:visited, .menu li a.seleccionado:hover {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/boton_menu_izq_sel.gif);
+}
+
+h2.subenc {
+	margin: 0px 4px 6px 5px;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #ffffff;
+	background-color: #d29e23;
+	border-top: 4px solid #ffffff;
+	text-align: center;
+}
+
+h2.subenc a {
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #D29E23;
+}
+
+h2.subenc2 {
+	margin: 0px 4px 0px 5px;
+	padding: 9px 5px 7px 18px;
+	font-size: 11pt;
+	color: #ffffff;
+	background-color: #D2D2D2;
+	border-top: 4px solid #ffffff;
+	border-bottom: 4px solid #ffffff;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/subenc_gris3.gif);
+	background-repeat: no-repeat;
+	background-position: 2px 14px;
+	line-height: 1em;
+}
+
+#derecha>h2.subenc2 {
+	background-position: center left;
+}
+
+
+.submenu {
+	position: relative;
+	margin: 1px 6px 0px 7px;
+	padding: 0px;
+}
+
+.submenu li {
+	margin: 0px 0px 2px 0px;
+	padding: 0px 0px 2px 0px;
+	display: block;
+	width: 126px;
+	background-color: #ffffff;
+	color: #000000;
+	vertical-align: middle;
+}
+
+.submenu li a {
+	display: block;
+	height: 25px;
+	border-bottom: 1px solid #e2e2e2;
+	font-size: 9pt;
+}
+
+.submenu li a span {
+	display: block;
+	padding: 4px 3px 4px 18px;
+}
+
+.submenu li>a, .submenu li>a.reg {
+	min-height: 25px;
+	height: auto;
+}
+
+.submenu li a:link, .submenu li a:visited, .submenu li a.reg:link, .submenu li a.reg:visited {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/boton_menu_der_off.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	color: #666666;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+
+.submenu li a.reg:link, .submenu li a.reg:visited {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/boton_menu_der_on_reg.gif);
+}
+
+.submenu li a.reg {
+	margin-left: 4px;
+}
+
+.submenu li a.reg span {
+	display: block;
+	padding: 4px 3px 4px 18px;
+}
+
+.submenu li a.reg:hover {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/boton_menu_der_off_reg.gif);
+}
+
+.submenu li a:hover {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/boton_menu_der_on.gif);
+}
+
+.submenu li a.seleccionado:link, .submenu li a.seleccionado:visited, .submenu li a.seleccionado:hover {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/boton_menu_der_sel.gif);
+}
+
+.submenu li.titulo {
+	min-height: 25px;
+	margin: 0px;
+	width: 126px;
+	display: block;
+	background-color: #D2D2D2;
+	color: #ffffff;
+	padding: 0px;
+}
+
+.submenu li.titulo span {
+	display: block;
+	font-size: 9pt;
+	font-weight: bold;
+	padding: 5px 0px 5px 10px;
+}
+
+
+#derecha {
+	position: relative;
+	width: 139px;
+	float: right;
+	display: inline;
+}
+
+#centro {
+	position: relative;
+	top: 5px;
+	margin: 0px 144px 0px 164px;
+	z-index: 1000;
+}
+
+.basecb {
+	position: relative;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.basecb .cb, .basecb .ce {
+	position: relative;
+	width: 414px;
+	display: block;
+	text-align: left;
+	margin: auto;
+	background-color: #ffffff;
+	color: #666666;
+	background-repeat: repeat-y;
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/cuadro_blanco_bg.gif");
+}
+
+.basecb .cbtop {
+	position: relative;
+	height: 6px;
+	overflow: hidden;
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/cuadro_blanco_top.gif");
+}
+
+.basecb .cbbot {
+	position: relative;
+	height: 4px;
+	overflow: hidden;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/cuadro_blanco_bot.gif);
+}
+
+.cb p {
+	margin: 2px 5px;
+	font-size: 7.5pt;
+	height: 70px;
+	text-align: justify;
+}
+
+.cb>p {
+	height: auto;
+	min-height: 90px;
+	margin: 2px 7px;
+}
+
+.cb p span {
+	display: block;
+	margin: 0px;
+	padding-left: 123px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////
+ Area temporal 
+/////////////////////////////////////////////////////////////////////////////// */
+
+.ce p {
+	margin: 2px 5px;
+	font-size: 7.5pt;
+	height: 70px;
+	text-align: justify;
+}
+
+.ce>p {
+	height: auto;
+	min-height: 90px;
+	margin: 2px 7px;
+}
+
+.ce p img {
+	display: block;
+	margin-right: 5px;
+	float: left;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////
+ Aqui termina el Area temporal 
+/////////////////////////////////////////////////////////////////////////////// */
+
+.cb p img {
+	display: block;
+	margin-right: 5px;
+	float: left;
+}
+
+.cb p span.resumen {
+	margin-right: 6px;
+}
+
+.cb p a:link, .cb p a:visited {
+	text-decoration: none;
+	color: #B2B2B2;
+	background-color: #ffffff;
+}
+
+.cb .titulobienv, .cb .titulonot, .cb .tituloev, .cb .titulonov {
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	line-height: 1em;
+	margin-top: 4px;
+	font-size: 11pt;
+	background-color: #ffffff;
+}
+
+.cb .titulobienv {
+	color: #345F90;
+}
+
+.cb .titulonot {
+	color: #0060A1;
+}
+
+.cb .titulonov {
+	color: #B88D26;
+}
+
+a .titulonot{
+	font-size: 11px;
+}
+
+.cb .tituloev {
+	color: #8CAE73;
+}
+
+.leercompa, .leercompb, .leercompc {
+	position: absolute;
+	right: 5px;
+	text-decoration: none;
+	text-align: right;
+	text-transform: lowercase;
+	font-weight: bolder;
+	margin-right: 5px;
+	bottom: 0px;
+	font-size: 12pt;
+}
+
+#centro .cb .leercompa a {
+	color: #AD3D5F;
+	background-color: #ffffff;
+}
+
+#centro .cb .leercompb a {
+	color: #597F3C;
+	background-color: #ffffff;
+}
+
+#centro .cb .leercompc a {
+	color: #345F90;
+	background-color: #ffffff;
+}
+
+.iconos {
+	position: relative;
+	margin: 0px 4px 0px 6px;
+	padding: 0px;
+	border-top: 4px solid #ffffff; 
+	top: -5px;
+}
+
+#derecha>.iconos {
+	margin: 0px 5px 0px 5px;
+}
+
+.iconos li {
+	margin: 0px;
+	display: block;
+	width: 130px;
+	height: 50px;
+	background-color: #AAAAAA;
+	color: #000000;
+	padding: 0px;
+	overflow: hidden;
+	border-bottom: 4px solid #ffffff;
+}
+
+.iconos li a:link, .iconos li a:visited {
+	display: block;
+	width: 130px;
+	height: 50px;
+	background-position: left top;
+	overflow: hidden;
+}
+
+.iconos li a:hover {
+	background-position: 0px -50px;
+}
+
+.iconos li a span {
+	display: block;
+	padding-top: 50px;
+}
+
+.iconos li a.enlamira {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/ico_enlamira.gif);
+}
+
+.iconos li a.observatorio {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/ico_observatorio.gif);
+}
+
+.iconos li a.acervo {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/ico_acervo.gif);
+}
+
+.iconos li a.emprendedor {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/ico_emprendedor.gif);
+}
+
+.iconos li a.herencia {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/ico_herencia.gif);
+}
+
+.iconos li a.traslapista {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/ico_traslapista.gif);
+}
+
+.iconos li a.nuestraimagen {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/ico_nuestraimagen.gif);
+}
+
+.img_head {
+	width: 423px;
+	margin: 10px 0px 0px 0px;
+}
+
+#centro>.img_head {
+	margin-left: 3px;
+	margin-top: 10px;
+}
+
+.contreg {
+	position: relative;
+	padding: 0px 0px 10px 0px;
+	margin: 10px 4px 10px 2px;
+}
+
+.cron p {
+	position: relative;
+	margin: 15px 0px 0px 0px;
+}
+
+.cron p span {
+	font-weight: bold;
+	font-size: 25pt;
+	color: #DFDFDF;
+	background-color: #ffffff;
+	display: block;
+}
+
+.cron ul {
+	margin-top: 0px;
+	padding-top: 0px;
+	list-style: square;
+}
+
+div.ligasrel p.separador {
+	position: relative;
+	margin: 15px 0px;
+	background-color: #bfbfbf;
+	padding: 20px 5px 2px 5px;
+	font-size: 10pt;
+	color: #ffffff;
+	font-weight: bold;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/flecha.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+div.ligasrel ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+div.ligasrel ul li {
+	display: block;
+	list-style: none;
+	margin: 0px 0px 2px 0px;
+	padding: 0px;
+}
+
+div.ligasrel li a {
+	display: block;
+	position: relative;
+	padding-left: 22px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	height: 20px;
+}
+
+div.ligasrel>ul>li>a {
+	height: auto;
+	min-height: 20px;
+}
+
+div.ligasrel li a:link, div.ligasrel li a:visited {
+	text-decoration: none;
+	color: #376A97;
+	background-color: #ffffff;
+}
+
+div.ligasrel li a:hover {
+	text-decoration: underline;
+	background-color: #F8F8F8;
+	color: #000000;
+}
+
+a.pdf {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/pdf20.gif);
+}
+
+a.doc {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/word20.gif);
+}
+
+a.xls {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/excel20.gif);
+}
+
+a.www {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/web20.gif);
+}
+
+a.ppt {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/ppt20.gif);
+}
+
+a.img {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/img20.gif);
+}
+
+a.zip {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/zip20.gif);
+}
+
+div.contreg div.editor {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/firma.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	padding-left: 50px;
+	height: 50px;
+}
+
+div.contreg>div.editor {
+	height: auto;
+	min-height: 50px;
+}
+
+.login {
+	position: relative;
+	margin: -5px 0px 0px 0px;
+	padding: 0px;
+}
+
+#izquierda>.login {
+	margin-top: 10px;
+}
+
+.login form {
+	text-align: center;
+	font-size: 9pt;
+}
+
+.login form label {
+	font-size: 8pt;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.login p, .login p a {
+	margin: 5px 2px 5px 2px;
+	color: #A91B25;
+	background-color: #ffffff;
+	font-size: 7pt;
+}
+
+.login #usr, .login #pwd {
+	width: 100px;
+	height: 15px;	
+}
+
+/* HTML GENERAL */
+.contreg p {
+	text-align: justify;
+}
+
+.contreg .cita {
+	margin: 10px 25px;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/comillas1.gif);
+	color: #A0A0A0;
+	background-color: #ffffff;
+}
+
+.contreg .cita blockquote{
+	margin: 0px;
+	text-indent: 25px;
+}
+
+.contreg .cita cite {
+	padding-right: 25px;
+	padding-bottom: 10px;
+	text-align: right;
+	display: block;
+	background-repeat: no-repeat;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/comillas2.gif);
+	background-position: right bottom;	
+}
+
+#centro a {
+	text-decoration: underline;
+	color: #666666;
+	background-color: #ffffff;
+}
+
+#centro .contreg a {
+	color: #666666;
+	background-color: #ffffff;
+}
+
+
+/* Formularios */
+.contreg form select, .contreg form select option {
+	font-size: 8pt;
+}
+
+.slad {
+	width: 230px;
+}
+
+.slgrande {
+	width: 410px;
+}
+
+/* Listas */
+.contreg ul {
+	list-style-type: square;
+}
+
+.contreg ul li, .contreg ol li {
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+.contreg ol {
+	list-style-type: decimal;
+}
+
+/* tablas */
+#centro .contreg table {
+	margin: auto;
+	padding: 0px;
+	width: 400px;
+}
+
+.contreg table caption {
+	background-color: #bcbcbc;
+	color: #ffffff;
+	font-size: 9pt;
+	font-weight: bolder;
+	border: solid 1px #ababab;
+}
+
+.contreg table td {
+	border: solid 1px #e3e3e3;
+	padding: 3px;
+	font-size: 9pt;
+}
+
+/* Esto se lo Agrege el 13 de Junio */
+.contreg table th {
+	font-size: 9pt;
+	text-align: left;
+}
+/* Hasta aqui */
+
+/* Menu Superior */
+#menutop {
+	position: absolute;
+	width: 410px;
+	height: 40px;
+	right: 4px;
+	top: 62px;
+	z-index: 800;
+	font-weight: bolder;
+	padding: 0px;
+	margin: 0px;
+}
+
+#contenedor>#encabezado>#menutop {
+	top: 60px;
+}
+
+ul#menutop li {
+	display: inline;
+	font-size: 7.5pt;
+	text-transform: Capitalize;
+}
+
+ul#menutop li span a {
+	color: #8D8D8D;
+	text-decoration: none;
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/triangtop.gif");
+	background-repeat: no-repeat;
+	padding-bottom: 12px;
+}
+
+ul#menutop li span a:hover {
+	background-position: center bottom;
+}
+/* Termina Menu Superior */
+
+/* Inicia Contenido Principal */
+h2.bienv, h2.nov {
+	padding-left: 25px;
+	font-size: 28pt;
+	font-weight: normal;
+	color: #ffffff;
+	background-color: #E3E3E3;
+	background-repeat: no-repeat;
+	background-position: 0px 12px;
+	margin: 10px 10px 15px 10px;
+	padding-bottom: 0px;
+	display: inline;
+	text-transform: lowercase;
+}
+
+h3.not, h3.ev {
+	padding-left: 35px;
+	font-size: 28pt;
+	font-weight: normal;
+	color: #ffffff;
+	background-color: #E3E3E3;
+	background-repeat: no-repeat;
+	background-position: 10px 12px;
+	margin: 10px 10px 15px 10px;
+	padding-bottom: 0px;
+	display: inline;
+	text-transform: lowercase;
+}
+
+h2.bienv {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/encgris_bg2.gif);
+}
+
+h2.nov {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/encgris_bg3.gif);
+}
+
+h3.ev {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/encgris_bg3.gif);
+}
+
+h3.not {
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/encgris_bg2.gif);
+}
+/* Termina Contenido Principal */
+
+/* Empiezan Accesos Rapidos */
+.accesosr {
+	width: 411px;
+	color: #000000;
+	background-color: #fafafa;
+	margin: 7px 0px 15px 6px;
+	padding: 5px 0px 5px 0px;
+	border-top: solid 9px #345F90;
+}
+
+.contmain>.accesosr {
+	margin-left: 9px;
+}
+
+.accesosr ul {
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+}
+
+.accesosr ul li {
+	display: inline;
+	margin: 0px;
+	padding: 0px 8px 0px 0px;
+	font-size: 7pt;
+}
+
+.accesosr ul li.titulo {
+	display: block;
+	color: #40617F;
+	background-color: #FAFAFA;
+	font-size: 8.5pt;
+	font-weight: bold;
+	margin-top: -2px;
+	margin-bottom: 4px;
+}
+
+#centro .accesosr ul li a {
+	color: #9A9A9A;
+	background-color: #FAFAFA;
+	font-size: 7pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+/* Terminan Accesos Rapidos*/
+#centro span.extnov a, #centro span.extnov a:hover {
+	text-decoration: none;
+	color: #666666;
+	background-color: #E3E3E3;
+}
+
+.extnov a {
+	border-bottom: solid 1px #BBCDAF;
+	color: #636363;
+	background-color: #E3E3E3;
+	font-size: 7pt;
+	text-align: right;
+	padding-left: 105px;
+	padding-right: 5px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+#centro span.extnot a, #centro span.extnot a:hover {
+	text-decoration: none;
+	color: #666666;
+	background-color: #E3E3E3;
+}
+
+.extnot a {
+	border-bottom: solid 1px #9DAEC2;
+	font-size: 7pt;
+	text-align: right;
+	padding-left: 165px;
+	padding-right: 4px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+#centro span.extev a, #centro span.extev a:hover {
+	text-decoration: none;
+	color: #666666;
+	background-color: #E3E3E3;
+}
+
+.extev a {
+	border-bottom: solid 1px #BBCDAF;
+	font-size: 7pt;
+	text-align: right;
+	padding-left: 168px;
+	padding-right: 5px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.extev>a {
+	padding-left: 160px;
+	padding-right: 6px;
+}
+
+/* Empieza UANL en Linea */
+.auxextra2, .auxextra4 {
+	position: relative;
+	margin: 20px 0px 20px 3px;
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/uanlinea.gif");
+	width: 415px;
+}
+
+.contmain>.auxextra2, .contreg>.auxextra4 {
+	margin-left: 7px;
+	min-height: 85px;
+	height: auto;
+}
+
+.auxextra4 {
+	position: relative;
+	border: solid 2px #DEDEDE;
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/bg_uanlinea.gif");
+	overflow: hidden;
+	left: 1px;
+}
+
+.contreg>.auxextra4 {
+	left: -2px;
+}
+
+.contmain .auxextra2 .bq, .auxextra4 .bq {
+	position: relative;
+	float: left;
+	width: 240px;
+	margin: 5px 5px 5px 9px;
+	font-size: 8pt;
+	font-style: italic;
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/comillas3.gif");
+	background-repeat: no-repeat;
+	background-position: 4px 5px;
+	padding-top: 4px;
+	text-indent: 5px;
+	display: inline;
+}
+
+.contmain .auxextra2 .bq p, .auxextra4 .bq p {
+	font-size: 8pt;
+	margin: 0px;
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/comillas4.gif");
+	background-repeat: no-repeat;
+	background-position: 158px 30px;
+	padding: 0px 0px 0px 12px;
+	text-align: center;
+}
+
+.contmain .auxextra2 .qcklink, .auxextra4 .qcklink {
+	position: relative;
+	float: right;
+	right: 17px;
+	margin-top: 7px;
+}
+
+.auxextra2 .qcklink ul, .auxextra4 .qcklink ul {
+	margin: 0px 0px 5px 5px;
+	padding: 0px 0px 0px 15px;
+	list-style-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/list2.gif");
+}
+
+.auxextra2 .qcklink ul li, .auxextra4 .qcklink ul li {
+	margin-bottom: 2px;
+}
+
+#centro .contmain .auxextra2 .qcklink ul li a, #centro .contreg .auxextra4 .qcklink ul li a {
+	font-weight: bolder;
+	color: #345F90;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+
+.auxextra2 .titulo, .auxextra4 .titulo {
+	font-size: 10pt;
+	font-weight: bolder;
+	background-color: #EBC467;
+	color: #ffffff;
+	padding: 2px 0px 0px 8px;
+	margin: 0px 0px 0px 1px;
+}
+
+.auxextra4 .titulo {
+	margin: 0px;
+	padding: 2px;
+}
+/* Termina UANL en linea */
+
+/* Inicia Centrado */
+#centro .contreg .centrado {
+	text-align: center;
+	padding: 0px;
+	display: block;
+	margin: auto;
+}
+
+.centrado img {
+	display: block;
+	margin: auto;
+}
+
+#centro .contreg .r {
+	text-align: right;
+}
+
+
+h6.r {
+	text-align: right;
+}
+/* Termina Centrado */
+
+ul.mlink {
+	position: relative;
+	list-style-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/list.gif");
+	padding-left: 50px;
+	margin: 10px 0px 30px 0px;
+	font-weight: bolder;
+	line-height: 11pt;
+}
+
+ul.mlink li.titulo {
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0px 0px 3px -35px; 
+	padding: 0px;
+	text-transform: capitalize;
+	font-weight: bolder;
+	font-size: 8pt;
+}
+
+.contmain>ul.mlink>li.titulo {
+	margin-left: -35px;
+}
+
+#centro .mlink li a {
+	text-decoration: none;
+	color: #636363;
+	font-size: 7pt;
+	background-color: #E3E3E3;
+}
+
+#centro .mlink li a:hover {
+	color: #345F90;
+	background-color: #E3E3E3;
+}
+
+/* Inicia Vision 2012 */
+#vision2012 {
+	position: relative;
+	margin: 0px;	
+	clear: both;
+	right: 30px;
+	left: 620px;
+	bottom: 0px;
+	top: 5px;
+	width: 86px;
+	height: 65px;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/vision2012.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#vision2012 span {
+	display: block;
+	padding-top: 70px;
+}
+/* Fin Vision 2012 */
+
+/* Inicio Firma */
+#firma {
+	text-align: left;
+	margin: 5px auto;
+	width: 740px;
+	position: relative;
+	font-weight: bolder;
+	color: #989898;
+	background-color: #ECECEC;
+}
+
+#firma p {
+	position: relative;
+	width: 300px;
+	border-top: solid 1px #D4D4D4;
+	font-size: 8pt;
+	padding-top: 3px;
+	float: right;
+	display: inline;
+	margin-right: 235px;
+	margin-top: 10px;
+}
+
+#firma img {
+	margin-top: 10px;
+	margin-left: 7px;
+}
+
+#firma>img {
+	margin-top: 0px;
+}
+
+#firma a {
+	text-decoration: none;
+	color: #989898;
+	background-color: #ECECEC;
+}
+
+#firma a:hover {
+	color: #4682B4;
+	background-color: #ECECEC;
+}
+/* Fin Firma */
+
+/* Iconos: home, contactar, imprimir, enviar */
+#top_ico {
+	position: absolute; 
+	right: 15px; 
+	border: 0px;
+	top: -10px;
+	font-size: 8pt;
+}
+
+#top_ico a img {
+	border: 0px;
+	margin-right: 5px;
+}
+
+#top_ico a {
+	text-decoration: none;
+	color: #8B8B8B;
+	background-color: #ffffff;
+}
+
+#centro a.sndths, #centro a.prnths {
+	color: #345F90;
+	text-decoration: none;
+	background-color: #ffffff;
+}
+
+#centro a.sndths img, #centro a.prnths img {
+	margin-left: 5px;
+}
+
+#centro a.prnths {
+	margin-left: 5px;
+}
+
+#centro a span {
+	margin-right: 3px;
+}
+
+#centro>a>span {
+	margin-right: 0px;
+}
+
+
+#centro p.thsnote {
+	position: relative;
+	text-align: right;
+	top: -20px;
+	padding: 0px;
+	margin: 0px;
+	border-bottom: solid 1px #EBEBEB;
+	right: 0px;
+	font-size: 8pt;
+}
+
+#centro a img {
+	border: 0px;
+	margin: 0px;
+}
+
+/* Empiezan Estilos Para Capital Intelectual */
+.exp_sec {
+	position: relative;
+	background-color: #F2F2F2;
+	color: #666666;
+}
+
+.bloquecapint>.exp_sec {
+	margin-top: 20px;
+}
+
+.exp_sec p {
+	font-size: 8pt;
+	padding: 15px 0px 10px 10px;
+}
+
+.exp_sec>p {
+	padding: 15px 10px 15px 10px;
+}
+
+#centro .exp_sec a {
+	display: block;
+	color: #345F90;
+	text-decoration: none;
+	font-weight: bolder;
+	background-color: #F2F2F2;
+}
+
+#centro .exp_sec a:hover {
+	color: #345F90;
+	background-color: #F2F2F2;
+}
+
+div.headcapint {
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	display: inline;
+	width: 430px;
+	overflow: hidden;
+}
+
+div.headcapint img {
+	position: relative;
+	padding: 0px;
+	display: block;
+	margin-bottom: -15px;
+}
+
+.headcapint>img {
+	margin-bottom: -7px;
+}
+
+.headcapint>div.bloquecapint {
+	margin-bottom: -2px;
+}
+
+div.bloquecapint {
+	margin-bottom: -10px;
+}
+/* Terminan Estilos Para Capital Intelectual */
+
+/* Empiezan Estilos para el Referer */
+div.referer {
+	position: relative;
+	margin-top: -20px;	
+}
+
+#centro div.referer h6 a {
+	text-transform: lowercase;
+}
+/* Terminan Estilos para el Referer */
+
+/* Empiezan estilos para Acerca De */
+.basecb2 {
+	position: relative;
+	text-align: center;
+	margin-bottom: 13px;
+}
+
+.basecb2 .cb {
+	position: relative;
+	text-align: left;
+	margin: auto;
+	background-repeat: repeat-y;
+	width: 416px;
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/cuadro_blanco_bg2.gif");
+}
+
+.basecb2 .cbtop {
+	position: relative;
+	height: 6px;
+	overflow: hidden;
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/cuadro_blanco_top2.gif");
+}
+
+.basecb2 .cbbot {
+	position: relative;
+	height: 4px;
+	overflow: hidden;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/cuadro_blanco_bot2.gif);
+}
+
+.basecb2 .cb p {
+	margin: 2px 5px;
+	font-size: 7.5pt;
+	height: 70px;
+	text-align: justify;
+}
+
+.basecb2 .cb>p {
+	height: auto;
+	min-height: 90px;
+	margin: 2px 7px;
+}
+
+.basecb2 .cb p span {
+	display: block;
+	margin: 0px;
+	padding-left: 123px;
+}
+
+.basecb2 .cb p span.resumen {
+	margin-right: 6px;
+}
+
+.basecb2 .cb p img {
+	display: block;
+	margin-right: 5px;
+	float: left;
+}
+
+#centro .basecb2 .cb a:link, #centro .basecb2 .cb a:visited {
+	text-decoration: none;
+	color: #B2B2B2;
+	background-color: #F5F5F5;
+}
+
+#centro .basecb2 .cb a .titulobienv {
+	background-color: #f5f5f5;
+	color: #345F90;
+}
+
+#centro .basecb2 .cb a:link .titulonov {
+	background-color: #f5f5f5;
+	color: #B88D26;
+}
+
+.auxextra3 {
+	width: 411px;
+	background-color: #F5F5F5;
+	color: #000000;
+	padding: 5px 0px 5px 0px;
+	margin: 15px 0px 15px 6px;
+	border-top: solid 9px #345F90;
+}
+
+.contreg>.auxextra3 {
+	margin-left: 9px;
+}
+
+.auxextra3 ul {
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+	list-style: none;
+}
+
+.auxextra3 ul li {
+	display: inline;
+	margin: 0px;
+	padding: 0px 8px 0px 0px;
+	font-size: 7pt;
+}
+
+.auxextra3 ul li.titulo {
+	display: block;
+	color: #40617F;
+	background-color: #f5f5f5;
+	font-size: 8.5pt;
+	font-weight: bold;
+}
+
+#centro .basecb2 .titulobienv {
+	color: #345F90;
+	background-color: #F5F5F5;
+}
+
+#centro .basecb2 .titulonov {
+	color: #B88D26;
+	background-color: #F5F5F5;
+}
+
+#centro .basecb2 .leercompa a {
+	background-color: #F5F5F5;
+	color: #AD3D5F;
+}
+
+#centro .basecb2 .leercompb a {
+	color: #597F3C;
+	background-color: #F5F5F5;
+}
+
+
+#centro .auxextra3 ul li a {
+	color: #9A9A9A;
+	background-color: #F5F5F5;
+	font-size: 7pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+/* Terminan Estilos para Acerca De */
+
+/* Empiezan Estilos para Noticias */
+.cb span.notmeta {
+	display: block;
+	padding: 7px 0px 7px 0px;
+}
+
+div.noticia {
+	position: relative;
+	width: 386px;
+	margin: 0px 10px 10px 20px;
+	text-align: justify;
+}
+
+div.noticia img {
+	float: left;
+	margin-right: 7px;
+	display: block;
+}
+
+div.noticia p {
+	font-size: 7.5pt;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.1em;
+}
+
+div.noticia h4 {
+	margin: 0px;
+	padding: 0px;
+}
+
+#centro div.noticia h4 a {
+	text-decoration: none;
+	font-size: 10pt;
+	}
+
+#centro div.noticia h4 a:hover {
+	color: #345F90;
+	background-color: #ffffff;
+}
+
+div.noticia span.notmeta {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.noticia span.resumen {
+	font-style: italic;
+}
+
+div.masnoticias {
+	position: relative;
+}
+
+div.masnoticias h4 {
+	font-size: 8pt;
+	color: #636363;
+	background-color: #ffffff;
+	margin: 0px 0px 0px 15px;
+	padding: 0px;
+}
+
+div.masnoticias ul {
+	list-style-type: none;
+	margin: 0px 0px 0px 35px;
+	padding: 0px;
+}
+
+div.masnoticias ul li {
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/list4.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding: 0px;
+	margin: 0px 0px 5px 0px;
+}
+
+#centro div.masnoticias ul li a {
+	text-decoration: none;
+	font-size: 7pt;
+	font-weight: bolder;
+}
+
+div.masnoticias ul li a span {
+	margin-left: 15px;
+}
+
+
+div.masnoticias ul li span.notmeta {
+	display: block;
+	font-size: 7pt;
+	font-weight: bolder;
+	margin-left: 15px;
+}
+
+div.derecha ul.submenu li a.enlamira2 {
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/ico_enlamira2.gif");
+}
+/* Terminan Estilos para Noticias */
+ul.masinfo {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	font-weight: bolder;
+}
+
+ul.masinfo li.titulo {
+	margin: 0px 0px 5px 10px;
+	padding: 0px;
+	background-image: none;
+	color: #386394;
+	font-size: 10pt;
+	background-color: #ffffff;
+}
+
+ul.masinfo li {
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/list3.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding: 0px 0px 0px 15px;
+	margin: 0px 0px 5px 30px;
+}
+
+ul.masinfo li a span {
+	color: #386394;
+	background-color: #ffffff;
+}
+
+#centro ul.masinfo li a {
+	text-decoration: none;
+	font-size: 9pt;
+}
+
+/* Empiezan Estilos para Futuros Alumnos */
+div.fotoalumno {
+	float: left;
+	width: 75px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+.contreg .cita2 {
+	margin: 10px 0px 10px 90px;
+	background-repeat: no-repeat;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/comillas1.gif);
+	padding-top: 10px;
+}
+
+.contreg .cita2 blockquote{
+	margin: 0px;
+	text-indent: 25px;
+	color: #A0A0A0;
+	background-color: #ffffff;
+}
+
+.contreg .cita2 cite{
+	padding-right: 25px;
+	padding-bottom: 10px;
+	text-align: right;
+	display: block;
+	color: #A0A0A0;
+	background-repeat: no-repeat;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/comillas2.gif);
+	background-position: right bottom;	
+	background-color: #ffffff;
+}
+
+/* Terminan Estilos para Futuros Alumnos */
+
+/* Empiezan Estilos para Busqueda de Noticias y Eventos */
+div.calendario {
+	background-color: #FAFAFC;
+	color: #000000;
+	border: solid 1px #C2BBC2;
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+	margin-top: 7px;
+	width: 176px;
+	float: left;
+	margin-right: 10px;
+	height: 207px;
+}
+
+#centro>.contreg>.calendario {
+	margin-top: 2px;
+	min-height: 195px;
+}
+
+#centro div.calendario table {
+	text-align: center;
+	margin: 15px auto;
+	border-top: solid 2px #7B796F;
+	border-left: solid 2px #7B796F;
+	border-right: solid 1px #F2F0E4;
+	border-bottom: solid 1px #F2F0E4;
+	background-color: #ffffff;
+	color: #000000;
+	width: 166px;
+}
+
+#centro div.calendario table tr th {
+	text-align: center;
+	color: #A7A6A6;
+	background-color: #ffffff;
+}
+
+#centro div.calendario table tr th a {
+	text-decoration: none;	
+}
+
+#centro div.calendario table tr td {
+	font-size: 8.5pt;
+	text-align: center;
+	border: 0px;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+#centro div.calendario table tr td a {
+	color: #345F90;
+	text-decoration: none;
+	background-color: #ffffff;
+}
+
+#centro div.calendario table tr td.hoy {
+	background-color: #C3C2C2;
+	font-weight: bolder;
+	color: #000000;
+}
+
+div.busc_not form {
+	margin: 10px 0px 10px 0px;
+}
+
+div.busc_not form select#ntipo {
+	width: 150px;
+}
+
+div.busc_not form select#ndependencia {
+	font-size: 8pt;
+	width: 230px;
+}
+
+div.busc_not h4 {
+	background-color: #ffffff;
+	color: #828282;
+	font-size: 9pt;
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
+
+div.busc_not form label {
+	background-color: #ffffff;
+	font-size: 7pt;
+	font-weight: bolder;
+	color: #345F90;
+	line-height: 2em;
+}
+
+div.busc_not form input#cpalabra {
+	font-size: 9pt;
+	width: 75px;
+	border: 1px solid #7F9DB9;
+}
+
+div.busc_not form select {
+	font-size: 7pt;
+	border: 1px solid #7f9db9;
+	padding: 0px;
+	margin: 0px;
+}
+
+#centro div.busc_not form input.submitq {
+	display: inline;
+	float: right;
+	margin-right: 4px;
+}
+
+/* Terminan Estilos para Busqueda de Noticias Y Eventos */
+
+/* Empiezan estilos para Rector */
+.fr {
+	float: right;
+	margin: auto;
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/marcofoto.gif");
+	background-repeat: no-repeat;
+	width: 116px;
+	height: 148px;
+	padding: 8px 0px 0px 8px;
+}
+
+.contreg .cita3 {
+	margin: 10px 25px;
+	background-repeat: no-repeat;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/comillas1.gif);
+	padding-top: 10px;
+}
+
+.contreg .cita3 blockquote{
+	margin: 0px;
+	text-indent: 25px;
+	color: #A0A0A0;
+	text-align: justify;
+	background-color: #ffffff;
+}
+
+.contreg .cita3 cite{
+	padding-right: 25px;
+	padding-bottom: 10px;
+	text-align: center;
+	display: block;
+	color: #A0A0A0;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/comillas2.gif);
+	background-position: right bottom;
+	font-style: normal;
+}
+
+p.rfirma {
+	color: #A0A0A0;
+	background-color: #ffffff;
+	text-align: center;
+	margin-top: 45px;
+}
+/* Terminan estilos para Rector */
+
+/* Empiezan Estilos para Publicaciones */
+.basecb3 {
+	position: relative;
+	text-align: center;
+	margin-bottom: 13px;
+}
+
+.basecb3 .cb {
+	position: relative;
+	text-align: left;
+	margin: auto;
+	background-color: #ffffff;
+	color: #000000;
+	background-repeat: repeat-y;
+	width: 416px;
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/cuadro_blanco_bg2.gif");
+}
+
+.basecb3 .cbtop {
+	position: relative;
+	height: 6px;
+	overflow: hidden;
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/cuadro_blanco_top2.gif");
+}
+
+.basecb3 .cbbot {
+	position: relative;
+	height: 4px;
+	overflow: hidden;
+	background-image: url(/web/20060717072030im_/http://www.uanl.mx/interfase/cuadro_blanco_bot2.gif);
+}
+
+.basecb3 .cb p {
+	margin: 2px 5px;
+	font-size: 7.5pt;
+	height: 70px;
+	text-align: justify;
+}
+
+.basecb3 .cb p span {
+	display: block;
+	margin: 0px;
+	padding-left: 115px;
+}
+
+.basecb3 .cb p span.resumen {
+	margin-right: 6px;
+	margin-left: 60px;
+}
+
+.basecb3 .cb>p {
+	height: auto;
+	min-height: 75px;
+	margin: 2px 7px;
+}
+
+.basecb3 .cb p img {
+	display: block;
+	margin-right: 15px;
+	float: left;
+}
+
+.basecb3 .cb p a:link, .basecb2 .cb p a:visited {
+	text-decoration: none;
+	color: #B2B2B2;
+	background-color: #F5F5F5;
+}
+/* Terminan Estilos para Publicaciones */
+
+/* Empiezan Estilos para Arte y Cultura */
+.artev {
+	margin: 27px auto;
+	text-align: center;
+}
+
+.artev .imgarte {
+	display: block;
+	margin: auto;
+}
+
+.artev .datos {
+	font-size: 8pt;
+	color: #919191;
+	background-color: #ffffff;
+	margin: 10px 5px 10px 10px;
+}
+/* Terminan Estilos para Arte y Cultura */
+
+/* Empiezan Estilos para Mensaje al Rector */
+div.mensrector {
+	border: solid 4px #F2F2F2;
+	padding: 10px 15px 5px 15px;
+	margin-top: 25px;
+}
+
+div.mensrector label {
+	font-size: 7pt;
+	font-weight: bolder;
+}
+
+div.mensrector input#usrnombre, div.mensrector input#usrcorreo {
+	height: 15px;
+	width: 112px;
+	line-height: 7pt;
+	font-size: 7pt;
+	border: solid 1px #9EB5CA;
+}
+
+div.mensrector input#usrnombre {
+	margin-right: 25px;
+}
+
+div.mensrector textarea#mensaje {
+	width: 351px;
+	height: 64px;
+	font-size: 10pt;
+	border: solid 1px #9EB5CA;
+}
+/* Terminan Estilos para Mensaje al Rector */
+
+/* Empiezan Estilos para la Página Oferta */
+ul.areasinteres {
+	list-style: none;
+	margin: 0px 0px 0px 50px;
+	padding: 0px;
+}
+
+ul.areasinteres li {
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/list2.gif");
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	margin: 0px 0px 2px 0px;
+}
+
+#centro ul.areasinteres li a {
+	text-decoration: none;
+	color: #336699;
+	background-color: #ffffff;
+	font-size: 7.5pt;
+	font-weight: bolder;
+	padding-left: 10px;
+}
+
+/* Terminan Estilos para la Página Oferta */
+
+/* Empiezan Estilos para banners del lado derecho en interiores */
+ul.banner {
+	list-style: none;
+	margin: 0px;
+	padding: 0px 0px 0px 4px;
+}
+
+ul.banner li {
+	width: 133px;
+	height: 194px;
+	overflow: hidden;
+}
+
+ul.banner li a span {
+	display: block;
+	padding-top: 200px;
+}
+
+ul.banner li.ofertaed {
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/ban_oferta.gif");
+	background-repeat: no-repeat;
+}
+
+ul.banner li.mundoemprendedor {
+	background-image: url("/web/20060717072030im_/http://www.uanl.mx/interfase/ban_mundoemprendedor.gif");
+	background-repeat: no-repeat;
+}
+/* Terminan estilos para banners del lado derecho en interiores */
+
+/*
+     FILE ARCHIVED ON 07:20:30 Jul 17, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:42:02 Apr 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.468
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.009
+  esindex: 0.009
+  cdx.remote: 24.357
+  LoadShardBlock: 319.437 (3)
+  PetaboxLoader3.datanode: 227.893 (4)
+  PetaboxLoader3.resolve: 143.728 (2)
+  load_resource: 95.7
+*/

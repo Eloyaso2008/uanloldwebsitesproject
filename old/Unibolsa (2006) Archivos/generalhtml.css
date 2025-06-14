@@ -1,0 +1,130 @@
+body {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 9pt;
+	background: transparent;
+}
+
+h3 {
+	padding-left: 20px;
+	font-size: 22pt;
+	font-weight: lighter;
+	color: #A8A8A8;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 0px 12px;
+	margin: 12px 10px 0px 10px;
+	padding-bottom: 0px;
+	background-image: url(/web/20060717072527im_/http://www.uanl.mx/interfase/enc_capint.gif);
+}
+
+h4 {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #4682B4;
+	background-color: transparent;
+	margin: 10px 0px -5px 0px;
+	padding: 0px;
+}
+
+h5 {
+	display: block;
+	margin: 0px 0px 10px 0px;
+	font-size: 10pt;
+	color: #818181;
+	background-color: transparent;
+	letter-spacing: 2px;
+	text-align: left;
+	padding: 0px;
+	font-variant: small-caps;
+}
+
+h6 {
+	display: block;
+	margin: 0px;
+	font-size: 7.5pt;
+	color: #818181;
+	background-color: transparent;
+	text-align: left;
+	padding: 0px;
+	font-weight: bolder;
+}
+
+.cita {
+	margin: 10px 25px;
+	background-repeat: no-repeat;
+	background-image: url(/web/20060717072527im_/http://www.uanl.mx/interfase/comillas1.gif);
+	padding-top: 10px;
+}
+
+blockquote{
+	margin: 0px;
+	text-indent: 25px;
+	color: #A0A0A0;
+	background: white;
+}
+
+cite{
+	padding-right: 25px;
+	padding-bottom: 10px;
+	text-align: right;
+	display: block;
+	color: #A0A0A0;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-image: url(/web/20060717072527im_/http://www.uanl.mx/interfase/comillas2.gif);
+	background-position: right bottom;	
+}
+
+/* Listas */
+ul {
+	list-style-type: square;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+/* tablas */
+table {
+	border: solid 1px #C8C8C8;
+}
+
+table caption {
+	font-family: Arial, Helvetica, Serif;
+	background-color: #bcbcbc;
+	color: #ffffff;
+	font-size: 9pt;
+	font-weight: bolder;
+	vertical-align: middle;
+	border: solid 1px #ababab;
+}
+
+table td {
+	border: solid 1px #e3e3e3;
+	padding: 3px;
+}
+
+h6 a {
+	text-transform: capitalize;
+}
+
+/*
+     FILE ARCHIVED ON 07:25:27 Jul 17, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:42:02 Apr 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.712
+  exclusion.robots: 0.028
+  exclusion.robots.policy: 0.012
+  esindex: 0.015
+  cdx.remote: 70.272
+  LoadShardBlock: 103.533 (3)
+  PetaboxLoader3.datanode: 158.792 (4)
+  PetaboxLoader3.resolve: 91.045 (2)
+  load_resource: 155.284
+*/

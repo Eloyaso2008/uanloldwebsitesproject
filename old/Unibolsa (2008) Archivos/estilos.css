@@ -1,0 +1,116 @@
+table.principal {
+background-color:#666666;
+}
+table.secundaria {
+background-color:#CCCCCC;
+}
+.prin, .sec {
+font-family:Arial, Helvetica, sans-serif;
+font-size:9pt;
+margin:0px;
+padding:0px;
+list-style-type:none;
+}
+.prin {
+color:#FFFFFF;
+}
+.prin:hover, a:hover {
+	background-color:#999999;
+}
+.prin  a {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 20px;
+	background: url('/web/20070610113656im_/http://www.unibolsa.uanl.mx/imagenes/cuadroblanco.gif') no-repeat left;
+	color: #FFFFFF;
+	background-position: 5px;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+	display:block;
+	margin:0px;
+	padding:0px;
+}
+h3 {
+	padding:0px;
+	margin:0px;
+	margin-left:5px;
+	padding-left:20px;
+	background:url('/web/20070610113656im_/http://www.unibolsa.uanl.mx/imagenes/cuadroblanco2.gif') no-repeat left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9pt;
+	color:#000000;
+	text-transform: uppercase;
+	font-weight:normal;
+}
+.sec {
+color:#333333;
+}
+sec:hover{
+background-color:#AAAAAA;
+}
+.sec a {
+margin:0px;
+padding:0px;
+padding-left:20px;
+background:url('/web/20070610113656im_/http://www.unibolsa.uanl.mx/imagenes/flecha2.gif') no-repeat left;
+background-position: 5px;
+color:#333333;}
+
+.sec a:hover {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 20px;
+	background: url('/web/20070610113656im_/http://www.unibolsa.uanl.mx/imagenes/flecha3.gif') no-repeat left;
+	background-color: #AAAAAA;
+   background-position: 5px;
+}
+.nombre_arriba {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	color: #FFFFFF;
+}
+body {
+	margin-top: 0px;
+}.borde {
+	border: thin solid #333333;
+	margin-right: 4px;
+	margin-bottom: 4px;
+}
+.titulo1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #333333;
+}
+body td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #333333;
+}
+
+/*
+     FILE ARCHIVED ON 11:36:56 Jun 10, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:41:00 Apr 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.51
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 8.486
+  LoadShardBlock: 164.587 (3)
+  PetaboxLoader3.datanode: 161.806 (4)
+  PetaboxLoader3.resolve: 138.366 (2)
+  load_resource: 160.923
+*/
