@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Universidad Autónoma de Nuevo León - Acerca de</title>
+<meta http-equiv="Content-Language" content="es" />
+<meta name="Generator" content="TextPad" />
+<meta name="Author" content="U.A.N.L." />
+<meta name="Keywords" content="UANL, Universidad, Escuela" />
+<meta name="Description" content="Pagina de la Universidad Autonoma de Nuevo León" />
+<link rel="stylesheet" type="text/css" href="/interfase/generalhtml.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/interfase/principal.css" media="all" />
+</head>
+<body>
+<div id="contenedor">
+
+<!-- En esta parte se forma el Header de la Pagina -->
+	<div id="top"></div>
+	<div id="encabezado">
+		<div id="top_ico">
+			<a href="/"><span>Inicio</span> <img class="icohome" src="/interfase/ico_home.gif" alt="Regresa a la Página Principal" /></a>
+			<a href="/comentario/"><span>Contactar</span> <img class="icocontact" src="/interfase/ico_contactar.gif" alt="contactar" /></a>
+		</div>
+		<h1 id="logo"><a href="/"><span>Universidad Aut&oacute;noma de Nuevo Le&oacute;n</span></a></h1>
+					<ul id="menutop">
+				<li><span><a href="/oferta/bachillerato/" title="Bachillerato" accesskey="b">Bachillerato</a></span></li>
+				<li>.</li>
+				<li><span><a href="/oferta/tecnico_superior/" title="T&eacute;cnico Superior" accesskey="t">Técnico Superior</a></span></li>
+				<li>.</li>
+				<li><span><a href="/oferta/profesional_asociado/" title="Profesional Asociado" accesskey="a">Profesional Asociado</a></span></li>
+				<li>.</li>
+				<li><span><a href="/oferta/licenciatura/" title="Licenciatura" accesskey="l">Licenciatura</a></span></li>
+				<li>.</li>
+				<li><span><a href="/oferta/posgrado/" title="Posgrado" accesskey="p">Posgrado</a></span></li>
+			</ul>		<div id="fotomain">
+					<img src="/portadas/0002.jpg" alt="Educación con visión, visión con futuro" width="738" height="150" />
+		</div>
+	</div>
+<!-- Termina Header -->
+
+<!-- Inicia Cuerpo -->
+	
+	<div id="cuerpo" class="interior">
+		<div id="ctop"></div>
+		<div id="cbody">
+			<!-- Menu Principal (Menú Izq.)-->
+			<div id="izquierda">
+			<ul class="menu">
+	<li class="titulo"><span><a href="/"><img src="/interfase/ico_home2.gif" border="0" align="right" alt="Regresa a la Página Principal"/> UANL </a></span></li>
+	<li><a class="seleccionado" href="/acerca/" title="Acerca de la UANL"><span>Acerca de la UANL</span></a></li>
+	<li><a href="/capital_intelectual/" title="Capital Intelectual"><span>Capital Intelectual</span></a></li>
+	<li><a href="/servicios_escolares/" title="Servicios Escolares"><span>Servicios Escolares</span></a></li>
+	<li><a href="/oferta/" title="Oferta Educativa"><span>Oferta Educativa</span></a></li>
+	<li><a href="/bibliotecas/" title="Bibliotecas"><span>Bibliotecas</span></a></li>
+	<li><a href="/transparencia/" title="Transparencia"><span>Transparencia</span></a></li>
+	<li class="titulo"><span>Información</span></li>
+	<li><a href="/futuros_alumnos/" title="Futuros Alumnos"><span>Futuros Alumnos</span></a></li>
+	<li><a href="/alumnos/" title="Alumnos"><span>Alumnos</span></a></li>
+	<li><a href="/exalumnos/" title="Ex alumnos"><span>Ex alumnos</span></a></li>
+	<li><a href="/profesores/" title="Profesores"><span>Profesores</span></a></li>
+	<li class="titulo"><span>Comunicación</span></li>
+	<li><a href="http://buscador.dsi.uanl.mx/noticias" title="Noticias"><span>Noticias</span></a></li>
+	<li><a href="/publicaciones/" title="Publicaciones"><span>Publicaciones</span></a></li>
+	<li><a href="/radio_y_tv/" title="Radio y Televisión"><span>Radio y Televisión</span></a></li>
+	<li class="titulo"><span>Vida Universitaria</span></li>
+	<li><a href="http://buscador.dsi.uanl.mx/eventos" title="Eventos"><span>Eventos</span></a></li>
+	<li><a href="/arte_y_cultura/" title="Arte y Cultura"><span>Arte y Cultura</span></a></li>
+	<li><a href="/deporte/" title="Deporte"><span>Deporte</span></a></li>
+	<li><a href="/vinculacion/" title="Vinculación"><span>Vinculación</span></a></li>
+	<li><a href="/investigacion/" title="Investigación"><span>Investigación</span></a></li>
+</ul>			</div>
+			<!-- Termina Menu Principal -->
+									<div id="derecha">
+				<h2 class="subenc2">UANL</h2>
+				<ul class="submenu">
+				<li><a href="javascript:history.back()"  class="reg" title="Regresar a la P&aacute;gina Anterior"><span>Regresar</span></a></li>
+				</ul>
+			</div>
+						<div id="centro">
+				<p class="thsnote"><a class="sndths" href="/acerca/Recursos/Portada/Logo_SCIt/enviar/"><span>Enviar a un amigo</span><img src="/interfase/boton_mail.gif" alt="Enviar a un Amigo" /></a><a class="prnths" href="/imprimir.php?archivo=acerca/Recursos/Portada/Logo_SCIt" target="_blank"><span>Imprimir</span><img src="/interfase/boton_imprimir.gif" alt="imprimir esto" /></a></p><div class="referer"><h6>Te encuentras en: <a href="/acerca/">Acerca de la UANL</a> > <a href="/acerca/Recursos/">Recursos</a> > <a href="/acerca/Recursos/Portada/">Portada</a> > <a href="/acerca/Recursos/Portada/Logo_SCIt">Logo_SCIt</a>  </h6></div><img src="/interfase/head_acerca.jpg" class="img_head" alt="Acerca de la UANL" /><div class="contreg">
+<h1>P&aacute;gina no Disponible</h1>
+<p>Disculpe las molestias</p></div>			</div>			<div id="vision2012"><a href="/acerca/vision2012"><span>Vision 2012</span></a></div>
+		</div>
+		<div id="cbot"></div>
+	</div>
+<!-- Termina Cuerpo -->
+
+	<div id="bot">
+	
+	</div>
+</div>
+<div id="firma">
+	<p>UNIVERSIDAD AUTÓNOMA DE NUEVO LEÓN <br />
+	Derechos Reservados 2006 . <a href="/acerca/Recursos/Portada/Logo_SCIt/comentario/">webmaster@uanl.mx</a></p>
+	<a href="http://validator.w3.org/check/referer"><img src="/interfase/ico_w3c.gif" alt="Valid XHTML 1.0!" height="31" width="88" border="0" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=portal.uanl.mx/acerca//Recursos/Portada/Logo_SCIt.gif&amp;usermedium=all"><img src="/interfase/ico_vcss.gif" alt="Valid CSS!" height="31" width="88" border="0" /></a>
+</div>
+</body>
+</html>
