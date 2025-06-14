@@ -1,0 +1,62 @@
+/*
+ * imgAreaSelect animated border style
+ */
+
+.imgareaselect-border1 {
+	background: url(/web/20250328031900im_/https://www.uanl.mx/wp-includes/js/imgareaselect/border-anim-v.gif) repeat-y left top;
+}
+
+.imgareaselect-border2 {
+    background: url(/web/20250328031900im_/https://www.uanl.mx/wp-includes/js/imgareaselect/border-anim-h.gif) repeat-x left top;
+}
+
+.imgareaselect-border3 {
+    background: url(/web/20250328031900im_/https://www.uanl.mx/wp-includes/js/imgareaselect/border-anim-v.gif) repeat-y right top;
+}
+
+.imgareaselect-border4 {
+    background: url(/web/20250328031900im_/https://www.uanl.mx/wp-includes/js/imgareaselect/border-anim-h.gif) repeat-x left bottom;
+}
+
+.imgareaselect-border1, .imgareaselect-border2,
+.imgareaselect-border3, .imgareaselect-border4 {
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.imgareaselect-handle {
+    background-color: #fff;
+	border: solid 1px #000;
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.imgareaselect-outer {
+	background-color: #000;
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.imgareaselect-selection {
+}
+
+/*
+     FILE ARCHIVED ON 03:19:00 Mar 28, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:56:41 Apr 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.01
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.009
+  esindex: 0.011
+  cdx.remote: 1014.069
+  LoadShardBlock: 50.004 (3)
+  PetaboxLoader3.datanode: 53.291 (4)
+  load_resource: 92.863
+  PetaboxLoader3.resolve: 84.977
+*/

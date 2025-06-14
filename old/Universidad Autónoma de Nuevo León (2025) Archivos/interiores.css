@@ -1,0 +1,189 @@
+/*ESTRUCTURA*/
+.acc-link-flecha-blue, .acc-link-flecha-blue-nf{ display: block; margin-top: 2px; min-height: 50px; background: #004A8F; padding: 12px 25px; color: white; font-size: 20px; }
+.acc-link-flecha-blue:hover{background-color: #002E5E;}
+.acc-link-flecha:hover, .acc-link-mas:hover{ background-color: #002144;}
+.acc-link-flecha-blue .openAcc{width: 30px; height: 30px; display: block; float: right; background: url(/web/20250328031914im_/https://www.uanl.mx/wp-content/themes/uanl/assets/img/btns/acc-flecha.png) 95% center no-repeat; color: #FFBF00; }
+.acc-link-flecha-blue .openAcc.on{background: url(/web/20250328031914im_/https://www.uanl.mx/wp-content/themes/uanl/assets/img/btns/acc-flecha-on-yllw.png) 95% center no-repeat;}
+.verMas{width: 18px; height: 18px; float: right; background: url(/web/20250328031914im_/https://www.uanl.mx/wp-content/themes/uanl/assets/img/icons/acc-flecha-gris.png) 95% center no-repeat; color: #FFBF00; margin: 5px 0 0 5px;}
+.verMas.on{background: url(/web/20250328031914im_/https://www.uanl.mx/wp-content/themes/uanl/assets/img/icons/acc-flecha-gris2.png) 95% center no-repeat;}
+.acc-link-flecha{ display: block; margin-top: 2px; min-height: 50px; background: #002E5E url(/web/20250328031914im_/https://www.uanl.mx/wp-content/themes/uanl/assets/img/btns/acc-flecha.png) 95% center no-repeat; padding: 12px 25px; }
+.acc-link-flecha:hover{ background-color: #002144; }
+.acc-link-flecha.on{ background: #002144 url(/web/20250328031914im_/https://www.uanl.mx/wp-content/themes/uanl/assets/img/btns/acc-flecha-on-yllw.png) 95% center no-repeat; }
+.acc-sub a, .acc-sub a:hover{ background: #DDD url(/web/20250328031914im_/https://www.uanl.mx/wp-content/themes/uanl/assets/img/icons/acc-flecha-gris.png) 95% center no-repeat; }
+.acc-sub a.on{ background: url(/web/20250328031914im_/https://www.uanl.mx/wp-content/themes/uanl/assets/img/icons/acc-flecha-gris2.png) 95% center no-repeat; }
+/*Medios TV*/
+.acc-link-flecha-blue{font-size: 14px;}
+
+
+/**/
+/**/
+/**/
+
+
+/* Accordeon Estructura */
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li {
+  margin: 0 0 2px 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1.4;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu {
+  width: 100%;
+}
+#cssmenu ul ul {
+  display: none;
+}
+.align-right {
+  float: right;
+}
+#cssmenu > ul > li > div {
+  font-family: "Benton Sans Medium";
+  background-color: #004A8F;
+  padding: 15px;
+  z-index: 2;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: none !important;
+}
+#cssmenu > ul > li > div > a{
+  color: #fff;
+}
+#cssmenu > ul > li > div:hover,
+#cssmenu > ul > li.active > div,
+#cssmenu > ul > li.open > div {
+  background-color: #003a71;
+}
+#cssmenu > ul > li.open > div {
+  border-bottom: 2px solid #ffffff;
+}
+.holder {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.holder::after,
+.holder::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  right: 20px;
+  z-index: 10;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.holder::after {
+  top: 16px;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+}
+#cssmenu > ul > li > div:hover > span::after,
+#cssmenu > ul > li.active > div > span::after,
+#cssmenu > ul > li.open > div > span::after {
+  border-color: #eeeeee;
+}
+#cssmenu ul ul li div {
+  padding: 12px 15px;
+  z-index: 1;
+  text-decoration: none;
+  background: #dddddd;
+}
+#cssmenu ul ul li a {
+  color: #666666;
+}
+#cssmenu ul ul li span.item {
+  color: #666666;
+  width: 80%;
+  display: inline-block;
+}
+#cssmenu ul ul li:hover > div,
+#cssmenu ul ul li.active > div {
+  background: #cccccc;
+  color: #666666;
+}
+#cssmenu ul ul li.open > div{
+  background-color: #cccccc;
+}
+#cssmenu ul ul li:first-child > div {
+  box-shadow: none;
+}
+#cssmenu ul ul ul li > div {
+  background-color: #eeeeee;
+}
+#cssmenu ul ul ul li div {
+  padding-left: 25px;
+}
+#cssmenu ul ul ul ul li div {
+  padding-left: 35px;
+}
+#cssmenu > ul > li > ul > li:last-child > div,
+#cssmenu > ul > li > ul > li.last > div {
+  border-bottom: 0;
+}
+#cssmenu > ul > li > ul > li.open:last-child > ul > li:last-child > div {
+  border-bottom: 0;
+}
+#cssmenu ul ul li.has-sub > div::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  right: 20px;
+  z-index: 10;
+  top: 16px;
+  border-top: 2px solid #545454;
+  border-left: 2px solid #545454;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+#cssmenu ul ul li.active > div::after,
+#cssmenu ul ul li.open > div::after,
+#cssmenu ul ul li > div:hover::after {
+  border-color: #545454;
+}
+#link-estructura{
+  float: right;
+  position: absolute;
+  right: 42px;
+  top: 15px;
+  color: #ffffff;
+}
+/*
+     FILE ARCHIVED ON 03:19:14 Mar 28, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:56:40 Apr 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.526
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 42.604
+  LoadShardBlock: 54.468 (3)
+  PetaboxLoader3.datanode: 74.435 (4)
+  load_resource: 104.161
+  PetaboxLoader3.resolve: 73.794
+*/
