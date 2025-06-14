@@ -1,0 +1,4023 @@
+/* HTML DOM */
+
+html {
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 14px;
+  height: 100% !important;
+ }
+
+html, textarea, input[type="text"], input[type="password"] {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea { font-size: 11px; }
+
+body {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  background: #002C61;
+  position: relative;
+ }
+  
+h1
+  {
+  font-size: 24px;
+  line-height: 1.2em;
+  }
+  
+h2
+  {
+  font-size: 18px;
+  line-height: 1.2em;
+  }
+  
+h3
+  {
+  font-size: 14px;
+  line-height: 1.2em;
+  }
+  
+h4
+  {
+  font-size: 12px;
+  line-height: 1.2em;
+  }
+
+h5
+  {
+  font: 10px;
+  line-height: 1.2em;
+  }
+  
+h6
+  {
+  font-size: 8px;
+  line-height: 1.2em;
+  }
+
+p
+  {
+  font-size: 12px;
+  line-height: 1.2em;
+  }
+
+a
+  {
+  color: #FFFFFF;
+  }
+  
+a:hover
+  {
+  color: #F9B200;
+  text-decoration: underline;
+  cursor: pointer;
+  }
+  
+a:visited
+  {
+  
+  }
+
+img
+  {
+  border: none;
+  }
+
+form
+  {
+  background-color: #004A99;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 518px;
+  overflow: hidden;
+  }
+
+form > fieldset
+  {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-width: 0;
+  }
+
+form > fieldset > legend
+  {
+  font-size: 14px;
+  color: #FFFFFF;
+  margin: 0 0 10px 0;
+  float: left;
+  white-space: normal;
+  *margin-left: -7px;
+  background-color: #002C61;
+  width: 100%;
+  padding: 0;
+  }
+  
+form > fieldset > legend > span
+  {
+  width: 100%;
+  display: block;
+  padding: 2px 0 2px 37px;
+  height: 18px;
+  }
+  
+form > fieldset > ul
+  {
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/formulario_divisor.png) repeat-y 180px 0 #002C61;
+  list-style: none;
+  padding: 4px;
+  margin: 0 0 10px 0;
+  overflow: hidden;
+  }
+  
+form > fieldset > ul > li
+  {
+  margin-bottom: 10px;
+  display: block;
+  width: 477px;
+  float: left;
+  clear: both;
+  overflow: visible;
+  padding-left: 33px;
+  }
+  
+form > fieldset > ul > li > label
+  {
+  font-size: 12px;
+  line-height: 15px;
+  display: block;
+  float: left;
+  min-height: 18px;
+  color: #FFFFFF;
+  width: 130px;
+  padding: 3px 0 0 0;
+  margin-right: 24px;
+  }
+  
+form > fieldset > ul > li > input[type="text"], form > fieldset > ul > li > input[type="password"], form > fieldset > ul > li > textarea
+  {
+  font-size: 12px;
+  line-height: 16px;
+  float: left;
+  background-color: #FFFFFF;
+  border: none;
+  border-width: 0;
+  margin: 0;
+  padding: 2px 5px 3px 5px;
+  width: 280px;
+  }
+  
+form > fieldset > ul > li > textarea
+  {
+  min-height: 100px;
+  }
+  
+form > fieldset > ul > li > input[type="text"], form > fieldset > ul > li > input[type="password"]
+  {
+  height: 16px;
+  }
+  
+form > fieldset > ul > li > ul.opciones
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  }
+  
+form > fieldset > ul > li > ul.opciones > li > label
+  {
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 16px;
+  }
+  
+form input[type="submit"]
+  {
+  display: block;
+  font-size: 11px;
+  line-height: 16px;
+  height: 20px;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/flecha_submit.png) no-repeat top right transparent;
+  color: #F9B200;
+  border: none;
+  border-width: 0;
+  padding: 0 22px 0 6px;
+  margin: 0 0 0 191px;
+  cursor: pointer;
+  }
+  
+i
+  {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  }
+  
+strong
+  {
+  font-weight: bold;
+  }
+  
+blockquote
+  {
+  font-size: 13px;
+  line-height: 1.2em;
+  border-left: dotted 1px #FFFFFF;
+  padding-left: 1em;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  }
+  
+table
+  {
+  table-layout: fixed;
+  
+  border: 1px #01295B solid;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2em 0;
+  background: #0D3566;
+  }
+  
+table th, table td
+  {
+  height: 20px;
+  padding: 4px 8px;
+  /* border: solid 1px #FFFFFF; */
+  border: 1px solid #01295B;
+  }
+
+table th
+  {
+  
+  }
+
+table.horizontal th, table.horizontal td
+  {
+  text-align: center;
+  }
+  
+table.horizontal td
+  {
+  border-width: 0 1px;
+  }
+
+/* Vertical */
+table.vertical {
+	margin: 0 0 2em 0 !important;
+}
+table.vertical,
+table.vertical tbody,
+table.vertical th,
+table.vertical td {
+	border: none;
+	background: #1A4271;
+}
+table.vertical thead th { border-bottom: 1px #F6B115 solid !important; }
+table.vertical a { text-decoration: none; }
+table.vertical .mayor { width: 75%; }
+table.vertical .menor { background: #325681 !important; }
+
+ol.romana
+  {
+  list-style-type: upper-roman;
+  }
+  
+ol.textual
+  {
+  list-style-type: upper-alpha;
+  }
+
+/* INSTITUCIONAL */
+
+span.uanl
+  {
+  font-family: "Times New Roman", Times, serif;
+  }
+
+.texto ul, .texto ol
+  {
+  color: #FFFFFF;
+  }
+  
+.texto ol.numerada
+  {
+  list-style: decimal;
+  }
+  
+.texto h2, .texto h3, .texto h4, .texto h5, .texto h6
+  {
+  font-weight: normal;
+  color: #FFFFFF;
+  }
+  
+
+
+/* CABECERA */
+  
+.cabecera
+  {
+  position: relative;
+  }
+  
+.cabecera .izquierda
+  {
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/cabecera_izq_bg.png) repeat-x 0 0;
+  width: 50%;
+  position: relative;
+  float: left;
+  height: 169px;
+  }
+  
+.cabecera .izquierda .contenedor
+  {
+  min-width: 480px;
+  height: 169px;
+  float: right;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/contenedor_izq_bg.png) no-repeat 0 0;
+  }
+  
+.cabecera .izquierda .contenedor .marca
+  {
+  float: left;
+  width: 221px;
+  height: 102px;
+  margin-top: 10px;
+  margin-left: 36px;
+  }
+  
+.cabecera .derecha
+  {
+  position: relative;
+  overflow: hidden;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/cabecera_der_bg.png) repeat-x 0 0;
+  height: 169px;
+  }
+  
+.cabecera .derecha .contenedor
+  {
+  position: relative;
+  min-width: 480px;
+  height: 169px;
+  float: left;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/contenedor_der_bg.png) no-repeat 0 0;
+  }
+  
+.cabecera .derecha .contenedor p.slogan
+  {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 2001;
+  bottom: 34px;
+  right: 54px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: right;
+  color: #FFFFFF;
+  }
+  
+.cabecera .derecha .contenedor .herramientas
+  {
+  position: absolute;
+  top:0;
+  right:0;
+  overflow: hidden;
+  margin-bottom: 8px;
+  }
+
+.cabecera .derecha .contenedor .servicios
+  {
+  position: absolute;
+  top:55px;
+  right:0;
+  overflow: hidden;
+  }
+
+.cabecera .derecha .contenedor .servicios a.mapa
+  {
+  color: #FFFFFF;
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration: none;
+  }
+  
+.cabecera .derecha .contenedor .servicios a.mapa:hover
+  {
+  text-decoration: underline;
+  }
+  
+.cabecera .derecha .contenedor .servicios select
+  {
+  background-color: #731819;
+  border: none;
+  color: #FFFFFF;
+  padding: 4px;
+  }
+  
+.cabecera .derecha .contenedor .servicios select option
+  {
+  font-size: 10px
+  }
+  
+.cabecera .herramientas form.buscar, .cabecera .herramientas .idioma
+  {
+  background-color: #002C61;
+  float: left;
+  }
+  
+.cabecera .herramientas form.buscar
+  {
+  border-width: 0;
+  padding: 10px 30px 10px 10px;
+  height: 24px;
+  width: 290px;
+  }
+
+.cabecera .herramientas form.buscar label
+  {
+  font-size: 11px;
+  line-height: 16px;
+  height: 20px;
+  padding: 4px 0 0 0;
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  vertical-align: middle;
+  margin-right: 10px;
+  }
+
+.cabecera .herramientas form.buscar input[type="text"]
+  {
+  background-color: #FFFFFF;
+  height: 18px;
+  width: 210px;
+  border: none;
+  border-width: 0;
+  padding: 3px 5px;
+  margin: 0;
+  display: block;
+  float: left;
+  }
+  
+.cabecera .herramientas form.buscar input[type="submit"]
+  {
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 2px;
+  height: 24px;
+  width: 24px;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/buscar.png) no-repeat 50% 50% #7A2531;
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: left;
+  }
+  
+.cabecera .herramientas .idioma
+  {
+  list-style: none;
+  border-width: 0 1px 1px 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 10px 0 10px 10px;
+  height: 24px;
+  width: 95px;
+  }
+  
+.cabecera .herramientas .idioma li
+  {
+  float: left;
+  margin-right: 8px;
+  }
+  
+.cabecera .herramientas .idioma li a
+  {
+  font-size: 11px;
+  line-height: 16px;
+  color: #42769A;
+  text-decoration: none;
+  display: block;
+  height: 20px;
+  padding: 4px 0 0 0;
+  }
+
+.cabecera .herramientas .idioma li a:hover
+  {
+  color: #FFFFFF;
+  }
+
+.cabecera .herramientas .idioma li.actual a
+  {
+  color: #FFFFFF;
+  }
+
+/* PERFILES */
+
+.perfiles
+  {
+  -moz-box-shadow: 0 1px 4px #333;
+  -webkit-box-shadow: 0 1px 4px #333;
+  box-shadow: 0 1px 4px #333;
+  width: 100%;
+  position: absolute;
+  top: 147px;
+  left: 0px;
+  z-index: 1000;
+  overflow: visible;
+  }
+
+.perfiles  table {
+	background: none !important;
+}
+  
+.perfiles > ul
+  {
+  width: 480px;
+  color: #FFFFFF;
+  height: 22px;
+  margin: 0 auto;
+  padding: 0 0 0 0;
+  overflow: visible;
+  list-style: none;
+  position: relative;
+  }
+  
+.perfiles > ul > li 
+  {
+  float: left;
+  overflow: visible;
+  }
+  
+.perfiles > ul > li > a
+  {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-size: 11px;
+  line-height: 16px;
+  display: block;
+  padding: 2px 10px 0 24px;
+  height: 20px;
+  text-decoration: none;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/perfil_mas.png) 8px 7px no-repeat transparent;
+  }
+  
+.perfiles > ul > li > a:hover, /*BORRAR ESTA CLASE -->*/.perfiles > ul > li.actual > a/*<-- BORRAR ESTA CLASE*/
+  {
+  background-color: #F9B200;
+  }
+  
+.perfiles .macro
+  {
+  width: 600px;
+  text-align: left;
+  position: absolute;
+  top: 22px;
+  left: -60px;
+  padding: 8px;
+  background-color: #F9B200;
+  }
+  
+.perfiles .macro a
+  {
+  color: #FFFFFF;
+  text-decoration: none;
+  }
+  
+.perfiles .macro a:hover
+  {
+  text-decoration: underline;
+  }
+  
+.perfiles .macro .niveles
+  {
+  width: 432px;
+  float: left;
+  }
+  
+.perfiles .macro table
+  {
+  table-layout: fixed;
+  width: 432px;
+  font-size: 12px;
+  border-collapse: collapse;
+  border: none;
+  border-width: 0;
+  margin-bottom: 8px;
+  }
+
+.perfiles .macro table tr th, .perfiles .macro table tr td
+  {
+  padding: 8px;
+  border: none;
+  border-width: 0;
+  border-right: solid 1px #CC9900;
+  }
+  
+.perfiles .macro table tr th 
+  {
+  color: #976E00;
+  padding-top: 0;
+  }
+
+.perfiles .macro table tr td
+  {
+  vertical-align: top;
+  }
+
+.perfiles .macro table tr.ultimo td
+  {
+  padding-bottom: 0;
+  }
+  
+.perfiles .macro table tr td > ul
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #002C61;
+  }
+  
+.perfiles .macro table tr td > ul > li
+  {
+  margin-bottom: 16px;
+  }
+  
+.perfiles .macro table tr th.ultimo, .perfiles .macro table tr td.ultimo
+  {
+  border-right: none;
+  }
+  
+.perfiles .macro > div > h2
+  {
+  font-size: 16px;
+  color: #976E00;
+  margin: 0 0 8px 0;
+  padding: 8px 0;
+  border-bottom: solid 1px #CC9900;
+  }
+  
+.perfiles .macro > div > ul > li > h3
+  {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: normal;
+  margin: 0;
+  }
+
+.perfiles .macro > div > ul > li > h3 > a
+  {
+  text-decoration: none;
+  }
+
+.perfiles .macro > div > ul > li > h3 > a:hover
+  {
+  text-decoration: underline;
+  }
+  
+.perfiles .macro > div > ul > li > p
+  {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  }
+  
+.perfiles .macro .enlaces
+  {
+  overflow: auto;
+  width: 160px;
+  float: right;
+  }
+  
+.perfiles .macro .enlaces > ul
+  {
+  list-style: none;
+  background-color: #002C61;
+  padding: 0 10px;
+  min-height: 220px;
+  }
+  
+.perfiles .macro .enlaces > ul > li
+  {
+  font-size: 12px;
+  border-bottom: dotted 1px #003F84;
+  border-bottom: dotted 1px #F9B200;
+  padding: 8px 0;
+  }
+  
+.perfiles .macro .enlaces > ul > li > a
+  {
+  color: #FFFFFF;
+  text-decoration: none;
+  }
+  
+.perfiles .macro .enlaces > ul > li > a:hover
+  {
+  text-decoration: underline;
+  }
+  
+.perfiles .macro .enlaces > ul > li.importante a
+  {
+  color: #F9B200;
+  }
+  
+/*alumnos*/
+  
+.perfiles .alumnos .macro
+  {
+  }
+  
+.perfiles .alumnos .macro .enlaces
+  {
+  }
+  
+/*aspirantes*/
+
+.perfiles .aspirantes .macro table tr td
+  {
+  border-bottom: dotted 1px #CC9900;
+  }
+
+.perfiles .aspirantes .macro table tr.ultimo td
+  {
+  border-bottom: none;
+  }
+
+.perfiles .aspirantes .macro table tr.ultimo td
+  {
+  }
+  
+/*profesores*/
+  
+.perfiles .profesores .macro
+  {
+  }
+  
+.perfiles .profesores .macro .articulos
+  {
+  width: 432px;
+  float: left;
+  padding-bottom: 16px;
+  position: relative;
+  }
+  
+.perfiles .profesores .macro .articulos > ul
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+  
+.perfiles .profesores .macro .articulos > ul > li
+  {
+  border-bottom: solid 1px #CC9900;
+  margin-bottom: 12px;
+  padding-bottom: 11px;
+  }
+  
+.perfiles .profesores .macro .articulos .mas
+  {
+  font-size: 12px;
+  }
+  
+.perfiles .profesores .macro .enlaces
+  {
+  }
+
+/*exalumnos*/
+
+.perfiles .exalumnos .macro
+  {
+  
+  }
+  
+.perfiles .exalumnos .de.exito
+  {
+  float: left;
+  width: 432px;
+  }
+  
+.perfiles .exalumnos .de.exito > ul
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+
+.perfiles .exalumnos .de.exito > ul > li
+  {
+  overflow: auto;
+  border-bottom: solid 1px #CC9900;
+  padding-bottom: 7px;
+  margin-bottom: 8px;
+  }
+  
+.perfiles .exalumnos .de.exito > ul > li img
+  {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-right: 8px;
+  border: solid 1px #CC9900;
+  padding: 3px;
+  }
+  
+.perfiles .exalumnos .enlaces
+  {
+  }
+
+
+/* ENVOLTURA */
+
+.envoltura {
+  overflow: hidden;
+  width: 960px;
+  text-align: left;
+  margin: 0 auto;
+}
+  
+.cabecera .envoltura {
+    background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/flama.png) right bottom no-repeat;
+}
+
+.navegacion {
+  position: relative;
+  z-index: 1000;
+  float: left;
+  width: 96px;
+  text-align: center;
+  padding-top: 25px;
+  }
+  
+.navegacion > .global
+  {
+  width: 147px;
+  text-align: left;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  }
+  
+.navegacion > .global > li { margin-bottom: 2px; }
+  
+.navegacion > .global > li > a {
+  display: block;
+  padding: 2px 20px 2px 10px;
+  min-height: 12px;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/flecha.png) right 50% no-repeat;
+  background-color: #976E00;
+  color: #FFFFFF;
+  font-size: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 14px;
+	-webkit-transition: background-color .4s linear;
+	-moz-transition: background-color .4s linear;
+	transition: background-color .4s linear;	
+}
+.navegacion > .global > li > a:hover {
+	background-color: #CA9400;
+}
+
+.navegacion > .global > li.actual > a
+  {
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/flecha_abajo.png) right 50% no-repeat #CA9400;
+  }
+  
+/*
+.navegacion > .global > li.actual > a, .navegacion > .global > li > a:hover
+  {
+  background-color: #003F84;
+  }
+*/
+
+
+
+/* NAVEGACION LOCAL */
+
+.navegacion .local
+  {
+  list-style: none;
+  margin: 0;
+  padding: 8px 0;
+  }
+
+.navegacion .local > li
+  {
+  padding-left: 16px;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/flecha.png) no-repeat right top;
+  margin-bottom: 4px;
+  }
+
+.navegacion .local > li > a
+  {
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+  min-height: 13px;
+  padding: 0 20px 3px 0;
+  }
+  
+.navegacion .local > li > a:hover
+  {
+  text-decoration: underline;
+  }
+  
+.navegacion .local > li.actual > a
+  {
+  font-weight: bold;
+  }
+  
+/*Estas ultimas clases permiten un comportamiento constante de anidamiento a partir del segundo nivel*/  
+.navegacion .local > li ul
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+.navegacion .local > li ul li
+  {
+  padding-left: 16px;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/flecha.png) no-repeat right top;
+  margin-bottom: 4px;
+  }
+  
+.navegacion .local > li ul li a
+  {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  display: block;
+  min-height: 13px;
+  padding: 0 20px 3px 0;
+  }
+  
+.navegacion .local > li ul li a:hover
+  {
+  text-decoration: underline;
+  }
+
+/* NAVEGACION SECUNDARIA (MIGAJAS DE PAN) */
+  
+.secundaria {
+	overflow: hidden;
+	list-style: none; 
+	margin: 0;
+	padding: 16px 0 10px 0;
+}
+/*
+.secundaria > li
+  {
+  display: block;
+  float: left;
+  padding-right: 12px;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/sec_separador.png) top right no-repeat;
+  }
+  
+.secundaria > li:first-child
+  {
+  }
+ 
+.secundaria > li.actual
+/*Internet Explorer no soporta la pseudoclase last-child.
+Asignar la clase "actual" dinámicamente al último
+elemento de la lista para seleccionarlo.
+  {
+  }
+
+.secundaria > li > a
+  {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+  }
+  
+.secundaria > li > a:hover
+  {
+  text-decoration: underline;
+  }
+  
+.secundaria > li.actual
+  {
+  background: none;
+  }
+  
+.secundaria > li.actual > a
+  {
+  color: #F9B200;
+  background: none;
+  }
+*/
+/* CONTENIDO */
+
+.contenido {
+	position: relative;
+	float: right;
+	margin: 0 0 20px 0;  
+	padding: 0 0 25px 0;
+	width: 716px;
+	min-height: 420px;
+	overflow: hidden;  
+}
+  
+.contenido .cenefa { margin-left: -64px; }
+  
+.contenido h3.seccion
+  {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  }
+ 
+.contenido .titulo,
+.contenido.noticia .titulo,
+.contenido.persona .titulo,
+.contenido.evento .titulo,
+.contenido.ec .titulo,
+.contenido.convocatoria .titulo,
+.contenido.plan.de.estudios .titulo {
+  min-height: 40px;
+  padding: 10px 10px 15px 35px;
+  font-size: 30px;
+  line-height: 32px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/titulo_borde.png) 20px 40% no-repeat;
+  margin: 0;
+}
+.contenido.ec .titulo,
+.contenido.evento .titulo {
+	margin: 0 0 11px 130px !important;
+}
+
+.contenido .subtitulo
+  {
+  font-size: 19px;
+  line-height: 22px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #7F95B0;
+  }
+  
+.contenido dl.contacto
+  {
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/contacto_pliegue.png) no-repeat bottom right #4EA4D7;
+  width: 430px;
+  padding: 20px 20px 6px 20px;
+  margin: 0 0 18px 0;
+  overflow: hidden;
+  }
+ .contenido.ec dl.contacto {
+	width: 480px;
+	overflow: hidden;
+ }
+  
+ .contenido.ec .inscribirse {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 0 20px 0;
+	padding: 15px 0;
+	background: #F9B200;
+	text-align: center;
+ }
+ .contenido.ec .inscribirse a {
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+ }
+  
+.contenido dl.contacto dt, .contenido dl.contacto dd
+  {
+  font-size: 12px;
+  line-height: 14px;
+  float: left;
+  }
+  
+.contenido dl.contacto dt
+  {
+  clear: left;
+  text-align: left;
+  width: 30%;
+  vertical-align: top;
+  color: #002C61;
+  font-weight: bold;
+  margin: 0 0 14px 0;
+  }
+  
+.contenido dl.contacto dd
+  {
+  width: 70%;
+  color: #FFFFFF;
+  margin: 0 0 14px 0;
+  }
+  
+.contenido dl.contacto dd > ul
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+.contenido .tarjeta {
+	float: right;
+	border: solid 2px #FFFFFF;
+	border-width: 0 0 1px 1px;
+	width: 150px;
+	padding: 0 0 5px 5px;
+}
+  
+.contenido .tarjeta .foto {
+	display: block;
+	margin-bottom: 10px;
+	width: 150px;
+}
+  
+.contenido .tarjeta .descripcion {
+	font-size: 12px;
+	line-height: 14px;
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 0;
+}
+  
+.contenido .texto { margin-bottom: 20px; }
+  
+.contenido .texto p
+  {
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  color: #FFFFFF;
+  }
+  
+.contenido .otras {  
+  width: 172px;
+  max-width: 172px;
+  padding: 0 2px 0 0;
+}
+  
+.contenido .otras h4 {
+	border-bottom: 1px #F9B200 solid;
+	margin: 0 0 10px 0;
+	padding: 5px 10px;
+	background: #01295B;
+	color: #F9B200;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.contenido .otras > ul {	
+	-moz-border-radius: 0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;	
+	margin: 0 0 1em 0;
+	padding: 0 0 6px 0;
+	width: 172px;
+	max-width: 172px;
+	background: #0D3566;
+	color: #FFFFFF;
+	list-style: none;
+	font-size: 12px;
+	line-height: 14px;
+}
+  
+.contenido .otras > ul li,
+.contenido .otras > ul div.views-row {
+	margin: 0 0 10px 0;
+	padding: 0 16px;
+	font-size: 12px;
+	line-height: 14px;
+	color: #FFFFFF;
+}
+  
+.contenido .otras ul li a,
+.contenido .otras ul a
+  {
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+  }
+  
+.contenido .otras ul li a:hover,
+.contenido .otras ul a:hover
+  {
+  /* text-decoration: underline; */
+  color: #F9B200;
+  }
+  
+.contenido .meta
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+.contenido .meta li
+  {
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  font-size: 10px;
+  }
+  
+.contenido .firma p
+  {
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0;
+  }
+  
+.contenido .firma
+  {
+  border: dotted 1px #FFFFFF;
+  border-width: 1px 0 0 0;
+  float: left;
+  clear: both;
+  padding-top: 8px;
+  }
+ 
+/* Portada */
+  
+.contenido.portada {
+	width: 864px;
+	float: none;
+	padding: 0px 0 25px 0;  
+}
+
+.contenido.portada .destacado {
+	width: 576px;
+	float: left;
+}
+
+.contenido.portada .mensaje
+  {
+  position: absolute;
+  top: 84px;
+  z-index: 10000;
+  width: 760px;
+  }
+  
+.contenido.portada .aviso
+  {
+  min-height: 200px;
+  padding: 10px 20px 20px 20px;
+  background-color: #E0D3B3;
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 40px;
+  }
+
+.contenido.portada .aviso .fecha
+  {
+  font-weight: normal;
+  text-align: right;
+  margin: 0;
+  }
+  
+.contenido.portada .aviso .titulo
+  {
+  font-style: normal;
+  font-size: 20px;
+  color: #000000;
+  }
+
+.contenido.portada .aviso p
+  {
+  font-size: 20px;
+  }
+  
+.contenido.portada .aviso .atentamente
+  {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 0;
+  }
+  
+.contenido.portada .aviso .atentamente .puesto
+  {
+  font-style: normal;
+  }
+  
+.contenido.portada .cerrar
+  {
+  text-align: center;
+  }
+  
+.contenido.portada .cerrar a 
+  {
+  font-size: 20px;
+  }
+  
+  
+/* Estilos del mapa del sitio */
+div#modal {
+    box-shadow: 0 0 4px #000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    min-width: 900px;	
+    background: #CCC;
+    color: #002b60 !important;
+    opacity: 1;
+    z-index: 4000;
+    overflow: hidden;
+}
+div#modal #overlay_close {
+	display: inline-block;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	padding: 3px 3px 5px 3px;
+	width: 20px;
+	background: #003e83;
+	color: #FFF;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+div#modal h1 {
+  padding: 0 35px;
+  color: #003e83;
+  text-align: right;  
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+  font-weight: normal; 
+}
+div#modal hr {
+  margin: 0 20px;
+  border: none;
+  height: 3px;
+  background: #002b60;  
+}
+div#modal table { margin-bottom: 15px; }
+div#modal table,
+div#modal table thead,
+div#modal table tbody,
+div#modal table tr,
+div#modal table th,
+div#modal table td{
+  background: none !important;
+  border: none !important;
+  text-align: left;
+  margin: 0 !important;
+  vertical-align: top;
+}
+div.top table tbody td { padding: 5px 10px 5px 30px; }
+div.bottom table tbody td { padding: 3px 10px 3px 30px; }
+div#modal table thead {
+    font-size: 20px;
+    line-height: 24px;
+}
+div#modal a {
+  color: #002b60 !important;
+  text-decoration: none !important;
+}
+div#modal div.top, 
+div#modal div.bottom {
+  padding: 15px 35px;
+}
+div#modal div.bottom { background: #B2B2B2; }
+div#modal div.bottom table tbody td { font-size: 11px; }
+  
+  
+.contenido.portada .destacado img.grande
+  {
+  margin-bottom: 6px;
+  width: 576px;
+  height: 300px;
+  }
+
+.contenido.portada .destacado .menu
+  {
+  padding: 10px;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/menu_bg.png) repeat-y 0 0;
+  overflow: hidden;
+  }
+  
+.contenido.portada .destacado .menu h2.investiga
+  {
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 19px;
+  margin: 0 36px 0 0;
+  padding-bottom: 5px;
+  float: left;
+  }
+  
+.contenido.portada .destacado .menu .selector
+  {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  clear: left;
+  overflow: hidden;
+  }
+
+.contenido.portada .destacado .menu .selector > li
+  {
+  float: left;
+  margin-right: 5px;
+  }
+  
+.contenido.portada .destacado .menu .selector > li > a
+  {
+  display: block;
+  width: 14px;
+  height: 7px;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/selector.png) no-repeat 0 0;
+  }
+  
+.contenido.portada .destacado .menu .selector > li.actual > a, .contenido.portada .destacado .menu .selector > li > a:hover
+  {
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/selector.png) no-repeat 0 -7px;
+  }
+
+.contenido.portada .destacado .menu .investigacion
+  {
+  overflow: hidden;
+  }
+  
+.contenido.portada .destacado .menu .investigacion .miniatura
+  {
+  margin-right: 10px;
+  float: left;
+  }
+  
+.contenido.portada .destacado .menu .investigacion .descripcion
+  {
+  font-size: 10px;
+  line-height: 12px;
+  color: #FFFFFF;
+  display: block;
+  width: 145px;
+  overflow: hidden;
+  margin: 0;
+  }
+
+  /* Victor's Edit */
+.contenido.portada .notas
+  {
+  list-style: none;
+  margin: 0;  
+  padding: 0 0 0 7px;
+  width: 281px;
+  height: 300px;
+  background: none;
+  float: right;
+  }  
+  
+.contenido.portada .notas li,
+ li.noticias div.views-row,
+ li.eventos div.views-row { width: 278px; }
+ 
+ 
+ 
+ li.noticias div.views-row div.views-field-field-not-imgr-fid,
+ li.eventos div.views-row div.views-field-field-eve-logo-fid {
+  float: left;
+  width: 127px;
+  height: 78px;
+ }
+ div.views-field-field-not-imgr-fid span, 
+ div.views-field-field-not-imgr-fid a,
+ div.views-field-field-eve-logo-fid span,
+ div.views-field-field-eve-logo-fid a {
+	border: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+ }
+ 
+ li.noticias div.views-row div.views-field-title,
+ li.eventos div.views-row div.views-field-title {
+	float: right;
+	padding: 25px 10px 5px 10px;
+	width: 131px;
+	height: 48px;
+	background: #F9B200;
+ }
+  
+.contenido.portada .notas li h3 {
+	position: absolute;  
+	top: 3px;
+	left: 137px;
+	margin: 0;
+	padding: 0;
+	color: #000 !important;
+	font-size: 18px;
+	font-weight: normal;
+	z-index: 100;
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
+}
+.contenido.portada .notas li h3 a {
+	margin: 0;
+	padding: 0;
+	color: #000 !important;
+	font-size: 18px;
+	font-weight: normal;
+	z-index: 100;
+	text-decoration: none;
+}
+.contenido.portada .notas li h3 a:hover { text-decoration: underline; }
+  
+.contenido.portada .notas img
+  {
+  /* Victor */ 
+	width: 127px;
+	height: 78px;
+  }
+
+.contenido.portada .notas .descripcion
+  {
+  margin: 0;
+  }
+  
+.contenido.portada .notas .descripcion a
+  {
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration: none;
+  color: #000000;
+  }
+  
+.contenido.portada .notas .descripcion a:hover
+  {
+  text-decoration: underline;
+  }
+
+.contenido.portada .medios
+  {
+  width: 100px;
+  float: left;
+  list-style: none;
+  padding: 0 6px;
+  margin: 25px 0 0 0;
+  border-left: solid 1px #F9B200;
+  overflow: auto;
+  }
+  
+.contenido.portada .medios li
+  {
+  }
+
+.contenido.portada .medios li a
+  {
+  display: block;
+  font-size: 10px;
+  line-height: 16px;
+  min-height: 20px;
+  padding-right: 10px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/flecha.png) right top no-repeat;
+  }
+
+.contenido.portada .medios li a:hover
+  {
+  text-decoration: underline;
+  }
+
+/* indice */
+.contenido.indice
+  {
+  overflow: hidden;
+  }
+  
+.contenido.indice .filtro
+  {
+  }
+  
+.contenido.indice .filtro .a.filtrar
+  {
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 10px;
+  }
+
+.contenido.indice .filtro.horizontal
+  {
+  overflow: auto;
+  border-bottom: solid 1px #003F84;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  }
+  
+.contenido.indice .filtro.horizontal ul
+  {
+  background-color: #003F84;
+  float: left;
+  overflow: auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: solid 1px #014DA4;
+  }
+  
+.contenido.indice .filtro.horizontal ul li
+  {
+  float: left;
+  border-left: solid 1px #014DA4;
+  }
+  
+.contenido.indice .filtro.horizontal ul li:first-child
+  {
+  border-left: none;
+  }
+  
+.contenido.indice .filtro.horizontal ul li a
+  {
+  display: block;
+  padding: 5px 10px;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/filtro_bg.png) #003F84 0 0 repeat-x;
+  text-decoration: none;
+  }
+  
+.contenido.indice .filtro.horizontal ul li.actual a
+  {
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/filtro_bg_actual.png) 0 0 repeat-x;
+  }
+  
+.contenido.indice .filtro.horizontal ul li a:hover
+  {
+  text-decoration: underline;
+  }
+  
+.contenido.indice .filtro.vertical
+  {
+  max-width: 173px;
+  float: right;
+  margin-left: 15px;
+  }
+  
+.contenido.indice .filtro.vertical ul
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: solid 1px #014DA4;
+  }
+
+.contenido.indice .filtro.vertical ul li
+  {
+  border-top: solid 1px #014DA4;
+  }
+  
+.contenido.indice .filtro.vertical ul li:first-child
+  {
+  border-top: none;
+  }
+  
+.contenido.indice .filtro.vertical ul li a
+  {
+  display: block;
+  padding: 10px;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/filtro_bg.png) #003F84 0 0 repeat-x;
+  text-decoration: none;
+  }
+  
+.contenido.indice .filtro.vertical ul li.actual a
+  {
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/filtro_bg_actual.png) #00326A 0 0 repeat-x;
+  }
+  
+.contenido.indice .filtro.vertical ul li a:hover
+  {
+  text-decoration: underline;
+  }
+
+.contenido.indice .objetos
+  {
+  padding: 0;
+  }
+  
+.contenido.indice .objetos .subtitulo
+  {
+  margin: 10px 0 20px 0;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #003F84;
+  }
+  
+.contenido.indice .objetos > ul
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+.contenido.indice .objetos > ul > li
+  {
+  border-bottom: solid 1px #003F84;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  overflow: auto;
+  }
+
+.contenido.indice .objetos > ul > li span.imagen
+  {
+  float: left;
+  display: block;
+  width: 100px;
+  background-color: #003F84;
+  overflow: auto;
+  margin-right: 20px;
+  text-align: center;
+  }
+  
+.contenido.indice .objetos > ul > li span.imagen img
+  {
+  max-width: 100px;
+  max-height: 100px;
+  }
+
+.contenido.indice .objetos > ul > li h2
+  {
+  margin: 0;
+  }
+  
+.contenido.indice .objetos > ul > li ul
+  {
+  list-style: none;
+  }
+  
+/* noticia */
+ 
+.contenido.noticia .subtitulo
+  {
+  font-size: 19px;
+  line-height: 22px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #7F95B0;
+  margin: 0;
+  }
+ 
+.contenido.noticia .meta
+  {
+  padding: 12px 0;
+  height: 36px;
+  }
+  
+.contenido.noticia .meta li
+  {
+  width: 288px;
+  float: left;
+  }
+  
+.contenido.noticia .texto
+  {
+  width: 278px;
+  float: left;
+  margin: 0 10px 20px 0;
+  }
+  
+.contenido.noticia .texto p:first-child
+  {
+  margin-top: 0;
+  }
+
+.contenido.noticia .relacionados
+  {
+  overflow: hidden;
+  margin-bottom: 30px;
+  }
+  
+.contenido.noticia .relacionados .galeria
+  {
+  width: 383px;
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+  }
+
+.contenido.noticia .relacionados .galeria > li
+  {
+  float: left;
+  margin-right: 10px;
+  }
+  
+.contenido.noticia .relacionados .galeria > li:first-child
+  {
+  margin-bottom: 15px;
+  margin-right: 0px;
+  }
+  
+.contenido.noticia .relacionados .galeria > li > img
+  {
+  display: block;
+  width: 181px;
+  }
+  
+.contenido.noticia .relacionados .galeria > li:first-child img
+  {
+  width: 373px;
+  }
+  
+.contenido.noticia .relacionados .otras
+  {
+  float: left;
+  clear: left;
+  width: 146px;
+  }
+ 
+/*tramite*/
+.contenido.tramite .otras
+  {
+  float: right;
+  }
+
+.contenido.tramite .texto
+  {
+  width: 470px;
+  }
+
+.contenido.tramite .texto > ol > li
+  {
+  border-bottom: dotted 1px #FFFFFF;
+  }
+ 
+/*persona*/
+  
+.contenido.persona .tarjeta {
+	border: none !important;
+}
+
+.contenido.persona .tarjeta .descripcion
+  {
+  background-color: #6680A0;
+  }
+  
+.contenido.persona .tarjeta img.auth-logo {
+	margin: 0 31px 31px 31px !important;
+}
+
+.contenido.persona .tarjeta .foto
+  {
+  width: 145px;
+  height: 145px;
+  }
+  
+.contenido.persona .contacto dt
+  {
+  width: 40%;
+  }
+  
+.contenido.persona .contacto dd
+  {
+  width: 60%;
+  }
+  
+.contenido.persona .otras {
+	float: right;
+}
+
+.contenido.persona .texto
+  {
+  overflow: hidden;
+  width: 470px;
+  }
+  
+.contenido.persona .texto > p:first-child
+  {
+  font-size: 19px;
+  line-height: 22px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #7F95B0;
+  }
+  
+.contenido.persona .texto .proyectos
+  {
+  }
+  
+.contenido.persona .texto .proyectos h3
+  {
+  }
+
+.contenido.persona .texto .proyectos > ul
+  {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+
+.contenido.persona .texto .proyectos > ul > li
+  {
+  border-bottom: solid 1px #003F84;
+  padding: 10px 0;
+  }
+  
+.contenido.persona .texto .proyectos > ul > li a
+  {
+  text-decoration: none;
+  }
+  
+.contenido.persona .texto .proyectos > ul > li a:hover
+  {
+  text-decoration: underline;
+  }
+
+/*evento*/
+
+.contenido.evento > .fecha,
+.contenido.ec > .fecha
+  {
+  text-align: center;
+  height: 60px;
+  padding: 11px;
+  float: left;
+  margin: 0 10px 0 0;
+  }
+
+.contenido.evento > .fecha .dia, 
+.contenido.evento .fecha .mes,
+.contenido.ec > .fecha .dia, 
+.contenido.ec .fecha .mes
+  {
+  color: #F9B200;
+  margin: 0;
+  font-weight: normal;
+  font-family: "Arial Black", Arial, Helvetica, sans-serif;
+  }
+  
+.contenido.evento > .fecha .dia,
+.contenido.ec > .fecha .dia
+  {
+  font-size: 37px;
+  line-height: 40px;
+  }
+  
+.contenido.evento > .fecha .mes,
+.contenido.ec > .fecha .mes
+  {
+  font-size: 16px;
+  line-height: 24px;
+  }
+  
+.contenido.evento .tarjeta .descripcion
+  {
+  background-color: #F9B200;
+  }  
+
+.contenido.evento .texto
+  {
+  /* overflow: hidden; */
+  width: 470px;
+  }  
+
+.contenido.evento .texto p
+  {
+  margin-top: 0;
+  }
+  
+.contenido.evento .otras
+  {
+  float: right;
+  margin-left: 58px;
+  }
+
+/*convocatoria*/
+
+.contenido.convocatoria .titulo .estado.cerrada
+  {
+  font-size: .75em;
+  }
+  
+.contenido.convocatoria .titulo .estado.abierta
+  {
+  font-size: .75em;
+  color: #F9B200;
+  }
+  
+.contenido.convocatoria > .fecha
+  {
+  text-align: center;
+  height: 60px;
+  padding: 11px 0;
+  float: left;
+  margin: 16px 10px 0 0;
+  }
+  
+.contenido.convocatoria > .fecha .dia, .contenido.convocatoria .fecha .mes
+  {
+  color: #F9B200;
+  margin: 0;
+  font-weight: bold;
+  font-family: "Arial Black", Arial, Helvetica, sans-serif;
+  }
+  
+.contenido.convocatoria > .fecha .dia
+  {
+  font-size: 37px;
+  line-height: 40px;
+  }
+  
+.contenido.convocatoria > .fecha .mes
+  {
+  font-size: 16px;
+  line-height: 24px;
+  }
+
+.contenido.convocatoria
+  {
+  }
+
+.contenido.convocatoria .texto
+  {
+  width: 443px;
+  overflow: hidden;
+  }
+  
+.contenido.convocatoria .otras
+  {
+  float: right;
+  margin-left: 0;
+  }
+  
+/*plan de estudios*/
+.contenido.plan.de.estudios
+  {
+  
+  }
+
+.contenido.plan.de.estudios .materias
+  {
+  text-align: center;
+  height: 20px;
+  width: 123px;
+  padding: 26px 11px 36px 11px;
+  background:  #F9B200;
+  float: right;
+  margin-left: 10px;
+  color: #FFFFFF;
+  margin: 16px 0 10px 10px;
+  overflow: hidden;
+  }
+  
+.contenido.plan.de.estudios .materias h2
+  {
+  margin: 0;
+  font-size: 24px;
+  }
+  
+.contenido.plan.de.estudios .materias a
+  {
+  min-height: 50px;
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  }
+
+.contenido.plan.de.estudios .materias a:hover
+  {
+  text-decoration: underline;
+  }
+
+.contenido.plan.de.estudios .tarjeta .descripcion
+  {
+  background-color: #6680A0;
+  }
+
+.contenido.plan.de.estudios .otras
+  {
+  float: right;
+  margin-left: 58px;
+  }
+
+.contenido.plan.de.estudios .texto
+  {
+  width: 470px;
+  }
+  
+/*dependencia*/
+
+.contenido.dependencia
+  {
+  }
+  
+.contenido.dependencia .otras
+  {
+  float: right;
+  clear: right;
+  }
+  
+.contenido.dependencia .texto
+  {
+  width: 470px;
+  float: left;
+  }
+  
+.contenido.dependencia .texto .foto.director
+  {
+  width: 128px;
+  height: 128px;
+  padding: 5px;
+  border: solid 1px #4EA4D7;
+  float: left;
+  margin: 0 20px 10px 0;
+  }
+  
+.contenido.dependencia .texto .subtitulo
+  {
+  overflow: hidden;
+  margin: 0 0 40px 0;
+  }
+  
+.contenido.dependencia .texto .nombre.director
+  {
+  float: left;
+  width: 140px;
+  clear: left;
+  margin: 0 0 5px 0;
+  }
+  
+.contenido.dependencia .texto .cargo
+  {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  clear: left;
+  margin: 0 0 40px 0;
+  }
+  
+.contenido.dependencia .texto dl.contacto
+  {
+  clear: both;
+  }
+  
+.contenido.dependencia .texto .funciones
+  {
+  }
+  
+/*facultad*/
+
+.contenido.facultad
+  {
+  }
+  
+.contenido.facultad .otras
+  {
+  float: right;
+  clear: right;
+  }
+  
+.contenido.facultad .texto
+  {
+  width: 470px;
+  float: left;
+  }
+  
+.contenido.facultad .texto .foto.director
+  {
+  width: 128px;
+  height: 128px;
+  padding: 5px;
+  border: solid 1px #4EA4D7;
+  float: left;
+  margin: 0 20px 10px 0;
+  }
+  
+.contenido.facultad .texto .subtitulo
+  {
+  overflow: hidden;
+  margin: 0 0 40px 0;
+  }
+  
+.contenido.facultad .texto .nombre.director
+  {
+  float: left;
+  width: 140px;
+  clear: left;
+  margin: 0 0 5px 0;
+  }
+  
+.contenido.facultad .texto .cargo
+  {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  clear: left;
+  margin: 0 0 40px 0;
+  }
+  
+.contenido.facultad .texto dl.contacto
+  {
+  clear: both;
+  }
+  
+/*escuela*/
+
+.contenido.escuela
+  {
+  }
+  
+.contenido.escuela .texto
+  {
+  }
+  
+.contenido.escuela .texto .subtitulo
+  {
+  overflow: hidden;
+  margin: 0 0 40px 0;
+  width: 313px;
+  float: left;
+  }
+  
+.contenido.escuela .texto dl.contacto
+  {
+  float: right;
+  width: 300px;
+  }
+
+.contenido.escuela .texto div.otras
+  {
+  float: right;
+  
+  }
+  
+.contenido.escuela .texto h2.impartidos
+  {
+  clear: both;
+  }
+  
+.contenido.escuela .texto .vertical.cursos
+  {
+  }
+  
+
+  
+/*edificio*/
+
+.contenido.edificio
+  {
+  }
+  
+.contenido.edificio .galeria
+  {
+  width: 145px;
+  float: right;
+  padding: 0 0 0 10px;
+  margin-bottom: 80px;
+  border: solid #FFFFFF;
+  border-width: 0 0 2px 2px;
+  }
+  
+.contenido.edificio .galeria ul
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+.contenido.edificio .galeria ul li
+  {
+  margin: 0 0 10px 0;
+  padding: 0;
+  }
+  
+.contenido.edificio .galeria img
+  {
+  display: block;
+  max-width: 145px;
+  }
+  
+.contenido.edificio .galeria a.virtual
+  {
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/titulo_fecha_bg.png) repeat-x 0 0 #F9B200;;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+  }
+  
+.contenido.edificio .galeria a.virtual:hover
+  {
+  text-decoration: underline;
+  }
+  
+.contenido.edificio .texto
+  {
+  width: 470px;
+  float: left;
+  }
+  
+.contenido.edificio .texto .subtitulo
+  {
+  overflow: hidden;
+  margin: 0 0 20px 0;
+  }
+  
+.contenido.edificio .texto dl.contacto
+  {
+  clear: both;
+  width: auto;
+  }
+
+.contenido.edificio .texto .hospedados
+  {
+  list-style-position: inside;
+  list-style-type: circle;
+  margin: 0 0 40px 0;
+  padding: 0;
+  }
+  
+.contenido.edificio .texto .hospedados li
+  {
+  border-bottom: solid 1px #003F84;
+  margin-bottom: 1px;
+  padding: 10px 0;
+  }
+  
+.contenido.edificio .texto .hospedados li a
+  {
+  text-decoration: none;
+  }
+  
+.contenido.edificio .texto .hospedados li a:hover
+  {
+  text-decoration: underline;
+  }
+  
+/*biblioteca*/
+.contenido.biblioteca
+  {
+  overflow: hidden;
+  }
+
+.contenido.biblioteca .galeria
+  {
+  float: right;
+  width: 145px;
+  padding: 0 0 0 10px;
+  margin-bottom: 80px;
+  border: solid #FFFFFF;
+  border-width: 0 0 2px 2px;
+  }
+  
+.contenido.biblioteca .galeria a.virtual
+  {
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/titulo_fecha_bg.png) repeat-x 0 0 #F9B200;;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+  }
+  
+.contenido.biblioteca .galeria a.virtual:hover
+  {
+  text-decoration: underline;
+  }
+  
+.contenido.biblioteca .galeria ul
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+.contenido.biblioteca .galeria ul li
+  {
+  margin: 0 0 10px 0;
+  padding: 0;
+  }
+  
+.contenido.biblioteca .galeria img
+  {
+  display: block;
+  max-width: 145px;
+  }
+  
+.contenido.biblioteca .subtitulo
+  {
+  width: 470px;
+  }
+  
+.contenido.biblioteca dl.contacto
+  {
+  margin-bottom: 30px;
+  }
+  
+.contenido.biblioteca .horarios
+  {
+  width: 470px;
+  }
+  
+.contenido.biblioteca .horarios h2
+  {
+  margin-bottom: 10px;
+  }
+  
+/*publicacion*/
+.contenido.publicacion
+  {
+  overflow: hidden;
+  }
+  
+.contenido.publicacion .texto
+  {
+  }
+  
+.contenido.publicacion .galeria
+  {
+  float: left;
+  margin: 0 20px 20px 0;
+  }
+  
+.contenido.publicacion .galeria ul
+  {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  }
+  
+.contenido.publicacion .galeria ul li img
+  {
+  display: block;
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: 150px;
+  }
+  
+.contenido.publicacion .subtitulo
+  {
+  float: left;
+  width: 300px;
+  margin: 0 0 20px 0;
+  }
+  
+.contenido.publicacion .otras
+  {
+  float: right;
+  margin-bottom: 20px;
+  }
+  
+.contenido.publicacion .repositorio
+  {
+  clear: both;
+  border: solid #003F84;
+  border-width: 1px 0;
+  padding: 15px 0;
+  text-align: center;
+  }
+  
+.contenido.publicacion .contacto
+  {
+  clear: both;
+  width: 633px;
+  }
+  
+/*asignatura*/
+.contenido.asignatura
+  {
+  }
+  
+.contenido.asignatura .texto
+  {
+  overflow: auto;
+  }
+  
+.contenido.asignatura .texto .subtitulo
+  {
+  width: 313px;
+  float: left;
+  margin: 0 0 40px 0;
+  }
+  
+.contenido.asignatura .texto .contacto
+  {
+  width: 300px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  }
+  
+.contenido.asignatura .texto .contacto dt
+  {
+  width: 45%;
+  }
+  
+.contenido.asignatura .texto .contacto dd
+  {
+  width: 55%;
+  }
+  
+.contenido.asignatura .secciones h2
+  {
+  clear: both;
+  border-bottom: solid 1px #003F84;
+  padding-bottom: 10px;
+  }
+  
+.contenido.asignatura .secciones > ul
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+
+.contenido.asignatura .secciones > ul > li.seccion
+  {
+  margin: 0;
+  margin-bottom: 1px;
+  width: 140px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  }
+  
+.contenido.asignatura .secciones > ul > li.seccion h3
+  {
+  margin: 0;
+  padding: 0 0 4px 0;
+  }
+
+.contenido.asignatura .secciones > ul > li.seccion img.profesor
+  {
+  display: block;
+  width: 90px;
+  height: 90px;
+  border: solid 1px #FFFFFF;
+  padding: 4px;
+  }
+  
+.contenido.asignatura .secciones > ul > li.seccion .horarios
+  {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+
+.contenido.asignatura .secciones > ul > li.seccion .horarios > li
+  {
+  border-bottom: solid 1px #003F84;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  }
+
+.contenido.asignatura .secciones > ul > li.seccion .horarios .dia, .contenido.asignatura .secciones > ul > li.seccion .horarios .hora
+  {
+  margin: 0;
+  }
+  
+.contenido.asignatura .secciones > ul > li.seccion .horarios .dia
+  {
+  font-weight: bold;
+  }
+
+/*programa de radio / tv*/
+.contenido.programa
+  {
+  overflow: hidden;
+  }
+  
+.contenido.programa .titulo
+  {
+  width: 420px;
+  float: left;
+  }
+  
+.contenido.programa .en.vivo
+  {
+  float: right;
+  }
+  
+.contenido.programa .en.vivo a
+  {
+  text-align: center;
+  background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/titulo_fecha_bg.png) repeat-x 0 0 #F9B200;
+  display: block;
+  padding: 20px;
+  width: 160px;
+  text-decoration: none;
+  }
+  
+.contenido.programa .en.vivo a:hover
+  {
+  text-decoration: underline;
+  }
+  
+.contenido.programa .texto
+  {
+  clear: both;
+  overflow: auto;
+  margin: 0;
+  }
+  
+.contenido.programa .texto .conductor
+  {
+  float: left;
+  width: 120px;
+  margin: 0 20px 80px 0;
+  }
+  
+.contenido.programa .texto .conductor img
+  {
+  width: 100%;
+  }
+  
+.contenido.programa .texto .subtitulo
+  {
+  float: left;
+  width: 280px;
+  margin: 0;
+  }
+  
+.contenido.programa .texto .transmisiones
+  {
+  width: 200px;
+  float: right;
+  margin-bottom: 40px;
+  }
+  
+.contenido.programa .texto .transmisiones .originales
+  {
+  margin: 0 0 10px 0;
+  }
+  
+.contenido.programa .texto .transmisiones .repeticiones
+  {
+  margin: 0 0 10px 0;
+  }
+  
+.contenido.programa .texto .transmisiones .horarios
+  {
+  margin: 0 0 20px 0;
+  }
+  
+
+/*articulo*/
+.contenido.articulo
+  {
+  
+  }
+  
+.contenido.ec {
+	padding: 0 0px 113px 64px;
+	width: 716px;
+}
+.contenido.articulo .otras,
+.contenido.ec .otras
+  {
+  float: right;
+  }
+  
+.contenido.articulo .texto
+  {
+  width: 470px; 
+  }
+  
+.contenido.articulo .texto p
+  {
+  }
+  
+.contenido.articulo .texto a
+  {
+  color: #F9B200;
+  text-decoration: underline;
+  }
+
+.contenido.articulo .texto .imagen
+  {
+  overflow: auto;
+  }
+
+.contenido.articulo .texto .imagen img
+  {
+  display: block;
+  max-width: 470px;
+  }
+  
+.contenido.articulo .texto .imagen .nota.de.foto
+  {
+  float: right;
+  text-align: right;
+  background-color: #976E00;
+  max-width: 470px;
+  margin: 1px 0 0 0;
+  padding: 8px;
+  }
+  
+.contenido.articulo .texto table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  /* border: solid 1px #FFFFFF; */
+  margin: 2em 0;
+  width: 100%;
+}
+  
+.contenido.articulo .texto table th, 
+.contenido.articulo .texto table td {
+  /* border: solid 1px #FFFFFF; */
+  height: 20px;
+  padding: 4px 8px;
+}
+/* Ligas en las tablas */
+.contenido.articulo .texto table a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.contenido.articulo .texto table a:hover { color: #F9B200; }
+.contenido.articulo .texto table th {
+  
+}
+
+.contenido.articulo .texto table.horizontal th, 
+.contenido.articulo .texto table.horizontal td {
+  text-align: center;
+}
+  
+.contenido.articulo .texto table.horizontal td
+  {
+  border-width: 0 1px;
+  }
+  
+.contenido.articulo .texto table.vertical td
+  {
+  border-width: 1px 0;
+  }
+  
+/*patente*/
+.contenido.patente
+  {
+  
+  }
+
+.contenido.patente .subtitulo
+  {
+  width: 300px;
+  float: left;
+  margin-top: 0;
+  margin-bottom: 40px;
+  }
+  
+.contenido.patente .contacto
+  {
+  width: 300px;
+  float: right;
+  }
+  
+.contenido.patente .contacto dt
+  {
+  width: 45%;
+  }
+  
+.contenido.patente .contacto dd
+  {
+  width: 55%;
+  }
+  
+.contenido.patente .creadores
+  {
+  clear: both;
+  margin-bottom: 80px;
+  }
+  
+.contenido.patente .creadores ul
+  {
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+.contenido.patente .creadores .creador
+  {
+  float: left;
+  margin-right: 20px;
+  width: 120px;
+  min-height: 174px;
+  }
+
+.contenido.patente .creadores .creador .foto img
+  {
+  width: 120px;
+  }
+
+/*equipo representativo*/
+.contenido.equipo
+  {
+  }
+
+.contenido.equipo .galeria
+  {
+  width: 145px;
+  float: right;
+  margin-left: 20px;
+  padding: 0 0 0 10px;
+  margin-bottom: 80px;
+  border: solid #FFFFFF;
+  border-width: 0 0 2px 2px;
+  }
+  
+.contenido.equipo .galeria ul
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+.contenido.equipo .galeria ul li
+  {
+  margin: 0 0 10px 0;
+  padding: 0;
+  }
+  
+.contenido.equipo .galeria img
+  {
+  display: block;
+  max-width: 145px;
+  }
+  
+.contenido.equipo .texto
+  {
+  overflow: hidden;
+  }
+  
+.contenido.equipo .texto .subtitulo
+  {
+  margin-top: 0;
+  }
+
+.contenido.equipo .texto .integrantes .entrenador
+  {
+  overflow: auto;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #003F84;
+  }
+
+.contenido.equipo .texto .integrantes .entrenador .foto
+  {
+  display: block;
+  float: left;
+  width: 114px;
+  margin-right: 10px;
+  }
+  
+.contenido.equipo .texto .integrantes .entrenador .foto img
+  {
+  width: 114px;
+  }
+  
+.contenido.equipo .texto .integrantes .entrenador .contacto
+  {
+  width: 332px;
+  float: left;
+  }
+  
+.contenido.equipo .texto .integrantes .entrenador .nombre
+  {
+  width: 332px;
+  float: left;
+  }
+  
+.contenido.equipo .texto .integrantes .entrenador .contacto dt
+  {
+  width: 20%;
+  }
+  
+.contenido.equipo .texto .integrantes .entrenador .contacto dd
+  {
+  width: 80%;
+  }
+  
+.contenido.equipo .texto .integrantes .deportistas
+  {
+  clear: both;
+  }
+  
+.contenido.equipo .texto .integrantes .deportistas ul
+  {
+  clear: both;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+  
+.contenido.equipo .texto .integrantes .deportistas ul .deportista
+  {
+  width: 114px;
+  height: 170px;
+  padding: 0 0 10px 0;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  }
+  
+.contenido.equipo .texto .integrantes .deportistas ul .deportista img
+  {
+  width: 114px;
+  }
+  
+/*proyecto de investigacion*/
+.contenido.proyecto
+  {
+  }
+
+.contenido.proyecto .galeria
+  {
+  width: 145px;
+  float: right;
+  margin-left: 20px;
+  padding: 0 0 0 10px;
+  margin-bottom: 20px;
+  border: solid #FFFFFF;
+  border-width: 0 0 2px 2px;
+  }
+  
+.contenido.proyecto .galeria ul
+  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+.contenido.proyecto .galeria ul li
+  {
+  margin: 0 0 10px 0;
+  padding: 0;
+  }
+  
+.contenido.proyecto .galeria img
+  {
+  display: block;
+  max-width: 145px;
+  }
+  
+.contenido.proyecto .otras
+  {
+  float: right;
+  clear: right;
+  width: 121px;
+  }
+  
+.contenido.proyecto .texto
+  {
+  overflow: hidden;
+  }
+  
+.contenido.proyecto .texto .subtitulo
+  {
+  margin-top: 0;
+  }
+
+.contenido.proyecto .texto .integrantes .director
+  {
+  overflow: auto;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #003F84;
+  }
+
+.contenido.proyecto .texto .integrantes .director .foto
+  {
+  display: block;
+  float: left;
+  width: 114px;
+  margin-right: 10px;
+  }
+  
+.contenido.proyecto .texto .integrantes .director .foto img
+  {
+  width: 114px;
+  }
+  
+.contenido.proyecto .texto .integrantes .director .contacto
+  {
+  width: 332px;
+  float: left;
+  }
+  
+.contenido.proyecto .texto .integrantes .director .nombre
+  {
+  width: 332px;
+  float: left;
+  }
+  
+.contenido.proyecto .texto .integrantes .director .contacto dt
+  {
+  width: 50%;
+  }
+  
+.contenido.proyecto .texto .integrantes .director .contacto dd
+  {
+  width: 50%;
+  }
+  
+.contenido.proyecto .texto .integrantes .investigadores
+  {
+  clear: both;
+  }
+  
+.contenido.proyecto .texto .integrantes .investigadores ul
+  {
+  clear: both;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+  
+.contenido.proyecto .texto .integrantes .investigadores ul .investigador
+  {
+  width: 114px;
+  height: 170px;
+  padding: 0 0 10px 0;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  }
+  
+.contenido.proyecto .texto .integrantes .investigadores ul .investigador img
+  {
+  width: 114px;
+  }
+
+/* campus */
+.contenido.campus .texto
+  {
+	width: 445px;
+  }
+ .contenido.campus img.plano_map
+  {
+	border: 10px #003F84 solid;
+  }
+
+/* RECTOR */
+  
+.contenido.rector p.subtitulo {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-style: italic;
+	color: #F9B200;
+}
+
+.contenido.rector img.foto {
+	float: left;
+	margin: 0 15px 15px 0;
+	width: 145px;
+	height: 145px;
+}
+
+.contenido.rector h2.subtitulo {
+	
+}
+
+.contenido.rector hr {
+	border: none;
+	height: 1px;
+	background: #F9B200;
+}
+
+.contenido.rector p.notas {
+	padding: 0 0 0 25px;
+	font-size: 10px;	
+}
+
+/* PIE */
+
+.pie {
+	clear: both;
+	padding: 0 0 20px 0;	
+	overflow: hidden;
+	text-align: right;
+}
+  
+.pie .cortesia {
+	display: inline-block;
+	margin: 0 auto;
+	list-style: none;
+	overflow: hidden;
+}
+
+.pie .cortesia li {
+	display: block;
+	float: left;
+}
+
+.pie .cortesia li.contacto {
+	padding: 0;
+	margin: 0;
+	padding-right: 3px;
+	border-right: solid 1px #F9B200;
+	margin-right: 10px;
+	margin-top: 12px;
+}
+  
+.pie .cortesia li.direccion { text-align: right; }
+
+.pie .cortesia li a {
+	font-size: 10px;
+	line-height: 12px;
+	color: #FFF;
+	text-decoration: none;
+	margin: 0;
+}
+  
+.pie .cortesia li a:hover { text-decoration: underline; }
+  
+.pie .cortesia li p {
+	color: #FFFFFF;
+	font-size: 10px;
+	line-height: 12px;
+	margin: 0;
+}
+
+.pie img.calidad  {
+	display: inline-block;
+	margin: 0 0 0 15px;
+}
+
+#radio{ color: #BB0000; }
+
+/* ADSTYLE */
+/* ESTILOS ADICIONALES */
+
+/* Estilos del menú de perfiles */
+#dropline, #dropline>ul {
+	padding: 0;
+	margin: 0 auto;	
+	list-style: none;
+	text-align: center;
+}
+#dropline li div.macro {
+	position: absolute;
+	display: none;
+	top: 22px; 
+	left: -60px;	 
+	z-index: 10;
+	width: 600px;	
+	opacity: 0.95;
+}
+
+#dropline li div.macro thead th {
+	/* border-bottom: 1px #CC9900 solid; */
+}
+
+.perfiles .macro table tr td.ultimo {
+	border-right: none !important;
+}
+
+.destacado .img_portada {
+	margin: 0;	
+	padding: 0;
+	height: 300px;
+	min-height: 300px;
+	max-height: 300px;
+	overflow: hidden;
+}
+
+/* Listados generales amplios */
+.contenido.wider {
+	padding: 0 0 113px 0 !important;
+	width: 780px !important;
+}
+.contenido.wider .texto {
+	width: 577px !important;
+}
+.contenido.wider .texto .views-exposed-form {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 10px 25px;
+	background: #002C61;
+}
+.contenido.wider .texto select.form-select {
+	display: block;
+	width: 400px;
+	border: 1px #012149 solid;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* Encabezados y tablas listados generales amplios */
+.contenido.wider .texto .objetos .listado_general h3 {
+	font-weight: bold;
+}
+
+.contenido.wider .texto .objetos .listado_general table,
+.contenido.wider .texto .objetos .listado_general table td {
+	border: 1px #01295B solid;
+	margin-top: 0;
+	background: #0D3566;
+}
+.contenido.wider .texto .objetos .listado_general table td:hover {
+	background: #002C61;
+}
+
+/* Ligas en los listados generales */	
+.contenido.wider .texto a {
+	text-decoration: none;
+}
+
+.contenido .texto p { 
+	/* text-align: justify !important; */  
+}
+.contenido.publicacion .texto {
+	width: 470px;	
+}
+/* Estilo para breadcrumbs; necesarios porque drupal los despliega de forma diferente */
+/* NAVEGACION SECUNDARIA (MIGAJAS DE PAN) */
+.breadcrumb { 
+	vertical-align: middle;
+	text-transform: uppercase; 	
+}  
+.breadcrumb > a:first-child {
+}
+  
+.breadcrumb > a.actual
+/*Internet Explorer no soporta la pseudoclase last-child.
+Asignar la clase "actual" dinámicamente al último
+elemento de la lista para seleccionarlo.*/
+{
+}
+
+.breadcrumb > a {
+	text-transform: uppercase;
+	font-size: 11px;
+	line-height: 14px;
+	text-decoration: none;
+	color: #FFFFFF;  
+	vertical-align: middle;
+}
+  
+.breadcrumb > a:hover {
+	text-decoration: underline;
+}  
+  
+.breadcrumb > a.actual {
+	color: #F9B200;  
+}
+
+/* Estilos para vistas (listados generales) */
+.contenido.indice .otras {
+	float: right;
+	margin-bottom: 20px;
+}
+div.views-exposed-widget span {
+	display: none !important;
+}
+ul.listado_general {
+	margin: 0;
+	padding: 0;
+}
+ul.listado_general div {
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+ul.listado_general ul {
+	margin: 0 0 0 15px;
+	padding: 0;
+}
+ul.listado_general h2{
+	margin: 0 0 10px 0 !important;
+}
+ul.listado_general li {
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+ul.listado_general li a {
+	text-decoration: none;
+}
+ul.listado_general li a:hover {
+	text-decoration: underline;
+}
+
+/* Texto en vistas */
+.contenido.indice .texto {
+	width: 470px;
+}
+.contenido.indice .texto form {
+	max-width: 450px !important;
+}
+
+/* Listado de publicaciones */
+div.listado_pub {
+	overflow: hidden; margin: 0 0 20px 0;
+}
+div.listado_pub .views-field-title { 
+  	margin: 0 0 10px 0;  
+  	font-size: 18px;
+  	line-height: 1.2em;
+}
+div.listado_pub span p { margin: 0 !important; }
+.contenido.indice .texto .listado_pub span.views-field-field-pub-logotipo-fid {
+	float: left;
+	margin: 0 10px 5px 0;	
+}
+
+/* Buscar */
+.herramientas div.block,  .herramientas div.block div.container-inline {
+	float: left;
+	display: inline;
+} 
+.cabecera .herramientas form#search-block-form {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-bottom-left-radius: 6px;
+}
+.cabecera .herramientas form#search-block-form div {
+	display: inline;  	
+  	float: left;
+  	padding: 0;
+  	margin: 0;
+}    
+.cabecera .herramientas form#search-block-form, .cabecera .herramientas .idioma {
+	background-color: #002C61;
+	float: left;
+} 
+.cabecera .herramientas form#search-block-form {
+	display: inline;
+	float: left;
+	border-width: 0;
+	padding: 10px 30px 10px 10px;
+	height: 24px;
+	width: 295px;
+}
+.cabecera .herramientas form#search-block-form label {
+	font-size: 11px;
+	line-height: 16px;
+	height: 20px;
+	padding: 4px 0 0 0;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	vertical-align: middle;
+	margin-right: 10px;
+	font-weight: normal;
+  }
+.cabecera .herramientas form#search-block-form input[type="text"] {
+	background-color: #FFFFFF;
+	height: 18px;
+	width: 210px;
+	border: none;
+	border-width: 0;
+	padding: 3px 5px;
+	margin: 0;
+	display: block;
+	float: left;
+}
+.cabecera .herramientas form#search-block-form input[type="submit"] {
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 2px;
+	height: 24px;
+	width: 24px;
+	background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/buscar.png) no-repeat 50% 50% #7A2531;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	float: left;
+}
+
+/* Paginador */
+#edit-submit {
+	margin-top: 10px;
+}
+div.contenido div.item-list {
+	padding: 10px 0;
+	width: 538px;
+}
+ul.pager li a {
+	color: #FFF !important;
+}
+
+/* Menú principal de navegación */
+/* Primer nivel */
+.navegacion > .global > li.actual > a, .navegacion > .global > li > a:hover {
+	/* background-color: #BC9B13 !important; */
+}
+.navegacion .local > li > a:hover {
+	text-decoration: none !important;
+	/* color: #BC9B13; */
+}
+/* Tercer nivel */
+.navegacion .local .sub.local { 
+	margin: 0 0 0 15px !important;
+}
+
+.contenido.articulo .texto p>img {	
+	float: left;
+	margin: 0 10px 0 0;
+}
+/* Facultad -> director */
+/* Dependencia -> director */
+.contenido.facultad .texto .imagefield,
+.contenido.dependencia .texto .imagefield {
+	width: 128px;
+	height: 128px;
+	padding: 5px;
+	border: solid 1px #4EA4D7;
+	float: left;
+	margin: 0 20px 10px 0;
+}
+  
+ /* Biblioteca -> ligas relacionadas */
+ .contenido.biblioteca .otras {
+	float: right;
+	margin-left: 58px;
+}
+
+/* Patente -> inventor */
+.creadores li img {
+	width: 180px !important;
+}
+
+/* Programas radio y tv */
+.contenido.programa .en.vivo a:hover {
+	color: #FFFFFF !important;
+}
+.contenido.programa table.vertical {
+	border: 1px #01295B solid;
+	margin-top: 15px !important;
+	width: 434px !important;
+	background: #0D3566;
+}
+/* CAMBIOS ADICIONALES JUNIO 2011 */
+/* Páginas Programación */
+.contenido.programa .texto>table {
+	display: block;
+	border: none !important;	
+	border-collapse: collapse;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0px 0px 4px #06172B;
+	-moz-box-shadow: 0px 0px 4px #06172B;
+	-webkit-box-shadow: 0px 0px 4px #06172B;
+	background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/historia-bg2.gif) repeat-x top left #004A99;
+	margin: 0;
+	padding: 0 8px;
+	width: 434px;
+	height: 40px;
+}
+.contenido.programa .texto>table tbody {	
+	border: none !important;
+	margin: 0;
+	padding: 0;
+}
+.contenido.programa .texto>table td {
+	border: none !important;
+	margin: 0;
+	padding: 0;
+	width: 62px;
+	height: 40px;
+}
+.contenido.programa .texto>table td:hover {
+	background:url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/historia-bg3.gif) repeat-x center left  #00418C;
+}
+
+/* Tablas */
+.tablefield
+  {
+  table-layout: fixed;
+  border: solid 1px #FFFFFF;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2em 0;
+  }
+  
+.tablefield th, .tablefield td, .tablefield tr {
+  height: 20px;
+  padding: 4px 8px;
+  border: solid 1px #FFFFFF;
+  background: none;  
+}
+
+/* Estilos de noticias/eventos de portada */
+.contenido.portada .notas .block.block-views {
+	-mox-box-shadow: 0 0 3px #000;
+	-webkit-box-shadow: 0 0 3px #000;
+	box-shadow: 0 0 3px #000;
+	margin-top: 22px;
+	width: 278px;
+}
+.contenido.portada .notas .block.block-views .content {
+	height: 78px;
+}
+.contenido.portada .notas li.eventos,
+.contenido.portada .notas li.noticias {
+	padding: 0 !important;
+	position: relative;
+	height: 78px;
+}
+
+.contenido.portada .notas ul.listado_general {
+	margin: 0;
+	padding: 0;
+}
+.notas ul.listado_general .views-row {	
+	padding: 0;
+}  
+
+.notas .field-content { 
+	margin: 0;
+}
+.notas .field-content a {
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+	color: #000000;
+}  
+.notas .field-content a:hover {
+	text-decoration: underline;
+}
+
+/* Estilos del slider de investigación */
+div.investigacion img.imagefield {
+	width: 83px;	
+	height: 53px;
+}
+div.investigacion div.views-field-field-not-imgr-fid {
+	float: left;
+	margin-right: 10px;
+}
+div.investigacion div.views-field-title a {
+	display: block;	
+	margin: 0;
+	width: 145px;
+  	color: #FFFFFF;
+  	line-height: 12px;
+  	font-size: 10px;
+  	text-decoration: none; 	
+  	overflow: hidden;  	
+}
+
+/* Imagen principal de portada */
+.contenido.portada .destacado .grande img {
+	height: 300px;
+}
+.contenido.portada .destacado .grande .aviso {
+}
+.contenido.portada .destacado .grande .aviso p {
+	font-size: 11px;	
+}
+
+/* Estilos de listado de noticias y eventos */
+#edit-submit-ltd-noticias, #edit-submit-ltd-eventos {
+	margin: 10px 0 0 15px !important; 
+}
+.bloque_ne { 
+	border-top: 1px #194176 solid; 	
+	border-bottom: 1px #021C3E solid;		
+	margin: 0;
+	padding: 10px 0;
+	width: 538px;
+	min-height: 78px;
+}
+.bloque_ne div.field-not-imgr-fid, .bloque_ne div.field-eve-logo-fid {
+	float: left;
+	border: 1px #021C3E solid;
+	margin: 0 10px 0 0;
+}
+.bloque_ne div.title {
+	font-size: 18px;
+	line-height: 1.2em;
+}
+.bloque_ne div.field-not-fyh-value, .bloque_ne div.field-eve-fyh-ini-value {
+	display: inline;
+}
+.bloque_ne div.title-1 {
+	display: inline;
+}
+
+/* CAMBIOS ADICIONALES MAYO 2011 */
+/* Páginas Universidad, Historia */
+div.columnas {
+    padding: 0 0 20px 0;
+    width: 470px;
+    overflow: hidden;
+}
+div.columna1 {
+    float: left;
+    width: 225px;
+}
+div.columna2 {
+    float:right;
+    width: 225px;
+}
+
+ul.menu-historia {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/historia-bg2.gif) repeat-x bottom left #004A99;
+    width: 470px;
+    list-style: none;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0px 0px 4px #06172B;
+    -moz-box-shadow: 0px 0px 4px #06172B;
+    -webkit-box-shadow: 0px 0px 4px #06172B;
+}
+
+* ul.menu-historia li {
+    float: left;
+    margin: 0;
+    padding: 13px 5px;
+    text-align: center;
+}
+ul.menu-historia li:hover {
+    background:url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/historia-bg3.gif) repeat-x bottom left  #00418C;
+}
+ul.menu-historia li a,
+.contenido.programa .texto>table tr td,
+.contenido.programa .texto>table tr td a {
+    color: #FFF !important;
+    text-decoration: none !important;
+    font-size: 9px;
+}
+
+ul.menu-historia li.actual {
+    background: url(/web/20111112192344im_/http://www.uanl.mx/sites/all/themes/UANL/images/common/historia-bg.gif) repeat-x bottom left #F9B200;    
+}
+ul.menu-historia li.actual a {
+    color: #002C61 !important;
+}
+
+/* Victor, nuevo div BASE */
+div#base {
+	float: left;
+	margin-top: 10px;
+	padding: 0px 0 20px 0;
+	width: 864px;
+	height: 85px;	
+	overflow: hidden;
+}
+div#base div.banner {
+	float: left;
+	width: 573px;
+}
+div#base div.adicional {
+	float: right;
+	border: 3px #F9B200 solid;
+	border-width: 0 0 0 3px;
+	margin-left: 10px;
+	padding: 3px 5px;
+	width: 268px;
+	height: 79px;	
+}
+div#base div.adicional p {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+div#base div.adicional ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+div#base div.adicional ul a {
+	text-decoration: none;
+}
+
+/* NONSTANDARD */
+
+form > fieldset > legend
+  {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  }
+  
+form > fieldset > ul
+  {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  }
+
+form > fieldset > ul > li > input[type="text"], form > fieldset > ul > li > input[type="password"], form > fieldset > ul > li > textarea
+  {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  }
+
+.cabecera .herramientas form.buscar
+  {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-bottom-left-radius: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  border-bottom-left-radius: 6px;
+  }
+  
+.cabecera .herramientas .idioma
+  {
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-radius-bottomright: 6px;
+  border-bottom-right-radius: 6px;
+  }
+  
+.cabecera .derecha .contenedor .servicios select
+  {
+  -webkit-border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  }
+  
+.perfiles > ul > li > a:hover, .perfiles > ul > li.actual > a
+  {
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-left-radius: 4px;  
+  border-top-right-radius: 4px;  
+  }
+  
+.cabecera form.enlinea
+  {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  }
+  
+form > ul > li > input[type="text"], form > ul > li > input[type="password"], form > ul > li > textarea
+  {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  }
+  
+.navegacion > .global > li > a
+  {
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-left-radius: 8px;
+  }
+  
+.contenido.portada .destacado img
+  {
+  -webkit-border-bottom-right-radius: 12px;
+  -moz-border-radius-bottomright: 12px;
+  border-bottom-right-radius: 12px;
+  }
+  
+.contenido .titulo
+  {
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  }
+  
+.contenido.noticia .titulo
+  {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  }
+  
+.contenido.plan.de.estudios .titulo
+  {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  }
+  
+.contenido.evento .titulo
+  {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  }
+  
+.contenido.convocatoria .titulo
+  {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  }
+  
+.contenido.evento .fecha
+  {
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  }
+  
+.perfiles .macro
+  {
+  -webkit-box-shadow: 0 1px 2px -1px #000000;
+  -moz-box-shadow: 0 1px 2px -1px #000000;
+  box-shadow: 0 1px 2px -1px #000000;
+  -webkit-border-bottom-left-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  }
+  
+.perfiles .macro .enlaces > ul
+  {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  }
+  
+.contenido.programa .en.vivo a
+  {
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  }
+  
+.contenido.edificio .galeria a.virtual
+  {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  }
+  
+.contenido.biblioteca .galeria a.virtual
+  {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  }
+  
+  
+/* ESTILOS DE OVERLAY */
+#victor_overlay {
+display: none;
+position: fixed;	
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #000;
+filter:alpha(opacity=65);
+-moz-opacity: 0.65;	
+opacity: 0.65;
+z-index: 9997;
+}
+
+#victor_contenedor {
+display: none;
+position: absolute;
+top: 100px;
+left: 20%;
+width: 60%;
+z-index: 9998;
+text-align: center;	 
+}
+
+.victor_texto {
+	margin: 0 0 20px 0;	
+	padding: 15px;
+	background: #dfd2b2;	
+	color: #000 !important;
+	z-index: #9999;
+	text-align: left;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px rgb(0,0,0);  
+	-moz-box-shadow: 0 0 10px rgb(0,0,0);  
+	box-shadow: 0 0 10px rgb(0,0,0); 
+}
+
+.victor_texto h3 { font-size: 18px; }
+
+.victor_texto p {
+font-size: 14px !important;
+z-index: #9999;
+}
+
+#victor_contenedor button {	
+border: none;
+background: none;	
+color: #fff;
+font-size: 19px;
+cursor: pointer;
+}
+#victor_contenedor button:hover {
+color: #F9B200;
+}
+
+/* Estilos de overlay */
+#victor_overlay {
+	display: none;
+	position: fixed;	
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	filter:alpha(opacity=65);
+	-moz-opacity: 0.65;	
+	opacity: 0.65;
+	z-index: 9997;
+}
+
+#victor_contenedor {
+	display: none;
+	position: absolute;
+	top: 100px;
+	left: 20%;
+	width: 60%;
+	z-index: 9998;
+	text-align: center;	 
+}
+	
+.victor_texto {
+	margin: 0 0 20px 0;	
+	padding: 15px;
+	background: #dfd2b2;	
+	color: #000 !important;
+	z-index: #9999;
+	text-align: left;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px rgb(0,0,0);  
+	-moz-box-shadow: 0 0 10px rgb(0,0,0);  
+	box-shadow: 0 0 10px rgb(0,0,0); 
+}
+
+.victor_texto h3 { font-size: 18px; }
+
+.victor_texto p {
+		font-size: 14px !important;
+		z-index: #9999;
+}
+
+#victor_contenedor button {	
+	border: none;
+	background: none;	
+	color: #fff;
+	font-size: 19px;
+	cursor: pointer;
+}
+#victor_contenedor button:hover {
+	color: #F9B200;
+}
+/*
+     FILE ARCHIVED ON 19:23:44 Nov 12, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:50:09 Apr 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.89
+  exclusion.robots: 0.016
+  exclusion.robots.policy: 0.009
+  esindex: 0.011
+  cdx.remote: 11.317
+  LoadShardBlock: 136.075 (3)
+  PetaboxLoader3.datanode: 105.905 (4)
+  load_resource: 113.448
+  PetaboxLoader3.resolve: 73.357
+*/

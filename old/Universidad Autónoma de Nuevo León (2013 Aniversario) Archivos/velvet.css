@@ -1,0 +1,2764 @@
+/****************************************************************
+VeLVET stylesheet - Victor Alvarado (victor.alvaradoa@uanl.mx)
+****************************************************************/
+
+/********************************* COLORS */
+/*
+	Fondo principal: 		#F2F2F2
+	Gris oscuro main: 		#1A171B
+	Gris intermedio:		#424242
+	Gris claro:				#929292
+	Amarillo oscuro:		#F8B01D
+	Amarillo claro:			#F8B01D
+	Azul:					#002C61
+	Texto:					#2B2B2B	
+	
+	Facebook: 				#3B5998
+	Twitter: 				#4099FF
+*/	
+/*
+********************************************************************
+FUENTES TIPOGRÁFICAS
+********************************************************************
+*/
+/* BebasNeue */
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/fonts/BebasNeue-webfont.eot');
+    src: url('/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/fonts/BebasNeue-webfont.eot#iefix') format('embedded-opentype'),
+		url('/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/fonts/BebasNeue-webfont.woff') format('woff'),
+        url('/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/fonts/BebasNeue-webfont.ttf') format('truetype'),
+        url('/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* VeraSans */
+@font-face {
+    font-family: 'VeraSansRoman';
+    src: url('/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/fonts/Vera-webfont.eot');
+    src: url('/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/fonts/Vera-webfont.eot#iefix') format('embedded-opentype'),
+        url('/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/fonts/Vera-webfont.woff') format('woff'),
+        url('/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/fonts/Vera-webfont.ttf') format('truetype'),
+        url('/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/fonts/Vera-webfont.svg#BitstreamVeraSansRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+********************************************************************
+BASE
+********************************************************************
+*/
+* {
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;	
+	font-weight: inherit;
+	text-align: inherit;
+	line-height: inherit;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	white-space: inherit;
+}
+html, 
+body {
+	margin: 0;
+	padding: 0;	
+	width: 100%;
+	min-height: 100%;	
+}
+html { background: #FFF; }
+body {
+	color: #2B2B2B;
+	font-family: Arial,Helvetica;
+	font-size: 12px;
+}
+a,
+a:active,
+a:visited {
+	border: none;
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover { color: #C98A0A; }
+a:active,
+a:focus { outline: none; }
+div { display: block; }
+img { border: none; }
+strong { font-weight: bold; }
+
+/*
+********************************************************************
+FORMULARIO
+********************************************************************
+*/
+form { }
+input[type=text],
+select,
+textarea {
+	border-radius: 0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666;
+	padding: 2px;
+	outline: none;
+}
+input[type=text]:focus,
+select:focus,
+textarea:focus {
+	border-color: #F8B01D;
+}
+input[type=button],
+input[type=submit] {
+	border-radius: 0;
+	border-style: solid;
+	border-color: #F8B01D;
+	border-width: 0 0 0 4px;
+	padding: 4px 12px;
+	background-color: #666;
+	color: #FFF;
+	font-size: 1.1em;
+	outline: none;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+}
+input[type=button]:hover,
+input[type=submit]:hover {
+	background-color: #F8B01D;
+	cursor: pointer;
+}
+/* MISC */
+.fleft { float: left; }
+.fright { float: right; }
+.align-center { text-align: center; }
+
+/*
+********************************************************************
+MENÚ PROFILES
+********************************************************************
+*/
+.menu-profiles {
+	width: 100%;
+	background-color: #1A171B;	
+}
+	.menu-profiles .nav {
+		margin: 0 auto;
+		color: #FFF;
+		font-family: VeraSansRoman;
+		font-size: 11px;
+	}
+		.menu-profiles .nav ul {
+			padding: 0;			
+			height: 100%;
+			list-style: none;
+			overflow: hidden;			
+		}
+			.menu-profiles .nav ul li {
+				float: left;
+				margin: 0;
+				padding: 0;
+				width: 25%;
+				height: 100%;
+				list-style: none;
+			}
+				.menu-profiles .nav ul li a {
+					display: block;
+					border-style: solid;
+					border-width: 0 0 1px 0;
+					border-color: #1A171B;
+					color: #FFF;
+					text-align: center;
+					text-decoration: none;
+					text-transform: uppercase;
+					line-height: 23px;
+					letter-spacing: 2px;
+					-moz-transition: all 0.2s linear;
+					-webkit-transition: all 0.2s linear;
+					transition: all 0.2s linear;
+				}
+				.menu-profiles .nav ul li a:hover {
+					border-color: #F8B01D;
+					background-color: #424242;
+					color: #F8B01D;
+				}
+				
+/*
+********************************************************************
+PAGE: elementos comunes en todas las páginas
+********************************************************************
+*/
+.page {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FFF;
+}
+
+/*
+********************************************************************
+MENÚ NAV SIDE
+********************************************************************
+*/
+.nav-side {
+	display: block;
+	color: #FFF;
+	font-family: VeraSansRoman, Helvetica, Arial, Serif;
+	font-size: 1.2em;	
+}
+	/* Menú toggler */
+	.nav-side .menu-toggler { display: none; }
+	/* Primer nivel */
+	.nav-side ul {
+		border-style: solid;
+		border-width: 0 4px 0 0;
+		border-color: #F8B01D;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+		.nav-side ul li {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+			.nav-side ul li a {
+				padding: 6px 12px;
+				display: block;
+				text-align: right;
+				text-decoration: none;
+				-moz-transition: background-color 0.2s ease;
+				-webkit-transition: background-color 0.2s ease;
+				transition: background-color 0.2s ease;
+				color: #FFF;
+			}
+			.nav-side ul li a:hover {
+				background-color: #F8B01D;
+				color: #FFF;
+			}
+			.nav-side ul li a.active {
+				background-color: #F8B01D;
+				color: #FFF;
+			}
+	/* Segundo nivel */
+	.nav-side ul li ul {
+		border: none !important;
+		margin: 0 0 8px !important;
+		font-family: Arial, Helvetica;
+		font-size: 0.8em;
+		font-style: italic;
+	}
+		.nav-side ul li ul li a { padding: 3px 12px !important; }
+		.nav-side ul li ul li a:hover {
+			background-color: transparent !important;
+			color: #F8B01D !important; 
+		}
+		.nav-side ul li ul li a.active:hover { 
+			background-color: #F8B01D;
+			color: #FFF;
+		}		
+	
+/*
+********************************************************************
+FRONT page: portada del portal
+********************************************************************
+*/
+.page.front { }
+	/* HEAD: contiene el logotipo, menú lateral y slider  */
+	.front .head {
+		position: relative;
+		width: 100%;
+		background-color: #424242;
+	}
+		.front .head .section {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 9900;
+			padding: 0 16px;
+			width: 25%;
+			height: 100%;
+			background: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/bg-nav-main.png) repeat left top;
+			background: rgba(50, 50, 50, 0.8);
+		}
+			/* Contiene el logotipo de la UANL */
+			.front .head .section .header,
+			.inner .sidebar .section .header {
+				margin: 0 0 35px 0;
+				padding: 15px;
+				border-radius: 0 0 12px 0;
+				background-color: #1A171B;
+			}
+				.front .head .section .header a,
+				.inner .sidebar .section .header a {
+					display: block;
+					text-decoration: none;
+				}
+				.front .head .section .header a img,
+				.inner .sidebar .section .header a img {
+					width: 100%;
+				}
+			/* Logotipod el 80 aniversario */
+			.front .head .section .footer {
+				position: absolute;
+				bottom: 18px;
+				left: -14px;
+				width: 270px;
+				height: 158px;
+				background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/uanl-logo-80aniv2.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+			}
+			/* Contador de aniversario */
+			.front .head .section .footer .contador {
+				position: relative;
+				margin-top: 14px;
+				height: 92px;
+			}
+			.front .head .section .footer .contador .dias {
+				position: absolute;
+				left: 33px;
+				width: 59px;
+				height: 92px;
+				font-size: 3em;
+				text-align: center;
+				line-height: 92px;
+				color: #FFF;
+			}
+			
+			.front .head .section .footer .contador .dias a{
+				display: block;
+				background-color: #3D3D3D;
+				font-size: 12px;
+				line-height: 15px;
+				padding-top: 30px;
+				height: 92px;
+			}
+			
+			.front .head .section .footer .contador .dias a:hover{
+				display: block;
+				background-color: #f8b01d;
+				color: #FFFFFF;
+			}
+
+			/*
+********************************************************************
+FRONT SLIDER
+********************************************************************
+*/
+.front .cycle-slideshow {		
+	width: 100%;
+	background-color: #333;
+}		
+	/* Overlay text */
+	.front .cycle-slideshow .cycle-overlay { 
+		color: #FFF;	
+		position: absolute;
+		right: 0;
+		bottom: 75px;
+		z-index: 9999;		
+		padding: 6px 24px 6px 12px;
+		width: 500px;
+		background-color: #212121;
+		background-color: rgba(35, 35, 35, 0.9);
+		color: #FFF;
+		font-family: BebasNeue;
+		font-size: 2em;
+	}
+		.front .cycle-overlay .super_uni {
+			color: #F8B01D;			
+			font-family: times;
+		}
+	.front .cycle-slideshow a { width: 100%; }
+	.front .cycle-slideshow img { width: 100%; }
+	/* Pager */
+	.front .cycle-pager {
+		position: absolute;
+		bottom: 12px;
+		right: 12px;
+		z-index: 9999;
+	}
+		.front .cycle-pager span { 
+			display: block;
+			float: left;
+			border-style: solid;
+			border-width: 1px;
+			border-color: #F8B01D;
+			margin: 0 4px;
+			width: 12px;
+			height: 12px;
+			background-color: #FFF;
+			cursor: pointer;
+		}
+		.front .cycle-pager .cycle-pager-active { background-color: #F8B01D; }
+	
+/*
+********************************************************************
+FRONT EVENTS: listado de eventos, con cuadro de fecha
+********************************************************************
+*/
+.front .events {
+	overflow: hidden;
+	border-style: solid;
+	border-color: #DDD;
+	border-width: 1px 0 0;
+	margin: 8px 0;
+}
+	.front .events .header {		
+		margin: 8px 0;
+		padding: 4px 4px 4px 28px;
+		background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/icon-events.png);
+		background-position: 6px center;
+		background-repeat: no-repeat;
+		color: #7C7C7C;			
+		font-size: 1.4em;
+		font-weight: bold;
+	}
+	.front .events .article {
+		float: left;
+		padding: 0 6px;
+		width: 25%;	
+	}
+		.front .events .view-content { overflow: hidden; }
+		/* La fecha */
+		.front .events .article .views-field-field-eve-fyh-ini-value {
+			float: left;
+			margin: 0 8px 0 0;				
+			width: 74px;
+			height: 74px;
+			color: #FFF;
+			text-align: center;
+		}
+			.front .events .article .views-field-field-eve-fyh-ini-value span.field-content {
+				display: block;
+				padding: 4px;
+				width: 100%;
+				height: 100%;
+				background: #F8B01D;
+			}					
+				/* El día */
+				.front .events .article .views-field-field-eve-fyh-ini-value .date {
+					display: block;
+					font-size: 3em;						
+					font-weight: bold;
+					line-height: 1em;
+				}
+				/* El mes */
+				.front .events .article .views-field-field-eve-fyh-ini-value .month {
+					display: block;
+					font-size: 1.8em;
+					line-height: 1em;
+				}
+		/* El tipo de evento */
+		.front .events .article .views-field-field-eve-tipo-nid {
+			margin: 0 0 0 82px;			
+			color: #424242;
+			font-size: 0.8em;
+			font-style: italic;
+		}
+		/* Nombre del evento */
+		.front .events .article .views-field-title {
+			margin: 0 0 0 82px;			
+			font-weight: bold;
+		}
+		/* Hora del evento */
+		.front .events .article .views-field-field-eve-hora-value {			
+			margin: 0 0 0 82px;			
+			color: #424242;
+			font-size: 0.8em;
+		}
+		/* Lugar del evento */
+		.front .events .article .views-field-field-eve-lugar-value {			
+			margin: 0 0 0 82px;			
+			color: #424242;
+			font-size: 0.8em;
+		}
+		
+/*
+********************************************************************
+FRONT NEWS: las noticias más recientes
+********************************************************************
+*/
+.front .news {	
+	overflow: hidden;
+	border-style: solid;
+	border-color: #DDD;
+	border-width: 1px 0 0;
+	margin: 8px 0;
+}
+	.front .news .header {		
+		margin: 8px 0;
+		padding: 4px 4px 4px 28px;
+		background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/icon-news.png);
+		background-position: 6px center;
+		background-repeat: no-repeat;
+		color: #7C7C7C;
+		font-size: 1.4em;
+		font-weight: bold;
+	}
+	/* Las noticias más importantes, con imagen */	
+		.front .news .article {
+			float: left;
+			padding: 0 6px;
+			width: 25%;
+			overflow: hidden;			
+		}
+			.front .news .view-content { }
+			/* La imagen de la noticia */
+			.front .news .article img.imagefield {
+				width: 100%;
+				height: auto;
+				margin: 0 0 5px;
+			}			
+			.front .news .article .views-field-title { font-weight: bold; }			
+			.front .news .article .views-field-field-not-abs-value {
+				margin: 5px 0 0;
+				font-size: 0.9em;
+			}
+	/* Las noticias laterales */
+	.front .news-side {
+		float: left;
+		padding: 0 6px 0 18px;
+		width: 25%;
+	}
+		.front .news-side .article {
+			border-style: solid;
+			border-color: #E3E3E3;
+			border-width: 1px 0 0;
+			padding: 6px 0;
+			width: 100%;				
+		}		
+			.front .news-side .article .views-field-title { font-weight: bold; }			
+			.front .news-side .article .views-field-field-not-abs-value {
+				margin: 5px 0 0;
+				font-size: 0.9em;
+			}
+			
+/*
+********************************************************************
+FRONT RELATED: contiene los widgets de twitter y facebook
+********************************************************************
+*/
+.related {
+	overflow: hidden;
+	border-style: solid;
+	border-color: #DDD;
+	border-width: 1px 0 0;
+	padding: 8px 0;
+	width: 100%;	
+}
+	/* Contenido en dos columnas */
+	.column-left {
+		float: left;
+		width: 50%;
+	}
+		/* Banners de ancho completo y pequeños */
+		.banner-small {
+			margin: 0 0 12px;
+			width: 100%;
+			height: 100px;
+			overflow: hidden;
+		}
+				.banner-small a {
+					display: block;
+					float: left;
+					text-decoration: none;
+				}
+				.banner-small.wide a {
+					padding: 0 6px;
+					width: 100%;
+				}
+				.banner-small.narrow a {
+					padding: 0 6px;
+					width: 50%;
+				}		
+	.column-right {
+		float: right;
+		padding: 0 6px;
+		width: 50%;
+	}	
+		.uanl-twitter { }
+			.uanl-twitter iframe { width: 100% !important; }
+		.uanl-facebook { }
+			.uanl-facebook iframe {
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				border-radius: 5px;
+				background: #FFF;
+			}
+
+/*
+********************************************************************
+FRONT TABS
+********************************************************************
+*/
+.social-tabs {
+	float: right;
+    width: 100%;
+}
+	.social-tabs .navigation {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		overflow: hidden;
+	}
+		.social-tabs .navigation li { 			
+			float: left;
+			width: 50%;		    
+		    color: #FFF;
+		}
+			.social-tabs .navigation li a {
+				-moz-border-radius: 6px 6px 0 0;
+				-webkit-border-radius: 6px 6px 0 0;
+				border-radius: 6px 6px 0 0;
+				display: block;
+				padding: 0 8px 0 28px;
+				font-size: 1.2em;
+				font-weight: bold;
+				line-height: 2em;
+				text-align: left;
+				background-position: 8px center;
+				background-repeat: no-repeat;
+				color: #7C7C7C;
+			}
+			.social-tabs .navigation li a.tab-twitter { background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/icon-twitter-gray.png); }
+			.social-tabs .navigation li a.current.tab-twitter { background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/icon-twitter.png); }			
+			.social-tabs .navigation li a.tab-facebook { background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/icon-facebook-gray.png); }
+			.social-tabs .navigation li a.current.tab-facebook { background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/icon-facebook.png); }			
+			.social-tabs .navigation li a.current {
+				background-color: #F8B01D;
+				color: #FFF;
+			}
+			.social-tabs .navigation li a.current:hover { color: #FFF; }
+	.social-tabs .panels {
+		background-color: #F8B01D;
+		height: 356px;
+	}
+		.social-tabs .panel {
+		    display: none;
+		    position: inherit;
+		    z-index: 1;
+		    padding: 3px;
+		    height: 350px;
+		    overflow: hidden;
+		}			
+		    .social-tabs .panel.first { display: inherit; }
+		    
+/*
+********************************************************************
+FRONT MULTIMEDIA
+********************************************************************
+*/
+.media-tabs {
+	overflow: hidden;
+	clear: both;	
+	margin: 0 0 8px 0;
+	width: 100%;	
+}
+	.media-tabs .header {
+		float: left;
+		margin: 0;
+		padding: 0 6px 0 28px;
+		width: 222px;
+		background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/icon-media.png);
+		background-position: 6px center;
+		background-repeat: no-repeat;
+		color: #7C7C7C;			
+		font-size: 1.4em;
+		font-weight: bold;
+		line-height: 40px;
+	}	
+	.media-tabs .media {
+		display: block;
+		float: left;
+		overflow: hidden;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #DDD;		
+		padding: 1px;
+		width: 32%;
+		height: 44px;
+		-moz-transition: border-color 0.2s linear;
+		-webkit-transition: border-color 0.2s linear;
+		-o-transition: border-color 0.2s linear;
+	}
+	.media.tv { margin: 0 2% 0 0; }
+	.media.web { margin: 0 0 0 2%; }
+	.media-tabs .media:hover { border-color: #F8B01D; }
+		.media-tabs .media span {
+			display: block;
+			float: left;
+			padding: 0 5px;
+			width: 50%;
+			line-height: 40px;
+			background-color: #DDD;
+			color: #888;
+			font-family: BebasNeue,Arial,Helvetica;
+			font-size: 1.3em;
+			text-align: center;
+			letter-spacing: 1px;
+		}
+		.media-tabs .media img {
+			display: block;
+			float: right;
+			max-width: 50%;
+		}
+	
+/*
+********************************************************************
+INNER page: página interior del portal
+********************************************************************
+*/
+.page.inner { }
+.page.inner .body {
+	overflow: hidden;
+	padding: 0 0 36px;
+	width: 100%;
+}
+	/* SIDEBAR: contiene el logotipo y el menú lateral */
+	.inner .sidebar {
+		float: left;
+		padding: 0 16px;
+		width: 25%;
+		min-height: 600px;
+		background-color: #333;
+	}
+	/* MAIN-CONTENT: contiene el contenido del nodo */
+	.inner .main-content {
+		position: relative;
+		float: right;
+		padding: 0 0 0 12px;
+		width: 75%;
+	}
+		/* HEAD: contiene el bloque de servicios y breadcrumbs */
+		.main-content .head {
+			padding: 42px 0 0 0;
+			height: 125px;
+		}
+			/* BREADCRUMB */
+			.head .breadcrumbs {
+				padding: 4px 6px;
+				background-color: #666;
+				color: #FFF;
+				font-size: 0.9em;
+			}
+				.head .breadcrumbs span {
+					padding: 0 4px;
+					vertical-align: middle;
+				}
+				.head .breadcrumbs a { }
+				.head .breadcrumbs a:hover { color: #F8B01D; }		
+		/* NODE: el contenedor del nodo */
+		.main-content .node {
+			overflow: hidden;
+			padding: 6px;			
+			color: #333;
+		}
+			/* Título del nodo */
+			.node h1 {
+				margin: 0;
+				color: #999;
+				font-size: 2.2em;
+				font-weight: normal;
+			}
+			/* TEXT: contiene el texto del nodo */
+			.main-content .text {
+				float: left;
+				padding: 12px 18px 12px 0;
+				width: 75%;
+			}	
+			.text .text {
+				float: none;
+				padding: 0;
+				width: auto;
+			}	
+			/* SIDE: contiene el contenido secundario del nodo */
+			.main-content .side {
+				float: right;
+				padding: 12px 0;
+				width: 25%;
+			}	
+	
+/*
+********************************************************************
+FOOTER  pie de página
+********************************************************************
+*/
+.page .footer {
+	display: block;
+	clear: both;
+	margin: 0;
+}
+	.page .footer .top {
+		padding: 8px;
+		overflow: hidden;
+		background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/footer-logos.jpg);
+		background-repeat: no-repeat;
+		background-position: right center;
+		background-color: #424242;
+		color: #FFF;		
+	}
+		/* Ligas en pie de página */
+		.page .footer .top .nav {
+			width: 50%;
+			float: left;
+			font-size: 0.9em;
+		}
+			.page .footer .top .nav ul {
+				float: left;
+				margin: 0 24px 0 0;
+				padding: 0;
+				list-style: none;
+			}
+				.page .footer .top .nav ul strong {
+					display: block;
+					margin: 0 0 8px 0;
+				}
+					.page .footer .top .nav ul li a { color: #BDBDBD; }
+					.page .footer .top .nav ul li a:hover { color: #F8B01D; }		
+	.page .footer .bottom {
+		overflow: hidden;
+		padding: 8px 6px;
+		background: #1A171B;
+		font-size: 0.9em;
+	}
+		.page .footer .bottom .logos {
+			float: right;
+			margin: 0;			
+			height: 100%;
+		}
+			.page .footer .bottom .logos a:hover { color: #F8B01D !important; }
+			.page .footer .bottom .logos a.transparencia {
+				float: left;
+				display: block;
+				margin: 0 0 0 16px;
+				padding: 0;
+				color: #F8B01D;
+				line-height: 24px;
+			}
+			.page .footer .bottom .logos a.contraloria {
+				float: left;
+				display: block;
+				margin: 0 0 0 8px;				
+				padding: 0 0 0 36px;
+				background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/icon-contraloria.png);
+				background-position: left center;
+				background-repeat: no-repeat;
+				color: #FFF;
+				line-height: 24px;
+			}
+			.page .footer .bottom .logos a.mapa {
+				float: left;
+				display: block;
+				margin: 0 0 0 8px;
+				padding: 0 0 0 26px;
+				background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/icon-mapa.png);
+				background-position: left center;
+				background-repeat: no-repeat;
+				color: #FFF;
+				line-height: 24px;
+			}
+	.page .footer .bottom .contact {
+		float: left;
+		height: 100%;
+		color: #BDBDBD;		
+		text-align: left;
+		letter-spacing: 1px;
+	}
+		.page .footer .bottom .contact p {
+			margin: 0;
+			padding: 0;
+		}
+		.page .footer .bottom .contact .uanl { font-family: times; }
+
+/*
+********************************************************************
+ELEMENTS: componentes de cualquier clase de contenido
+********************************************************************
+*/
+.text h2,
+.text h3 {
+	margin: 16px 0 12px 0;
+	color: #666;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+.text .abstract {
+	margin-bottom: 24px;
+	color: #666;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.4em;
+}
+.text p {
+	margin: 8px 0;
+	padding: 0;
+}
+.text img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFF;
+}
+.text ul {
+	padding:  0 0 0 2.4em;
+	line-height: 1.6em;
+	list-style: circle;
+}
+/* Table */
+.text table {
+	table-layout: fixed;
+	border-collapse: separate;
+	width: 100%;
+	background-color: #FFF;
+}
+.text table thead {
+	background-color: #A7A7A7;
+	color: #FFF;
+	text-align: left;
+}
+.text table tbody tr:nth-child(2n) { background-color: #F1F1F1; }
+.text table tbody tr:nth-child(2n+1) { background-color: #F9F9F9; }
+.text table th,
+.text table td {
+	padding: 4px 6px;
+}
+/* Info */
+.text .block .info {
+	overflow: hidden;
+	margin: 0;
+}
+	.text .block ul {
+		margin: 0;
+		padding: 0;
+	}
+	.text .block .info dt,
+	.text .block .info dd {
+		float: left;
+		margin: 0 0 0.8em;		
+	}
+	.text .block .info dt {	
+		clear: left;
+		padding: 0 5% 0 0;
+		width: 30%;
+		font-weight: bold;
+	}
+	.text .block .info dd { width: 70%; }
+	/* Lists in info */
+	.text .block .info ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.text .block .info ul li { margin: 0 0 0.8em; }
+/* Yellow block link */
+.link-yellow {
+	border-radius: 4px;
+	display: block;
+	margin: 0 0 20px;
+	padding: 8px;
+	background-color: #F8B01D;
+	color: #FFF !important;
+	font-size: 1.6em;
+	text-align: center;
+}
+/* BLOCK: bloque para el despliegue de contenido relacionado */
+.side .block {
+	overflow: hidden;
+	margin: 0 0 20px;
+	background-color: #666;
+	color: #FFF;
+}
+	.side .block h4 {
+		border-style: solid;
+		border-color: #F8B01D;
+		border-width: 0 0 0 4px;
+		margin: 0;
+		padding: 5px 10px;
+		background-color: #333;
+		font-weight: normal;
+	}
+	.side .block ul {
+		border-style: solid;
+		border-width: 0 0 0 4px;
+		border-color: #CCC;
+		margin: 0;
+		padding: 5px 10px;
+		list-style: none;
+	}
+	.side .block ul li {
+		margin: 0;
+		padding: 4px 0;
+	}
+		.side .block ul li a { font-style: italic; }
+		.side .block ul li a:hover { color: #F8B01D; }	
+	/* Iconos de elementos relacionados */
+	.block .filefield-icon {
+		margin: 0 4px 0 0;
+		vertical-align: middle;
+	}
+
+/* BLOCK 2: bloque que contiene datos específicos en un nodo */
+.text .block {
+	overflow: hidden;
+	border-style: solid;
+	border-width: 0 0 0 4px;
+	border-color: #CCC;
+	margin: 0;
+	padding: 12px;
+	background-color: #F4F4F4;
+}
+	
+/* SERVICES: servicios en línea y formulario de búsqueda */
+.services {
+	position: absolute;
+	top: 6px;
+	right: 0;
+	z-index: 9999;
+	overflow: hidden;	
+	width: 460px;
+	height: 30px;
+	background-color: #424242;
+	font-size: .9em;	
+}
+	.services a.online {
+		display: block;
+		float: left;
+		padding: 0 28px 0 12px;
+		background-color: #F8B01D;
+		background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/bg-services.png);
+		background-repeat: no-repeat;
+		background-position: right center;
+		color: #FFF;
+		font-size: 1.1em;
+		font-weight: bold;
+		line-height: 30px;
+	}
+	.services a.online:hover { background-color: #FCBD3F; }
+	/* Formulario de búsqueda */
+	.services .block-search { 
+		float: left; 
+		padding: 4px;
+	}
+		.services .block-search .form-item {
+			float: left;
+			overflow: hidden;
+		}
+		.services .block-search h2 { display: none; }
+		.services .block-search label {
+			display: block;
+			float: left;
+			margin:	0;
+			padding: 0 8px;
+			height: 22px;
+			color: #FFF;		
+			line-height: 22px;
+		}
+		.services .block-search input[type=text]{	
+			display: block;
+			float: left;
+			-moz-border-radius: 0;
+			-webkit-border-radius: 0;
+			border-radius: 0;
+			border-style: solid;
+			border-color: #585858;
+			border-width: 1px 0 1px 1px;
+			padding: 2px;
+			width: 150px;
+			height: 22px;
+			color: #999;
+			font-size: 1.3em;
+			font-weight: bold;
+		}
+		.services .block-search .form-submit {
+			-moz-border-radius: 0;
+			-webkit-border-radius: 0;
+			border-radius: 0;
+			border-style: solid;
+			border-color: #585858;
+			border-width: 1px 1px 1px 0;
+			float: left;
+			padding: 0;
+			width: 24px;
+			height: 22px;
+			background-color: #F8B01D;
+			background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/velvet-sprite.png);
+			background-repeat: no-repeat;
+			background-position: 0px 0px;
+		}
+		.services .block-search .form-submit:hover { background-color: #FCBD3F; }
+	/* Liga de idioma inglés */
+	.services a.english {
+		float: left;
+		display: block;
+		border-style: dotted;
+		border-color: #636363;
+		border-width: 0 0 0 1px;
+		margin: 4px 0 4px 8px;
+		padding: 0 8px;
+		color: #FFF;
+		line-height: 22px;
+	}
+	.services a.english:hover { color: #F8B01D; }
+/* PAGINACIÓN DE VISTAS */
+.text .pager {
+	margin: 1em 0 0;
+	padding: 0;
+	height: 2em;
+	font-size: 1em;
+	list-style: none;
+	overflow: hidden;
+	text-align: center;
+}
+	.text .pager li {
+		display: inline-block;
+		zoom: 1;
+		*display: inline;
+		margin: 0 0.5%;
+		padding: 0;
+		min-width: 2em;
+		height: 2em;
+		background-color: #F1F1F1;
+		color: #424242;
+		text-align: center;
+		line-height: 2em;
+		vertical-align: middle;
+	}	
+	.text .pager li.pager-current { 
+		border-style: solid;
+		border-color: #F8B01D;
+		border-width: 0 0 2px;
+		background-color: transparent;
+		color: #424242;
+		font-weight: bold; 		
+	}	
+		.text .pager li a {
+			padding: 0 4px;
+			border-style: solid;
+			border-width: 1px;
+			border-color: #CCC;
+			display: block;
+			height: 100%;
+			vertical-align: middle;
+		}
+		.text .pager li a:hover {
+			border-color: #F8B01D;
+			background-color: #FABD43;
+			color: #FFF;
+		}
+/* SERVICIOS EN LÍNEA: página interior de servicios en línea */
+.servicios-iframe { text-align: center; }
+.servicios-linea {
+	overflow: hidden;
+	text-align: center;
+}
+.servicios-linea a {
+	display: inline;
+	zoom: 1;
+	display: inline-block;
+}
+	
+/*
+********************************************************************
+LISTADO GENERAL
+********************************************************************
+*/
+.text.listado-general .listado_general {
+	margin: 0;
+	padding: 0;
+}
+.text.listado-general form {
+	border-style: solid;
+	border-width: 0 0 0 4px;
+	border-color: #CCC;
+	margin: 0 0 24px;
+	padding: 12px 24px;
+	background-color: #F4F4F4;
+}
+.text.listado-general .views-exposed-widget { margin: 4px 0; }
+.text.listado-general form label {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	margin: 0 2% 0 0;
+	width: 25%;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.text.listado-general .views-widget {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	width: 65%;
+}
+.text.listado-general form input[type=text],
+.text.listado-general form select,
+.text.listado-general form textarea {	
+	width: 100%;
+}
+.text.listado-general form input[type=submit] { margin-left: 27%; }
+/* Lista no ordenada */
+.listado-general li ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	.listado-general li ul  li { margin: 0 0 12px; }
+	.listado-general li ul .views-field-title { margin: 0 0 6px; }
+/* Tabla */
+.listado-general .listado_general table td { width: 33%; }
+
+/*
+********************************************************************
+GALERÍA DE RECTORES	
+********************************************************************
+*/
+.text .listado_general .galeria-rectores td {
+	vertical-align: top;	
+}
+.text .listado_general .galeria-rectores td span,
+.text .listado_general .galeria-rectores td a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.galeria-rectores td a img {
+	width: 100%;
+	height: auto;
+}
+
+/*
+********************************************************************
+PERSONA
+********************************************************************
+*/
+.text.persona .photo {
+	overflow: hidden;
+}
+.text.persona .photo .portrait {
+	float: left;
+	width: 125px;
+	height: auto;
+}
+/* Contacto */
+.side .block.contacto div {
+	border-style: solid;
+	border-width: 0 0 0 4px;
+	border-color: #CCC;
+	padding: 5px 10px;
+}
+.side .block.contacto b {
+	display: block;
+	margin: 0 0 5px;
+	font-weight: bold;
+}
+.side .block.contacto p {
+	margin: 0 0 15px;
+}
+/* Menú de pestañas */
+.text.persona .researcher-tabs ul.navigation {
+	display: table; 
+	border-style: solid;
+	border-width: 4px 0 0;
+	border-color: #F8B01D;
+	margin: 0 0 10px;
+	padding: 0;
+	width: 100%;
+	list-style: none;
+}
+.text.persona .researcher-tabs ul.navigation div {
+	display: table-row;
+}
+.text.persona .researcher-tabs ul.navigation div li {
+	display: table-cell;
+}
+.text.persona .researcher-tabs ul.navigation li a {
+	display: block;
+	-moz-border-radius: 0 0 4px 4px;
+	-o-border-radius: 0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+	border-style: solid;
+	border-color: #333;
+	border-width: 0 1px 1px;
+	padding: 4px 8px;
+	background-color: #404040;
+	color: #FFF;
+	font-size: 0.9em;
+	text-align: center;
+}
+.text.persona .researcher-tabs ul.navigation li a:hover {
+	color: #FABB3D;
+}
+.text.persona .researcher-tabs ul.navigation li a.current {
+	border-color: #F8B01D;
+	background-color: #FABB3D;
+	color: #333;
+}
+.text.persona .researcher-tabs div.panels {
+	
+}
+.text.persona .researcher-tabs div.panels .panel {
+	display: none;
+}
+
+/*
+********************************************************************
+RECTOR
+********************************************************************
+*/
+.text.rector {
+	
+}
+.text.rector .profile {
+	float: left;
+	clear: both;
+	width: 155px;
+}
+.text.rector .profile img {
+	border-style: solid;
+	border-color: #EAEAEA;
+	border-width: 1px;
+	margin: 0 0 12px;
+	padding: 4px;
+	width: 155px;
+	background-color: #EFEFEF;
+}
+.text.rector .profile .titulo {
+	margin: 2px 0;
+	padding: 0;
+	color: #666;
+	font-style: italic;
+	font-size: 0.9em;
+	text-align: center;
+}
+.text.rector #menu-rector {
+	float: left;
+	clear: both;
+	margin: 20px 0 0;
+	padding: 0;
+	width: 155px;
+	list-style: none;
+}
+.text.rector #menu-rector li {
+	margin: 0 0 1px;
+	padding: 0;
+}
+.text.rector #menu-rector li a {
+	display: block;
+	padding: 4px 0;
+	background-color: #F8B01D;
+	color: #FFF;
+	font-size: 0.9em;
+	text-align: center;
+}
+.text.rector #menu-rector li a:hover {
+	background-color: #FCBD3F;
+}
+.text.rector .panels {
+	margin-left: 180px;
+}
+.text.rector h2,
+.text.rector p {
+	margin-top: 0;
+}
+.text.rector .block {
+	margin-bottom: 16px;
+}
+/*
+********************************************************************
+CAMPUS
+********************************************************************
+*/
+.text.campus iframe {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #CCC;
+	width: 100%;
+	height: 320px;
+}
+
+/*
+********************************************************************
+EDIFICIO
+********************************************************************
+*/
+.text.edificio { }
+/*
+********************************************************************
+DEPENDENCIA
+********************************************************************
+*/
+.text.dependencia .block .principal img {
+	float: left;
+	width: 125px;
+	height: auto;
+}
+.text.dependencia .block .principal p {
+	width: 70%;
+	margin: 0 0 0 30%;
+}
+.text.dependencia .block .principal .name { font-weight: bold; }
+.text.dependencia .block .principal .position { font-size: 0.9em; }
+	
+/*
+********************************************************************
+ESCUELA
+********************************************************************
+*/
+.text.escuela .block .principal { }
+	.text.escuela .block .principal img {
+		float: left;
+		width: 125px;
+		height: auto;
+	}
+	.text.escuela .block .principal p {
+		width: 70%;
+		margin: 0 0 0 30%;
+	}
+	.text.escuela .block .principal .name { font-weight: bold; }
+	.text.escuela .block .principal .position { font-size: 0.9em; }
+	
+/*
+********************************************************************
+UNIDADES DE APRENDIZAJE
+********************************************************************
+*/
+.text.unidades table .title { width: 85%; }
+
+/*
+********************************************************************
+MEDIA, PROGRAMAS
+********************************************************************
+*/
+.text.media .week { }
+	.text.media .week tr {
+		background: #666;
+		color: #FFF;
+	}
+	.text.media .week td { padding: 0;  }
+	.text.media .week a,
+	.text.media .week span {
+		display: block;
+		padding: 6px 2px;
+	}
+	.text.media .week a:hover {
+		background: #F8B01D;
+		color: #FFF;
+	}
+	.text.media .week span {
+		background: #F8B01D;
+		color: #FFF;
+	}
+.text.media table .title { width: 75%; }
+
+/*
+********************************************************************
+EDUCACIÓN CONTINUA
+********************************************************************
+*/
+.text.listado-general li .views-field-title { font-weight: bold; }
+
+/*
+********************************************************************
+PORTADA DE NOTICIAS
+********************************************************************
+*/
+.text.portada-noticias { }
+/* Noticias principales */
+.text.portada-noticias .cycle-slideshow {
+	display: block;
+	width: 100%;
+	height: 300px;
+	background-color: #424242;
+}
+	.text.portada-noticias .cycle-slideshow .noticia-block {
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+	.text.portada-noticias .cycle-slideshow .photo {
+		display: block;
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+	}
+	.text.portada-noticias .cycle-slideshow .photo img {		
+		border-width: 0;
+		max-width: 100%;
+		height: 100%;		
+	}
+	.text.portada-noticias .cycle-slideshow .cycle-overlay {
+		position: absolute;
+		bottom: 24px;
+		padding: 1%;
+		background-color: #1A171B;
+		background-color: rgba(26, 23, 29, 0.8);
+		color: #FFF;
+	}	
+	.cycle-overlay .title {
+		display: block;
+		margin: 0 0 1em;
+		font-weight: bold;
+	}
+	.cycle-overlay .abstract { 
+		margin: 0; 
+		color: #FFF;
+		font-size: 1em;
+		font-weight: normal;
+	}
+	/* Pager */
+	.text.portada-noticias .cycle-pager {
+		position: absolute;
+		bottom: 6px;
+		right: 6px;
+		margin: 0;
+		z-index: 9999;
+	}
+		.text.portada-noticias .cycle-pager span { 
+			display: block;
+			float: left;
+			border-style: solid;
+			border-width: 1px;
+			border-color: #FFF;
+			margin: 0 4px;
+			width: 12px;
+			height: 12px;
+			background-color: #FFF;
+			cursor: pointer;
+		}
+		.text.portada-noticias .cycle-pager .cycle-pager-active { background-color: #F8B01D; }	
+/* Noticias de investigación */
+.noticias-investigacion .noticia-block {
+	overflow: hidden;
+	margin: 0 0 1em;
+	padding: 1%;
+	background-color: #F6F6F6;
+}
+	.noticias-investigacion .noticia-block .a { display: block; }
+	.noticias-investigacion .noticia-block .photo {
+		float: left;
+		margin: 0 1em 0 0;
+	}
+		.noticias-investigacion .noticia-block .photo img { width: 120px; }
+	.noticias-investigacion .noticia-block div { margin: 0 0 0 132px; }
+	.noticias-investigacion .noticia-block .title { font-weight: bold;  }
+	.noticias-investigacion .noticia-block .abstract {
+		margin: 8px 0;
+		font-size: 1em;
+		font-weight: normal;
+	}
+	
+/* Noticias laterales */
+.side .noticia-block {
+	border-style: solid;
+	border-width: 0 0 1px;
+	border-color: #DDD;
+	margin: 0 0 1em;
+	font-size: 0.9em;
+}
+.side .noticia-block a { display: block; }
+.side .noticia-block  .photo { margin: 0 0 0.6em; }
+	.side .noticia-block .photo img { width: 100%; }
+.side .noticia-block .title {
+	font-weight: bold;
+	margin: 0 0 0.5em;
+}
+.side .noticia-block .abstract { margin: 0 0 1em; }
+
+/* Buscador de Noticias */
+/* Esto es lo del buscador que estaba probando
+.buscador.portada-noticias {
+	padding: 12px 0;
+	width: 100%;
+}
+
+.buscador.portada-noticias form {
+	border-style: solid;
+	border-width: 0 0 0 4px;
+	border-color: #CCC;
+	margin: 0 0 24px;
+	padding: 12px 24px;
+	background-color: #F4F4F4;
+}
+.buscador.portada-noticias .views-exposed-widget { margin: 4px 0; }
+.buscador.portada-noticias form label {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	margin: 0 2% 0 0;
+	width: 25%;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.buscador.portada-noticias .views-widget {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	width: 65%;
+}
+.buscador.portada-noticias form input[type=text],
+.buscador.portada-noticias form select,
+.buscador.portada-noticias form textarea {	
+	width: 100%;
+}
+.buscador.portada-noticias form input[type=submit] { margin-left: 27%; }
+
+// Aqui terminan mis pruebas del buscador
+*/
+/***********************************************************/
+
+/*
+********************************************************************
+PORTADA DE PUBLICACIONES
+********************************************************************
+*/
+.text.portada-publicaciones {
+	padding: 1% 1% 1% 0;
+	width: 100%;
+}
+.listado-portadas { overflow: hidden; }
+	.listado-portadas .publicacion-cover {		
+		float: left;
+		border-style: solid;
+		border-color: #CCC;
+		border-width: 1px;
+		margin: 0 0.5% 1%;
+		padding: 12px;		
+		width: 19%;
+		height: 200px;
+		background-color: #F6F6F6;
+	}
+	.publicacion-cover a { display: block; }
+	.publicacion-cover h4 {
+		margin: 0 0 0.5em;
+		padding: 0;
+		font-weight: bold;
+	}
+	.publicacion-cover img {
+		margin: 0 0 0.5em;
+		width: 100%;
+	}
+	.publicacion-cover p {
+		margin: 0;
+		padding: 0;
+		color: #666;
+		font-size: 0.9em;
+	}	
+	.publicacion-block {
+		margin: 0 0 0.5em;
+		padding: 4px;
+		background-color: #F6F6F6;
+	}	
+	.publicacion-block .photo {
+		display: inline-block;
+		overflow: hidden;
+		width: 24px;
+		height: 24px;
+		text-align: center;
+		vertical-align: middle;
+	}
+		.publicacion-block .photo img { width: 24px; }
+	.publicacion-block .title {
+		margin: 0 0 0 12px;		
+		vertical-align: middle;
+	}
+	.publicacion-block .abstract {
+		color: #666;
+		font-size: 0.9em;
+	}
+	
+/*
+********************************************************************
+PUBLICACIÓN
+********************************************************************
+*/
+.text.publicacion { }
+	
+/*
+********************************************************************
+NOTICIA
+********************************************************************
+*/
+.text.noticia .cycle-slideshow  {
+	margin: 0 0 1em;
+	width: 100%;
+	background: #FFF;
+}
+.text.noticia .cycle-slideshow a {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.text.noticia .cycle-slideshow img {
+	border-width: 0;	
+	height: 100%;
+	max-width: 100%;	
+}
+
+/*
+********************************************************************
+PORTADA DE EVENTOS
+********************************************************************
+*/
+.text.portada-eventos {
+	padding: 12px 0;
+	width: 100%;
+}
+.text.portada-eventos form {
+	border-style: solid;
+	border-width: 0 0 0 4px;
+	border-color: #CCC;
+	margin: 0 0 24px;
+	padding: 12px 24px;
+	background-color: #F4F4F4;
+}
+.text.portada-eventos .views-exposed-widget { margin: 4px 0; }
+.text.portada-eventos form label {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	margin: 0 2% 0 0;
+	width: 25%;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.text.portada-eventos .views-widget {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	width: 65%;
+}
+.text.portada-eventos form input[type=text],
+.text.portada-eventos form select,
+.text.portada-eventos form textarea {	
+	width: 100%;
+}
+.text.portada-eventos form input[type=submit] { margin-left: 27%; }
+.text.portada-eventos .listado-eventos { overflow: hidden; }
+.text.portada-eventos .listado-bloque {
+	position: relative;	
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCC;
+	padding: 96px 12px 12px;
+	width: 230px;
+	height: 205px;
+	background-color: #F6F6F6;
+	color: #666;
+}
+.text.portada-eventos .listado-bloque:hover { border-color: #F8B01D; }
+.text.portada-eventos .listado-bloque.celda0 { margin: 0 13px 27px 0; }
+.text.portada-eventos .listado-bloque.celda1 { margin: 0 14px 27px 14px; }
+.text.portada-eventos .listado-bloque.celda2 { margin: 0 0 27px 13px; }
+	.text.portada-eventos .listado-bloque img { border-width: 0; }
+	.text.portada-eventos .listado-bloque .date {
+		display: block;
+		position: absolute;
+		top: -1px;
+		right: 12px;	
+		padding: 6px;
+		width: 62px;
+		height: 72px;
+		background-color: #F8B01D;
+		color: #FFF;
+		font-size: 2.4em;
+		text-align: center;
+		text-shadow: 0 0 6px #888;
+	}
+	.text.portada-eventos .listado-bloque .date a {
+		-moz-transition: all 0.2s linear;
+		-webkit-transition: all 0.2s linear;
+		-o-transition: all 0.2s linear;
+		transition: all 0.2s linear;
+	}
+	.text.portada-eventos .listado-bloque .date a:hover { color: #FFF; }
+		.text.portada-eventos .listado-bloque .date .month {
+			display: block;
+			font-size: 0.7em;
+		}
+	.text.portada-eventos .listado-bloque .title { font-weight: bold; }
+
+/*
+********************************************************************
+EVENTO
+********************************************************************
+*/
+.text.evento { }
+
+/*
+********************************************************************
+SERVICIOS EN LÍNEA
+********************************************************************
+*/
+.text p iframe { } 
+
+/*
+********************************************************************
+RESULTADOS DE LA BÚSQUEDA
+********************************************************************
+*/
+.node .search-form { display: none; }
+.text.resultados .resultado-bloque {
+	margin: 0 0 1em;
+	padding: 1%;
+}
+.text.resultados .resultado-bloque:nth-child(2n) { background-color: #F6F6F6; }
+	.resultado-bloque p { margin: 0 0 0.5em; 	}
+	.resultado-bloque .title { font-weight: bold; }
+	.resultado-bloque .search-snippet { font-style: italic; }
+	.resultado-bloque .search-info {
+		color: #BDBDBD;
+		font-size: 0.9em;
+	}
+.text.resultados .pager {
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+	text-align: right;
+}
+	.text.resultados .pager li {
+		display: inline-block;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #CCC;
+		margin: 0;
+		padding: 0 6px;
+		height: 2em;
+		min-width: 2em;
+		background-color: #F4F4F4;
+		font-weight: bold;
+		text-align: center;
+		line-height: 2em;		
+	}
+		.text.resultados .pager li a {
+			display: block;
+			color: #999;
+			font-size: 0.9em;
+			font-weight: normal;			
+		}
+		.text.resultados .pager li a:hover { color: #C98A0A; }
+
+/*
+********************************************************************
+********************************************************************
+DESKTOP
+********************************************************************
+********************************************************************
+*/
+html,
+body {		
+	min-width: 1024px;
+}
+.page { width: 1024px; }
+/* Menú perfiles */
+.menu-profiles .nav { width: 1024px; }
+.menu-profiles .nav ul { 
+	width: 75%;
+	margin: 0 0 0 25%;
+}
+
+/*
+********************************************************************
+********************************************************************
+TABLET
+********************************************************************
+********************************************************************
+*/
+@media all and (min-width: 481px) and (max-width: 800px) {
+	html,
+	body {		
+		min-width: 481px;
+	}	
+	.page { width: 100%; }
+	/* HEAD */
+	.front .head {
+		position: relative;
+		width: 100%;
+		height: auto;
+		background-color: #424242;
+	}
+	.front .head .section {
+		position: relative;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		z-index: 9900;
+		padding: 40px 0 0;
+		width: 100%;
+		height: auto;
+		background: #424242;
+	}
+	/* Contiene el logotipo de la UANL, portada e interior */
+	.front .head .section .header,
+	.inner .body .sidebar .header {
+		float: none;
+		margin: 0;
+		padding: 1%;
+		border-radius: 0;
+		background: none;
+	}
+	/* Logo principal de la UANL, portada e interior */
+	.front .head .section .header a img,
+	.inner .body .sidebar .header a img {
+		width: auto;
+	}
+	/* Logotipod el 80 aniversario */
+	.front .head .section .footer {
+		position: absolute;
+		top: 49px;
+		bottom: auto;
+		right: 0;
+		left: auto !important;
+		width: 196px;
+		height: 104px;
+		background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/uanl-logo-80-tablet.jpg);
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	/* MENU PROFILES */	
+	.menu-profiles .nav { width: 100%; }
+	.menu-profiles .nav ul { 
+		margin: 0;
+		width: 100%; 
+	}	
+	/* MENU SIDE */
+	.nav-side {		
+		position: relative;
+		border-style: solid;
+		border-color: #4A4A4A;
+		border-width: 1px 0 0;
+		margin: 10px 0 0 0;
+		width: 100%;
+		background-color: #3B3B3B;
+		font-size: 1.2em;		
+	}
+	/* Liga que muestra/oculta el menú principal */
+	.nav-side .menu-toggler { 
+		display: block; 
+		padding: 1% 1% 1% 36px;
+		background-color: #F8B01D;
+		background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/menu-toggler-closed.gif);
+		background-position: 8px center;
+		background-repeat: no-repeat;
+	}
+	.nav-side .menu-toggler.open {  background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/menu-toggler-open.gif); }
+	.nav-side .menu-toggler:hover { color: #FFF; }
+	.nav-side .menu { display: none; }
+	.nav-side > ul {
+		overflow: hidden;
+		border-width: 0 0 4px; 			
+	}
+	.nav-side ul li {
+		float: left;
+		width: 50%;				
+		background:#3B3B3B;
+	}
+	.nav-side ul li a {
+		padding: 6px 4px;
+		text-align: left;				
+	}
+	.nav-side ul li a:hover { background: #F8B01D }
+	/* Segundo nivel */
+	.nav-side ul li ul { margin: 0 !important; }
+	/* SERVICES */
+	.services {
+		top: 0;
+		z-index: 9999;
+		border-style: solid;
+		border-color: #F8B01D;
+		border-width: 4px 0 0 0;
+		width: 100%;
+		height: 34px;
+		background-color: #424242;
+		font-size: .9em;
+	}
+	/* FRONT SLIDER */
+	.front .cycle-slideshow .cycle-overlay {
+		bottom: 32px;
+		width: 100%;
+		padding: 1%;
+		font-size: 1.8em;
+	}
+	/* EVENTS */
+	/* Artículo */
+	.front .events .article { font-size: 1.2em; }
+	/* La fecha */
+	.front .events .article .views-field-field-eve-fyh-ini-value {
+		float: none;
+		margin: 0;
+		width: 100%;
+		height: auto;
+		text-align: left;
+	}
+	.front .events .article .views-field-field-eve-fyh-ini-value span.field-content {
+		display: block;
+		-moz-border-radius: 4px 4px 0 0;
+		-webkit-border-radius: 4px 4px 0 0;
+		border-radius: 4px 4px 0 0;
+		margin: 0 0 4px; 
+		padding: 4px;
+		width: auto;
+		height: auto;
+		background: #F8B01D;
+	}	
+	/* El día */
+	.front .events .article .views-field-field-eve-fyh-ini-value .date {
+		display: inline;
+		font-size: 1.3em;
+		font-weight: bold;
+		line-height: 1em;
+	}
+	/* El mes */
+	.front .events .article .views-field-field-eve-fyh-ini-value .month {
+		display: inline;
+		font-size: 1em;
+		line-height: 1em;
+	}
+	/* El tipo de evento */
+	.front .events .article .views-field-field-eve-tipo-nid {
+		margin: 0;
+		width: 100%;
+		color: #424242;
+		font-size: 0.8em;
+		font-style: italic;
+	}
+	/* Nombre del evento */
+	.front .events .article .views-field-title {
+		margin: 0;
+		width: 100%;
+		font-weight: bold;
+	}
+	/* Hora del evento */
+	.front .events .article .views-field-field-eve-hora-value {			
+		margin: 0;
+		width: 100%;
+		color: #424242;
+		font-size: 0.8em;
+	}
+	/* Lugar del evento */
+	.front .events .article .views-field-field-eve-lugar-value {			
+		margin: 0;
+		width: 100%;
+		color: #424242;
+		font-size: 0.8em;
+	}
+	/* NEWS */
+	/* Las noticias más importantes, con imagen */
+	.front .news-featured {
+		float: left;
+		width: 75%;
+		font-size: 1.1em;
+	}
+	.front .news-featured .article {
+		float: left;
+		padding: 0 1%;
+		width: 33%;
+		overflow: hidden;				
+	}			
+	/* La imagen de la noticia */
+	.front .news-featured .article img.imagefield {
+		width: 100%;
+		height: auto;
+		margin: 0 0 5px;
+	}
+	/* Las noticias laterales */
+	.front .news-side { padding: 0; }
+	.front .news-side .article {
+		border-style: solid;
+		border-color: #E3E3E3;
+		border-width: 1px 0 0;
+		padding: 1%;
+		width: 98%;				
+	}
+	.front .news-side .article .views-field-field-not-cat-nid {
+		color: #424242;
+		font-size: 0.8em;
+		font-style: italic;
+	}
+	.front .news-side .article .views-field-title { font-weight: bold; }
+	.front .news-side .article .views-field-field-not-por-value {
+		color: #424242;
+		font-size: 0.8em;
+	}
+	.front .news-side .article .views-field-field-not-abs-value {
+		margin: 5px 0 0;
+		font-size: 0.9em;
+	}	
+	/* RELATED */
+	/* Contenido en dos columnas */
+	.column-left {
+		float: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	/* Banners de ancho completo y pequeños */
+	.banner-small {
+		width: 100%;
+		margin: 0 0 1%;
+		height: auto;
+		overflow: hidden;
+	}
+	.banner-small.wide a {
+		display: block;
+		float: left;
+		margin: 0 !important;
+		padding: 0 1%;
+		width: 100% !important;
+		height: auto;
+		text-decoration: none;
+	}
+	.banner-small.narrow a {
+		display: block;
+		float: left;
+		margin: 0 !important;
+		padding: 0 1%;
+		width: 50% !important;
+		height: auto;
+		text-decoration: none;
+	}				
+	.banner-small a img { width: 100%; }
+	/* TABS */
+	.social-tabs { display: none; }
+	/* MULTIMEDIA */
+	.column-right {
+		float: none;
+		width: 100%;
+	}
+	.media-tabs {
+		padding: 0;
+		width: 100%;
+	}
+	.media-tabs .media {
+		box-sizing: border-box;
+		margin: 0;
+		width: 32%;
+		height: 44px;
+	}
+	.media-tabs .media.radio { margin: 0 2%; }
+	.media-tabs .media span {
+		width: 50%;
+		font-size: 0.9em;
+	}
+	/* PÁGINA INTERIOR */
+	.inner .sidebar {
+		float: none;
+		padding: 0;
+		width: 100%;
+		height: auto;
+		min-height: 0;
+	}
+	.inner .main-content {
+		float: none;
+		padding: 1%;
+		width: 100%;
+	}
+	.inner .main-content .head {
+		height: auto;
+		padding: 1% 0;
+	}
+	.inner .main-content .node .text {
+		float: none;
+		padding: 12px 0;
+		width: 100%;
+	}
+	.inner .main-content .node .side {
+		float: none;
+		width: 100%;
+	}
+	.inner .main-content .services { display: none; }
+	/* PORTADA DE EVENTOS */
+	.inner .portada-eventos .listado-bloque {
+		padding: 1%;
+		width: 100%;
+		height: auto;
+	}
+	.text.portada-eventos .listado-bloque.celda0,
+	.text.portada-eventos .listado-bloque.celda1,
+	.text.portada-eventos .listado-bloque.celda2 { margin: 0 0 8px; }
+	
+	.text.portada-eventos .listado-bloque .date {
+		position: static;
+		float: left;
+		margin: 0 12px 0 0;
+	}
+	.pager { font-size: 1.1em; }
+	/* PORTADA DE PUBLICACIONES */	
+	.text.portada-publicaciones .listado-portadas .publicacion-cover { width: 32%; }
+	/* FOOTER */
+	.page .footer .top { display: none; }
+	.page .footer .bottom .contact { display: none; }
+} /* Fin de estilos para tableta */
+
+/*
+********************************************************************
+********************************************************************
+MOBILE
+********************************************************************
+********************************************************************
+*/
+@media all and (min-width: 240px) and (max-width: 480px) {
+	html,
+	body {		
+		min-width: 241px;
+	}	
+	.page { width: 100%; }
+	/* HEAD */
+	.front .head {
+		position: relative;
+		width: 100%;
+		height: auto;
+		background-color: #424242;
+	}
+	.front .head .section {
+		position: relative;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		z-index: 9900;
+		padding: 40px 0 0;
+		width: 100%;
+		height: auto;
+		background: #424242;			
+	}
+	/* Contiene el logotipo de la UANL */
+	.front .head .section .header,
+	.inner .body .sidebar .header {
+		float: none;
+		margin: 0;
+		padding: 1%;
+		border-radius: 0;
+		background: none;
+	}
+	.front .head .section .header a img,
+	.inner .body .sidebar .header a img { 
+		width: auto; 
+	}
+	.front .head .section .footer { display: none; }
+	/* MENU PROFILES */	
+	.menu-profiles .nav { width: 100%; }
+	.menu-profiles .nav ul { 
+		margin: 0;
+		width: 100%; 
+	}
+	.menu-profiles .nav ul li { width: 50%; }
+	/* MENU SIDE */
+	.nav-side {
+		position: relative;
+		border-style: solid;
+		border-color: #4A4A4A;
+		border-width: 1px 0 0;
+		margin: 10px 0 0 0;
+		width: 100%;
+		background-color: #3B3B3B;
+		font-size: 1.5em;
+	}
+	/* Liga que muestra/oculta el menú principal */
+	.nav-side .menu-toggler { 
+		display: block; 
+		padding: 1% 1% 1% 36px;
+		background-color: #F8B01D;
+		background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/menu-toggler-closed.gif);
+		background-position: 8px center;
+		background-repeat: no-repeat;
+	}
+	.nav-side .menu-toggler.open {  background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/menu-toggler-open.gif); }
+	.nav-side .menu-toggler:hover { color: #FFF; }
+	.nav-side .menu { display: none; }
+	.nav-side > ul {
+		border-width: 0 0 4px; 
+	}
+	.nav-side ul li {				
+		width: 100%;
+		background:#262626;
+	}
+	.nav-side ul li a {
+		padding: 6px 12px;				
+		text-align: left;				
+	}
+	.nav-side ul li a:hover { background: #F8B01D; }
+	/* SERVICES */
+	.services {
+		top: 0;
+		z-index: 9999;
+		border-style: solid;
+		border-color: #F8B01D;
+		border-width: 4px 0 0 0;
+		width: 100%;
+		height: 34px;
+		background-color: #424242;
+		font-size: .9em;
+	}
+	.services form label,
+	.services .english { display: none !important; }
+	/* FRONT SLIDER */
+	.front .cycle-slideshow .cycle-overlay {
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		padding: 0 1%;
+		font-family: Arial,Helvetica;
+		font-size: 1.5em;
+	}
+	.cycle-slideshow .cycle-pager { display: none; }
+	/* EVENTS */
+	/* Artículo */
+	.front .events .article {
+		padding: 0 1% 4%;
+		width: 100%;
+		font-size: 1.2em;
+	}
+	/* La fecha */
+	.front .events .article .views-field-field-eve-fyh-ini-value {
+		float: none;
+		margin: 0;
+		width: 100%;
+		height: auto;
+		text-align: left;
+	}
+	.front .events .article .views-field-field-eve-fyh-ini-value span.field-content {
+		display: block;
+		-moz-border-radius: 4px 4px 0 0;
+		-webkit-border-radius: 4px 4px 0 0;
+		border-radius: 4px 4px 0 0;
+		margin: 0 0 4px; 
+		padding: 4px;
+		width: auto;
+		height: auto;
+		background: #F8B01D;
+	}					
+	/* El día */
+	.front .events .article .views-field-field-eve-fyh-ini-value .date {
+		display: inline;
+		font-size: 1.2em;					
+		font-weight: bold;
+		line-height: 1em;
+	}
+	/* El mes */
+	.front .events .article .views-field-field-eve-fyh-ini-value .month {
+		display: inline;
+		font-size: 1em;
+		line-height: 1em;
+	}
+	/* El tipo de evento */
+	.front .events .article .views-field-field-eve-tipo-nid {
+		margin: 0;
+		width: 100%;
+		color: #424242;
+		font-size: 0.8em;
+		font-style: italic;
+	}
+	/* Nombre del evento */
+	.front .events .article .views-field-title {
+		margin: 0;
+		width: 100%;
+		font-weight: bold;
+	}
+	/* Hora del evento */
+	.front .events .article .views-field-field-eve-hora-value {			
+		margin: 0;
+		width: 100%;
+		color: #424242;
+		font-size: 0.8em;
+	}
+	/* Lugar del evento */
+	.front .events .article .views-field-field-eve-lugar-value {			
+		margin: 0;
+		width: 100%;
+		color: #424242;
+		font-size: 0.8em;
+	}
+	/* NEWS */
+	.front .news .article {
+		padding: 0 1% 4%;
+		width: 100%;
+		font-size: 1.2em;
+	}
+	.front .views-field-field-not-imgr-fid { display: none; }
+	.front .news-side { display: none; }
+	/* RELATED */
+	/* Contenido en dos columnas */
+	.column-left {
+		float: none;
+		padding: 0;
+		width: 100%;
+	}
+	/* Banners de ancho completo y pequeños */
+	.banner-small {
+		width: 100%;
+		margin: 0 0 1%;
+		height: auto;
+		overflow: hidden;
+	}
+	.banner-small.wide a {
+		display: block;
+		float: left;
+		margin: 0 !important;
+		padding: 0 1%;
+		width: 100% !important;
+		height: auto;
+		text-decoration: none;
+	}
+	.banner-small.narrow a {
+		display: block;
+		float: left;
+		margin: 0 !important;
+		padding: 0 1%;
+		width: 50% !important;
+		height: auto;
+		text-decoration: none;
+	}				
+	.banner-small a img { width: 100%; }		
+	/* TABS */
+	.social-tabs { display: none; }
+	/* MULTIMEDIA */
+	.column-right {
+		float: none;
+		width: 100%;
+	}
+	.media-tabs {
+		padding: 0;
+		width: 100%;
+	}
+	.media-tabs .media {
+		box-sizing: border-box;
+		margin: 0;
+		width: 32%;
+		height: 44px;
+	}
+	.media-tabs .media.radio { margin: 0 2%; }
+	.media-tabs .media span {
+		width: 100%;
+		font-size: 1.5em;
+	}
+	.media-tabs .media img { display: none; }
+	/* FOOTER */
+	.page .footer .top { display: none; }
+	.page .footer .bottom { 
+		padding: 1%;
+		width: 100%;
+	}
+	.page .footer .bottom .contact { display: none; }
+	.page .footer .bottom .logos { float: none; }
+	.page .footer .bottom .logos a { 
+		margin: 0;
+		padding: 0;
+	}
+	/* PÁGINA INTERIOR */
+	.inner .sidebar {
+		float: none;
+		padding: 0;
+		width: 100%;
+		height: auto;
+		min-height: 0;
+	}
+	.inner .main-content {
+		float: none;
+		padding: 1%;
+		width: 100%;
+	}
+	.inner .main-content .head {
+		height: auto;
+		padding: 1% 0;
+	}
+	.inner .main-content .node .text {
+		float: none;
+		padding: 12px 0;
+		width: 100%;			
+	}
+	.inner .main-content .node .side {
+		float: none;
+		width: 100%;
+	}
+	.inner .main-content .services { display: none; }
+	/* PORTADA DE EVENTOS */
+	.inner .portada-eventos .listado-bloque {
+		padding: 1%;
+		width: 100%;
+		height: auto;
+	}
+	.text.portada-eventos .listado-bloque.celda0,
+	.text.portada-eventos .listado-bloque.celda1,
+	.text.portada-eventos .listado-bloque.celda2 { margin: 0 0 8px; }	
+	.text.portada-eventos .listado-bloque .date {
+		position: static;
+		float: left;
+		margin: 0 12px 0 0;
+	}
+	.pager { font-size: 1.3em; }
+	/* PORTADA DE PUBLICACIONES */	
+	.text.portada-publicaciones .listado-portadas .publicacion-cover {
+		margin: 0 0 1%;
+		width: 100%;
+		height: auto;		
+	}
+	.publicacion-cover p { display: none; }
+	.publicacion-block .abstract { display: none; }
+	/* RESULTADOS DE BÚSQUEDA */
+	.text.resultados .resultado-bloque { font-size: 1.2em; }
+} /* Fin de los estilos para móviles */
+
+/*
+********************************************************************
+COLORBOX
+********************************************************************
+*/
+/*
+	Estilos personalizados
+*/
+#cboxLoadedContent h1 {
+	margin: 0 0 16px;
+	padding: 0;
+	font-family: times;
+	font-size: 2em;
+	font-weight: normal;
+}
+#cboxLoadedContent strong {
+	display: block;
+	margin: 0 0 8px;
+	font-family: BebasNeue;
+	font-size: 1.4em;
+	font-weight: normal;
+}
+#cboxLoadedContent .top {
+	border-style: solid;
+	border-color: #EEE;
+	border-width: 0 0 1px;
+	padding: 8px 16px;
+}
+#cboxLoadedContent .bottom { padding: 8px 16px; }
+#cboxLoadedContent table { width: 100%; }
+#cboxLoadedContent table td { vertical-align: top; }
+#cboxLoadedContent ul {
+	margin: 0;
+	padding: 0 8px 0 0;
+	list-style: none;
+}
+#cboxLoadedContent li {
+	margin: 0 0 1em 0;
+	padding: 0;
+	list-style: none;
+}
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{ position:absolute; top:0; left:0; z-index:9999; overflow:hidden; }
+#cboxOverlay{ position:fixed; width:100%; height:100%; }
+#cboxMiddleLeft, #cboxBottomLeft{ clear:left; }
+#cboxContent{ position:relative; }
+#cboxLoadedContent{ overflow:auto; }
+#cboxTitle{ margin:0; }
+#cboxLoadingOverlay, #cboxLoadingGraphic{ position:absolute; top:0; left:0; width:100%; height:100%; }
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{ cursor:pointer; }
+.cboxPhoto{ float:left; margin:auto; border:0; display:block; max-width:none; }
+.cboxIframe{ width:100%; height:100%; display:block; border:0; }
+#colorbox, #cboxContent, #cboxLoadedContent{ box-sizing:content-box; }
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{ background: #000; }
+#colorbox{}
+    #cboxTopLeft{ width:25px; height:25px; background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/border1.png) no-repeat 0 0; }
+    #cboxTopCenter{height:25px; background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/border1.png) repeat-x 0 -50px; }
+    #cboxTopRight{ width:25px; height:25px; background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/border1.png) no-repeat -25px 0; }
+    #cboxBottomLeft{ width:25px; height:25px; background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/border1.png) no-repeat 0 -25px; }
+    #cboxBottomCenter{height:25px; background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/border1.png) repeat-x 0 -75px; }
+    #cboxBottomRight{ width:25px; height:25px; background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/border1.png) no-repeat -25px -25px; }
+    #cboxMiddleLeft{ width:25px; background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/border2.png) repeat-y 0 0; }
+    #cboxMiddleRight{ width:25px; background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/border2.png) repeat-y -25px 0; }
+    #cboxContent{ position:relative; background:#fff; overflow:hidden; }
+        .cboxIframe{ background:#fff; }
+        #cboxError{ padding:50px; border:1px solid #ccc; }
+        #cboxLoadedContent{ position: relative; margin-bottom: 0; }
+        #cboxTitle{ position:absolute; bottom:0px; left:0; text-align:center; width:100%; color:#999; }
+        #cboxCurrent{ position:absolute; bottom:0px; left:100px; color:#999; }
+        #cboxSlideshow{ position:absolute; bottom:0px; right:42px; color:#444; }
+        #cboxPrevious{ position:absolute; bottom:0px; left:0; color:#444; }
+        #cboxNext{ position:absolute; bottom:0px; left:63px; color:#444; }
+        #cboxLoadingOverlay{ background:#fff url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/loading.gif) no-repeat 5px 5px; }
+        #cboxClose {
+			display: block;
+        	position: absolute; 
+        	top: 0; 
+        	right: 0; 
+        	padding: 4px 8px;
+        	background-color: #F8B01D;
+        	color: #FFF;
+        	font-size: 0.9em;
+        }
+        #cboxClose:hover { background-color: #F8B01D;  }
+/*
+	The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+	when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.	
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+/*
+	The following provides PNG transparency support for IE6
+	Feel free to remove this and the /ie6/ directory if you have dropped IE6 support.
+*/
+.cboxIE6 #cboxTopLeft{ background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/ie6/borderTopLeft.png); }
+.cboxIE6 #cboxTopCenter{ background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/ie6/borderTopCenter.png); }
+.cboxIE6 #cboxTopRight{ background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/ie6/borderTopRight.png); }
+.cboxIE6 #cboxBottomLeft{ background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/ie6/borderBottomLeft.png); }
+.cboxIE6 #cboxBottomCenter{ background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/ie6/borderBottomCenter.png); }
+.cboxIE6 #cboxBottomRight{ background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/ie6/borderBottomRight.png); }
+.cboxIE6 #cboxMiddleLeft{ background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/ie6/borderMiddleLeft.png); }
+.cboxIE6 #cboxMiddleRight{ background:url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/colorbox/ie6/borderMiddleRight.png); }
+
+.cboxIE6 #cboxTopLeft,
+.cboxIE6 #cboxTopCenter,
+.cboxIE6 #cboxTopRight,
+.cboxIE6 #cboxBottomLeft,
+.cboxIE6 #cboxBottomCenter,
+.cboxIE6 #cboxBottomRight,
+.cboxIE6 #cboxMiddleLeft,
+.cboxIE6 #cboxMiddleRight {
+	_behavior: expression(this.src = this.src ? this.src : this.currentStyle.backgroundImage.split('"')[1], this.style.background = "none", this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ", sizingMethod='scale')");
+}
+
+/* Paginación Buscador */
+
+.side .yblock{
+	background-color: #666666;
+	background-image: url(/web/20131022031226im_/http://uanl.mx/sites/all/themes/UANL/css/img/lupa.png);
+	
+	background-repeat: no-repeat;
+	background-position: 97% 50%;
+}
+
+.side .yblock ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.side .yblock li{
+	list-style-type: none;
+}
+
+.side .yblock li a{
+	color: #FFFFFF;
+	display: block;
+	width: 85%;
+	background-color: #f8b01d;
+	margin: 0px 0px 15px 0px;
+	padding: 10px 5px 10px 5px;
+	
+	text-align: center;
+}
+
+.side .yblock li a:hover{
+	background-color: #ffb800;
+}
+
+#paginacion_bcd{
+	clear: both;
+}
+
+
+
+#paginacion_bcd a{
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: #ededed;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dedede;
+	width: 30px;
+	margin: 3px;
+}
+
+#paginacion_bcd a.sel{
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: #cccccc;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dedede;
+	width: 30px;
+	margin: 3px;
+}
+
+.block_vinculacion{
+	overflow: hidden;
+	margin: 0 0 20px;
+	background-color: #F6F6F6;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCCCCC;
+	color: #FFF;
+	text-align: center;
+}
+
+.block_vinculacion img{
+	margin: 10px;
+}
+
+.text.portada-vinculacion .listado-vinculacion { overflow: hidden; width: 750px;}
+.text.portada-vinculacion .listado-bloque {
+	position: relative;	
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCC;
+	width: 138px;
+	height: 170px;
+	background-color: #F6F6F6;
+	color: #666;
+}
+
+.text.portada-vinculacion .listado-bloque .field-dep-logo-fid{
+	padding: 8px;
+	height: 73px;
+}
+
+.text.portada-vinculacion .listado-bloque .title{
+	font-size: 11px;
+	font-weight: bold;
+	padding: 8px 5px 8px 8px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #CCCCCC;
+}
+
+.text.portada-vinculacion .listado-bloque.celda0 { margin: 0 12px 12px 0; }
+
+.org_info{ 
+	display: none; 
+	list-style-type: none;
+}
+/*
+     FILE ARCHIVED ON 03:12:26 Oct 22, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:52:05 Apr 13, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.549
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.009
+  esindex: 0.008
+  cdx.remote: 41.093
+  LoadShardBlock: 139.007 (3)
+  PetaboxLoader3.datanode: 5998.25 (4)
+  PetaboxLoader3.resolve: 143.035 (3)
+  load_resource: 6037.953
+*/
